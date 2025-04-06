@@ -215,6 +215,12 @@
           "type": "quantity_selector",
           "settings": {}
         },
+        "essential_countdown_app_block_k6xxGV": {
+          "type": "shopify://apps/essential-countdown/blocks/app-block/722378e8-5a70-4eae-aa89-9e44e8e9f6de",
+          "settings": {
+            "id": "cm966iy0c005y8q1vji4u6wfc"
+          }
+        },
         "buy_buttons_MW7ihw": {
           "type": "buy_buttons",
           "settings": {
@@ -241,6 +247,7 @@
         "description_nRrPTN",
         "variant_picker_LWzXeB",
         "quantity_selector_xDiDrY",
+        "essential_countdown_app_block_k6xxGV",
         "buy_buttons_MW7ihw",
         "pickup_availability_etUTLc"
       ],
