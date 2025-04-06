@@ -64,9 +64,9 @@
       "settings": {
         "enable_sticky": true,
         "hide_on_scroll": false,
-        "logo": "{{shop.brand.logo}}",
-        "logo_max_width": 120,
-        "logo_mobile_max_width": 100,
+        "logo": "shopify://shop_images/logo_pour_entreprise_Somniris_specialiser_dans_le_sommeil_le_logo_est__Sleep_in_harmony__avec_des_couleurs.png",
+        "logo_max_width": 85,
+        "logo_mobile_max_width": 75,
         "menu": "main-menu",
         "sidebar_menu": "",
         "secondary_menu": "",
