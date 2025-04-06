@@ -147,6 +147,21 @@
         "heading_gradient": ""
       }
     },
+    "image_with_text_overlay_tfpVRi": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify://shop_images/rgeroupe_09e1ad3a-8cd7-467e-b761-ff1c83c46ba3.png",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
     "scrolling-text": {
       "type": "scrolling-text",
       "settings": {
@@ -203,12 +218,6 @@
           "type": "separator",
           "settings": {}
         },
-        "description_nRrPTN": {
-          "type": "description",
-          "settings": {
-            "collapse_content": false
-          }
-        },
         "variant_picker_LWzXeB": {
           "type": "variant_picker",
           "settings": {
@@ -253,7 +262,6 @@
         "liquid_mTNi3P",
         "rating_igeLc6",
         "separator_TgrRMQ",
-        "description_nRrPTN",
         "variant_picker_LWzXeB",
         "quantity_selector_xDiDrY",
         "essential_countdown_app_block_k6xxGV",
@@ -894,6 +902,7 @@
     "rich_text_dkHnJC",
     "slideshow",
     "image-link-blocks",
+    "image_with_text_overlay_tfpVRi",
     "scrolling-text",
     "featured_product_yJHJTN",
     "impact-text",
