@@ -370,8 +370,8 @@
         "tab_4br3iG": {
           "type": "tab",
           "settings": {
-            "title": "Tab 3",
-            "content": "<p>Share information about your shipping rates, return policy or contact information.</p>",
+            "title": "Livraison gratuite à domicile",
+            "content": "<p>La livraison à domicile est gratuite. Selon le volume de commandes à traiter, le délai de livraison est éstimé entre 5 et 8 jours ouvrés.</p>",
             "page": ""
           }
         }
