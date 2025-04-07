@@ -121,25 +121,27 @@
     "rich_text_hKdjT7": {
       "type": "rich-text",
       "blocks": {
-        "subheading_iPt9Xe": {
-          "type": "subheading",
-          "settings": {
-            "text": "Subheading"
-          }
-        },
         "heading_zBwMwN": {
           "type": "heading",
           "settings": {
-            "text": "Heading",
+            "text": "Pourquoi choisir",
             "heading_tag": "h2",
             "text_color": "",
             "gradient": ""
           }
+        },
+        "image_GqAxmf": {
+          "type": "image",
+          "settings": {
+            "width_mode": "custom",
+            "max_width": 600,
+            "mobile_max_width": 400
+          }
         }
       },
       "block_order": [
-        "subheading_iPt9Xe",
-        "heading_zBwMwN"
+        "heading_zBwMwN",
+        "image_GqAxmf"
       ],
       "settings": {
         "full_width": true,
