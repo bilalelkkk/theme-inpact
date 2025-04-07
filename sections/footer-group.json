@@ -88,15 +88,6 @@
     "footer": {
       "type": "footer",
       "blocks": {
-        "newsletter": {
-          "type": "newsletter",
-          "settings": {
-            "image_width": 150,
-            "heading_size": "h3",
-            "title": "Sign up for new stories and personal offers",
-            "content": ""
-          }
-        },
         "links": {
           "type": "links",
           "settings": {
@@ -107,14 +98,13 @@
         "text": {
           "type": "text",
           "settings": {
-            "title": "About",
-            "content": "<p>Use this text area to tell your customers about your brand and vision. You can change it in the theme editor.</p>",
-            "enable_follow_on_shop": true
+            "title": "Nous contacter",
+            "content": "<p><strong>Service client :</strong> somniris.contact@gmail.com</p>",
+            "enable_follow_on_shop": false
           }
         }
       },
       "block_order": [
-        "newsletter",
         "links",
         "text"
       ],
