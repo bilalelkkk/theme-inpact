@@ -245,10 +245,6 @@
             "heading_tag": "h2"
           }
         },
-        "badges_kApk6d": {
-          "type": "badges",
-          "settings": {}
-        },
         "price_jYKkDT": {
           "type": "price",
           "settings": {
@@ -316,7 +312,6 @@
       "block_order": [
         "liquid_tfTBBt",
         "title_aDzfRw",
-        "badges_kApk6d",
         "price_jYKkDT",
         "liquid_mTNi3P",
         "rating_igeLc6",
