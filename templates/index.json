@@ -348,6 +348,52 @@
         "input_text_color": ""
       }
     },
+    "tabs_tikiTy": {
+      "type": "tabs",
+      "blocks": {
+        "tab_MHFViU": {
+          "type": "tab",
+          "settings": {
+            "title": "Caractéristiques",
+            "content": "<p>Use this text to share information about your brand with your customers.</p>",
+            "page": ""
+          }
+        },
+        "tab_FV3X3x": {
+          "type": "tab",
+          "settings": {
+            "title": "Tab 2",
+            "content": "<p>Describe a product, share announcements, or welcome customers to your store.</p>",
+            "page": ""
+          }
+        },
+        "tab_4br3iG": {
+          "type": "tab",
+          "settings": {
+            "title": "Tab 3",
+            "content": "<p>Share information about your shipping rates, return policy or contact information.</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "tab_MHFViU",
+        "tab_FV3X3x",
+        "tab_4br3iG"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_size": "medium",
+        "subheading": "",
+        "title": "",
+        "first_tab_open": false,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
+    },
     "faq": {
       "type": "faq",
       "blocks": {
@@ -410,6 +456,7 @@
     "video_mV8FLU",
     "multi_column_QfhYMM",
     "featured_product_yJHJTN",
+    "tabs_tikiTy",
     "faq"
   ]
 }
