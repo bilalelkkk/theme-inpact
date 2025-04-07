@@ -129,27 +129,10 @@
     },
     "video_mV8FLU": {
       "type": "video",
-      "blocks": {
-        "play_DfnBVp": {
-          "type": "play",
-          "settings": {}
-        },
-        "heading_wxiVHV": {
-          "type": "heading",
-          "settings": {
-            "text": "Video",
-            "heading_tag": "h1"
-          }
-        }
-      },
-      "block_order": [
-        "play_DfnBVp",
-        "heading_wxiVHV"
-      ],
       "settings": {
         "full_width": true,
         "allow_transparent_header": false,
-        "autoplay": true,
+        "autoplay": false,
         "video_size": "auto",
         "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
         "poster": "shopify://shop_images/oreille_d3cb587c-a60d-4b5f-9844-d1830324a5ab.gif",
