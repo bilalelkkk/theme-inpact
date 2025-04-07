@@ -446,50 +446,78 @@
         "item_ATazMb": {
           "type": "item",
           "settings": {
-            "title": "Question",
-            "content": "<p>Write content to answer to common questions your customers may have about your products, shipping policies..</p>"
+            "title": "Les frais de livraison sont-ils inclus ?",
+            "content": "<p>Nous offrons la livraison gratuite pour toutes les commandes.</p>"
           }
         },
         "item_TeJrVF": {
           "type": "item",
           "settings": {
-            "title": "Question",
-            "content": "<p>Write content to answer to common questions your customers may have about your products, shipping policies..</p>"
+            "title": "Sont-ils sans fil ?",
+            "content": "<p>Oui, nos écouteurs pour dormir fonctionnent via Bluetooth, sans aucun fil qui pourrait s'enrouler autour de vous pendant votre sommeil, garantissant ainsi confort et sécurité.</p>"
           }
         },
         "item_gzD6yp": {
           "type": "item",
           "settings": {
-            "title": "Question",
-            "content": "<p>Write content to answer to common questions your customers may have about your products, shipping policies..</p>"
+            "title": "Puis-je dormir sur le côté avec ces écouteurs ?",
+            "content": "<p>Absolument ! C'est l'un des principaux avantages de nos écouteurs pour dormir. Leur design ultra-fin et ergonomique a été spécialement conçu pour permettre de dormir confortablement dans n'importe quelle position, y compris sur le côté.</p>"
           }
         },
         "item_yRwFCz": {
           "type": "item",
           "settings": {
-            "title": "Question",
-            "content": "<p>Write content to answer to common questions your customers may have about your products, shipping policies..</p>"
+            "title": "Combien de temps dure la batterie ?",
+            "content": "<p>Nos écouteurs pour dormir offrent une autonomie allant jusqu'à 8 heures d'utilisation continue, ce qui est largement suffisant pour une nuit complète de sommeil. Le boîtier de recharge fourni permet également plusieurs recharges supplémentaires.</p>"
           }
         },
         "item_CgLjnH": {
           "type": "item",
           "settings": {
-            "title": "Question",
-            "content": "<p>Write content to answer to common questions your customers may have about your products, shipping policies..</p>"
+            "title": "Peut-on les utiliser pour d'autres activités que le sommeil ?",
+            "content": "<p>Certainement ! Bien qu'ils soient optimisés pour le sommeil, nos écouteurs conviennent parfaitement pour la méditation, les voyages, le travail dans des environnements bruyants ou simplement pour écouter de la musique dans un confort optimal.</p>"
           }
         },
         "item_tX7Njr": {
           "type": "item",
           "settings": {
-            "title": "Question",
-            "content": "<p>Write content to answer to common questions your customers may have about your products, shipping policies..</p>"
+            "title": "Les écouteurs bloquent-ils complètement les bruits extérieurs ?",
+            "content": "<p>Nos écouteurs offrent une isolation passive efficace qui atténue considérablement les bruits ambiants. Ils ne bloquent pas complètement tous les sons (comme le feraient des écouteurs à réduction active du bruit), ce qui est en fait préférable pour la sécurité pendant le sommeil, vous permettant d'entendre les alarmes importantes ou autres sons d'urgence.</p>"
           }
         },
         "item_QT9cJW": {
           "type": "item",
           "settings": {
-            "title": "Question",
-            "content": "<p>Write content to answer to common questions your customers may have about your products, shipping policies..</p>"
+            "title": "Quel est le délai de livraison ?",
+            "content": "<p>Nous expédions généralement les commandes sous 24 heures. Le délai de livraison dépend ensuite de votre localisation : 5 à 8 jours ouvrés</p>"
+          }
+        },
+        "item_4xec4Y": {
+          "type": "item",
+          "settings": {
+            "title": "Puis-je retourner les écouteurs si je ne suis pas satisfait ?",
+            "content": "<p>Oui, nous offrons une politique de retour \"satisfait ou remboursé\" de 30 jours. Si nos écouteurs ne répondent pas à vos attentes, vous pouvez les retourner dans leur emballage d'origine pour un remboursement.</p>"
+          }
+        },
+        "item_P3jRew": {
+          "type": "item",
+          "settings": {
+            "title": "Puis-je utiliser une application spécifique avec ces écouteurs ?",
+            "content": "<p>Nos écouteurs sont compatibles avec toutes les applications de musique, de méditation ou de sons pour dormir disponibles sur iOS et Android. </p>"
+          }
+        },
+        "item_Nb4MCE": {
+          "type": "item",
+          "settings": {
+            "title": "Les écouteurs sont-ils adaptés aux enfants ?",
+            "content": "<p>Nos écouteurs peuvent être utilisés par les adolescents et les enfants plus âgés (à partir de 12 ans environ). Pour les enfants plus jeunes, nous recommandons la supervision d'un adulte. Notez également que le volume devrait toujours être maintenu à un niveau modéré pour protéger l'audition en développement.</p>"
+          }
+        },
+        "item_WGmfQh": {
+          "type": "item",
+          "settings": {
+            "title": "Comment nettoyer les écouteurs ?",
+            "content": "<p>Nous recommandons de nettoyer régulièrement vos écouteurs avec un chiffon doux légèrement humide. Pour un nettoyage plus en profondeur, utilisez un coton-tige légèrement imbibé d'alcool isopropylique pour nettoyer la surface. Évitez de mouiller les parties électroniques et assurez-vous qu'ils soient complètement secs avant de les utiliser ou de les ranger.</p>"
           }
         }
       },
@@ -504,7 +532,11 @@
         "item_yRwFCz",
         "item_CgLjnH",
         "item_tX7Njr",
-        "item_QT9cJW"
+        "item_QT9cJW",
+        "item_4xec4Y",
+        "item_P3jRew",
+        "item_Nb4MCE",
+        "item_WGmfQh"
       ],
       "settings": {
         "full_width": false,
