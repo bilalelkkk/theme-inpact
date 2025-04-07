@@ -78,7 +78,7 @@
         "heading_diTcBd"
       ],
       "custom_css": [
-        "h2 {font-weight: bold;}"
+        ".section-full {padding-top: 30px; padding-bottom: 0px;}"
       ],
       "settings": {
         "full_width": true,
