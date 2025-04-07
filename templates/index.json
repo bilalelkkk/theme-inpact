@@ -170,19 +170,6 @@
             "link_style": "link"
           }
         },
-        "item_mDgh9g": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/trust3.png",
-            "column_size": "3",
-            "title": "Thomas D.",
-            "heading_tag": "h4",
-            "content": "<p>Ces écouteurs sont si confortables que j'oublie les porter. Parfaits pour écouter des sons relaxants avant de dormir.</p>",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        },
         "item_TVAEdF": {
           "type": "item",
           "settings": {
@@ -208,14 +195,27 @@
             "link_text": "",
             "link_style": "link"
           }
+        },
+        "item_mDgh9g": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/trust3.png",
+            "column_size": "3",
+            "title": "Thomas D.",
+            "heading_tag": "h4",
+            "content": "<p>Ces écouteurs sont si confortables que j'oublie les porter. Parfaits pour écouter des sons relaxants avant de dormir.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
         }
       },
       "block_order": [
         "item_WCXWxj",
         "item_kWq3AG",
-        "item_mDgh9g",
         "item_TVAEdF",
-        "item_9qCENA"
+        "item_9qCENA",
+        "item_mDgh9g"
       ],
       "settings": {
         "full_width": true,
