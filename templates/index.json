@@ -382,13 +382,22 @@
             "content": "<p>Votre équipe Somniris est à votre disposition pour répondre à vos questions sept jours sur sept.</p>",
             "page": ""
           }
+        },
+        "tab_LBUDNq": {
+          "type": "tab",
+          "settings": {
+            "title": "Tab",
+            "content": "<p><strong>Ouvrez le boîtier</strong> : Les écouteurs s’allument automatiquement.</p><p><strong>Activez le Bluetooth</strong> de votre téléphone ou appareil.<br/><br/><strong>Sélectionnez les écouteurs</strong> dans la liste des appareils disponibles.<br/><br/><strong>Insérez-les dans vos oreilles</strong> : Ils se connectent automatiquement une fois appairés.<br/><br/><strong>Remettez-les dans le boîtier</strong> pour les éteindre et les recharger.<br/><br/></p>",
+            "page": ""
+          }
         }
       },
       "block_order": [
         "tab_MHFViU",
         "tab_FV3X3x",
         "tab_4br3iG",
-        "tab_nUWi9g"
+        "tab_nUWi9g",
+        "tab_LBUDNq"
       ],
       "settings": {
         "full_width": true,
