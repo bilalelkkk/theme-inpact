@@ -267,10 +267,6 @@
             "show_empty": false
           }
         },
-        "separator_TgrRMQ": {
-          "type": "separator",
-          "settings": {}
-        },
         "variant_picker_LWzXeB": {
           "type": "variant_picker",
           "settings": {
@@ -324,7 +320,6 @@
         "price_jYKkDT",
         "liquid_mTNi3P",
         "rating_igeLc6",
-        "separator_TgrRMQ",
         "variant_picker_LWzXeB",
         "kaching_bundles_app_block_draCyd",
         "essential_countdown_app_block_k6xxGV",
