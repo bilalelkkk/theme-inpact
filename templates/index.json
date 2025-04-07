@@ -102,19 +102,60 @@
         "overlay_opacity": 0
       }
     },
-    "scrolling-text": {
-      "type": "scrolling-text",
+    "rich_text_MePiam": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_6MfQxL": {
+          "type": "heading",
+          "settings": {
+            "text": "Des écouteurs pour dormir sur le coté",
+            "heading_tag": "h3",
+            "text_color": "",
+            "gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_6MfQxL"
+      ],
       "settings": {
         "full_width": true,
-        "text": "Promotion text",
-        "text_size": "large",
-        "text_style": "fill",
-        "scrolling_mode": "auto",
-        "scrolling_speed": 5,
+        "content_width": "small",
+        "text_position": "center",
         "background": "",
         "background_gradient": "",
-        "text_color": "",
-        "text_gradient": ""
+        "text_color": ""
+      }
+    },
+    "video_mV8FLU": {
+      "type": "video",
+      "blocks": {
+        "play_DfnBVp": {
+          "type": "play",
+          "settings": {}
+        },
+        "heading_wxiVHV": {
+          "type": "heading",
+          "settings": {
+            "text": "Video",
+            "heading_tag": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "play_DfnBVp",
+        "heading_wxiVHV"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "autoplay": true,
+        "video_size": "auto",
+        "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "poster": "shopify://shop_images/oreille_d3cb587c-a60d-4b5f-9844-d1830324a5ab.gif",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
       }
     },
     "featured_product_yJHJTN": {
@@ -843,7 +884,8 @@
     "slideshow",
     "rich_text_GVYLDx",
     "image_with_text_overlay_tfpVRi",
-    "scrolling-text",
+    "rich_text_MePiam",
+    "video_mV8FLU",
     "featured_product_yJHJTN",
     "impact-text",
     "image-with-text-overlay",
