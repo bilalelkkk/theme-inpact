@@ -26,14 +26,13 @@
         "slide-1": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/ChatGPT_Image_3_avr._2025_23_12_19.png",
-            "mobile_image": "shopify://shop_images/ChatGPT_Image_3_avr._2025_23_12_19.png",
+            "image": "shopify://shop_images/Banniere_4986322b-2b8e-4114-b189-e3caab695255.png",
             "content_max_width": 780,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
             "subheading": "",
-            "title": "",
-            "heading_tag": "h0",
+            "title": "Votre peau lisse, sans effort",
+            "heading_tag": "h1",
             "button_text": "",
             "button_link": "",
             "text_color": "#ffffff",
@@ -61,24 +60,86 @@
         "background_gradient": "linear-gradient(60deg, rgba(60, 65, 68, 1), rgba(23, 29, 33, 1) 98%)"
       }
     },
-    "rich_text_GVYLDx": {
+    "logo_list_tgYGNA": {
+      "type": "logo-list",
+      "blocks": {
+        "logo_eN9AjG": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/Elle.png",
+            "logo_width": 120,
+            "link": ""
+          }
+        },
+        "logo_4MehwJ": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/Vogue.png",
+            "logo_width": 120,
+            "link": ""
+          }
+        },
+        "logo_kFKT8X": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/Femme-actuelle-logo-1-1024x512.png",
+            "logo_width": 120,
+            "link": ""
+          }
+        },
+        "logo_WNty8y": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/Bilal.svg",
+            "logo_width": 120,
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "logo_eN9AjG",
+        "logo_4MehwJ",
+        "logo_kFKT8X",
+        "logo_WNty8y"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_mobile": true,
+        "title": "Vu sur :",
+        "content": "",
+        "text_alignment": "center",
+        "items_per_row": 5,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "logo_item_background": "",
+        "logo_item_border": ""
+      }
+    },
+    "rich_text_hKdjT7": {
       "type": "rich-text",
       "blocks": {
-        "heading_diTcBd": {
+        "subheading_iPt9Xe": {
+          "type": "subheading",
+          "settings": {
+            "text": "Subheading"
+          }
+        },
+        "heading_zBwMwN": {
           "type": "heading",
           "settings": {
-            "text": "Pourquoi choisir les écouteurs Somniris ?",
-            "heading_tag": "h3",
+            "text": "Heading",
+            "heading_tag": "h2",
             "text_color": "",
             "gradient": ""
           }
         }
       },
       "block_order": [
-        "heading_diTcBd"
-      ],
-      "custom_css": [
-        ".section-full {padding-top: 30px; padding-bottom: 0px;}"
+        "subheading_iPt9Xe",
+        "heading_zBwMwN"
       ],
       "settings": {
         "full_width": true,
@@ -87,40 +148,10 @@
         "background": "",
         "background_gradient": "",
         "text_color": ""
-      }
-    },
-    "image_with_text_overlay_tfpVRi": {
-      "type": "image-with-text-overlay",
-      "settings": {
-        "full_width": true,
-        "allow_transparent_header": false,
-        "enable_parallax": false,
-        "image_size": "auto",
-        "image": "shopify://shop_images/rgeroupe_09e1ad3a-8cd7-467e-b761-ff1c83c46ba3.png",
-        "mobile_image": "shopify://shop_images/rgeroupe_09e1ad3a-8cd7-467e-b761-ff1c83c46ba3.png",
-        "mobile_text_position": "place-self-center text-center",
-        "desktop_text_position": "sm:place-self-center sm:text-center",
-        "text_color": "#ffffff",
-        "overlay_color": "#000000",
-        "overlay_opacity": 0
       }
     },
     "rich_text_MePiam": {
       "type": "rich-text",
-      "blocks": {
-        "heading_6MfQxL": {
-          "type": "heading",
-          "settings": {
-            "text": "Des écouteurs pour dormir sur le coté",
-            "heading_tag": "h3",
-            "text_color": "",
-            "gradient": ""
-          }
-        }
-      },
-      "block_order": [
-        "heading_6MfQxL"
-      ],
       "settings": {
         "full_width": true,
         "content_width": "small",
@@ -128,20 +159,6 @@
         "background": "",
         "background_gradient": "",
         "text_color": ""
-      }
-    },
-    "video_mV8FLU": {
-      "type": "video",
-      "settings": {
-        "full_width": true,
-        "allow_transparent_header": false,
-        "autoplay": false,
-        "video_size": "auto",
-        "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-        "poster": "shopify://shop_images/oreille_d3cb587c-a60d-4b5f-9844-d1830324a5ab.gif",
-        "text_color": "#ffffff",
-        "overlay_color": "#000000",
-        "overlay_opacity": 0
       }
     },
     "rich_text_xwe6nM": {
@@ -201,7 +218,6 @@
         "stars_size": 28,
         "stars_size_mobile": 24,
         "text": "<p>basé sur <strong>1 067</strong> avis</p>",
-        "text_right_image": "shopify://shop_images/image-removebg-preview_1.png",
         "text_custom": false,
         "text_font": "josefin_sans_n4",
         "text_size": 20,
@@ -312,7 +328,6 @@
         "item_WCXWxj": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/trust5.png",
             "column_size": "3",
             "title": "Sophia L.",
             "heading_tag": "h4",
@@ -325,7 +340,6 @@
         "item_kWq3AG": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/trust4.png",
             "column_size": "3",
             "title": "Maria B.",
             "heading_tag": "h4",
@@ -338,7 +352,6 @@
         "item_TVAEdF": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/trust6.png",
             "column_size": "3",
             "title": "Clara V.",
             "heading_tag": "h4",
@@ -351,7 +364,6 @@
         "item_9qCENA": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/trust1.png",
             "column_size": "3",
             "title": "Caroline D.",
             "heading_tag": "h4",
@@ -364,7 +376,6 @@
         "item_mDgh9g": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/trust3.png",
             "column_size": "3",
             "title": "Thomas D.",
             "heading_tag": "h4",
@@ -441,18 +452,6 @@
             "size_chart_page": ""
           }
         },
-        "kaching_bundles_app_block_draCyd": {
-          "type": "shopify://apps/kaching-bundles/blocks/app-block/6c637362-a106-4a32-94ac-94dcfd68cdb8",
-          "settings": {
-            "product": "{{section.settings.product}}"
-          }
-        },
-        "essential_countdown_app_block_k6xxGV": {
-          "type": "shopify://apps/essential-countdown/blocks/app-block/722378e8-5a70-4eae-aa89-9e44e8e9f6de",
-          "settings": {
-            "id": "cm966iy0c005y8q1vji4u6wfc"
-          }
-        },
         "buy_buttons_MW7ihw": {
           "type": "buy_buttons",
           "settings": {
@@ -471,7 +470,6 @@
         "image_QhCbh4": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/image-removebg-preview.png",
             "alignment": "center",
             "max_width": 500
           }
@@ -484,8 +482,6 @@
         "liquid_mTNi3P",
         "rating_igeLc6",
         "variant_picker_LWzXeB",
-        "kaching_bundles_app_block_draCyd",
-        "essential_countdown_app_block_k6xxGV",
         "buy_buttons_MW7ihw",
         "pickup_availability_etUTLc",
         "image_QhCbh4"
@@ -722,23 +718,6 @@
     },
     "1744040063e8512595": {
       "type": "apps",
-      "blocks": {
-        "loox_reviews_loox_agg_section_Xn3Rbz": {
-          "type": "shopify://apps/loox-reviews/blocks/loox-agg-section/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
-          "settings": {
-            "only_photos": false,
-            "hide_thumbnails": false,
-            "product_handle": "",
-            "aggregated": true,
-            "data-limit": 20,
-            "maxwidth": 1080,
-            "is_sample": true
-          }
-        }
-      },
-      "block_order": [
-        "loox_reviews_loox_agg_section_Xn3Rbz"
-      ],
       "settings": {
         "full_width": true,
         "remove_vertical_spacing": false,
@@ -757,10 +736,9 @@
   "order": [
     "rich_text_dkHnJC",
     "slideshow",
-    "rich_text_GVYLDx",
-    "image_with_text_overlay_tfpVRi",
+    "logo_list_tgYGNA",
+    "rich_text_hKdjT7",
     "rich_text_MePiam",
-    "video_mV8FLU",
     "rich_text_xwe6nM",
     "trustpilot_VdhhH4",
     "multi_column_QfhYMM",
