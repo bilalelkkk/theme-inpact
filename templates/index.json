@@ -147,6 +147,31 @@
         "heading_gradient": ""
       }
     },
+    "rich_text_GVYLDx": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_diTcBd": {
+          "type": "heading",
+          "settings": {
+            "text": "Pourquoi choisir les écouteurs Somniris ?",
+            "heading_tag": "h3",
+            "text_color": "",
+            "gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_diTcBd"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "image_with_text_overlay_tfpVRi": {
       "type": "image-with-text-overlay",
       "settings": {
@@ -155,6 +180,7 @@
         "enable_parallax": false,
         "image_size": "auto",
         "image": "shopify://shop_images/rgeroupe_09e1ad3a-8cd7-467e-b761-ff1c83c46ba3.png",
+        "mobile_image": "shopify://shop_images/rgeroupe_09e1ad3a-8cd7-467e-b761-ff1c83c46ba3.png",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#ffffff",
@@ -902,6 +928,7 @@
     "rich_text_dkHnJC",
     "slideshow",
     "image-link-blocks",
+    "rich_text_GVYLDx",
     "image_with_text_overlay_tfpVRi",
     "scrolling-text",
     "featured_product_yJHJTN",
