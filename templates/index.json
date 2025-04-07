@@ -305,6 +305,14 @@
         "pickup_availability_etUTLc": {
           "type": "pickup_availability",
           "settings": {}
+        },
+        "image_QhCbh4": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/image-removebg-preview.png",
+            "alignment": "center",
+            "max_width": 500
+          }
         }
       },
       "block_order": [
@@ -319,7 +327,8 @@
         "quantity_selector_xDiDrY",
         "essential_countdown_app_block_k6xxGV",
         "buy_buttons_MW7ihw",
-        "pickup_availability_etUTLc"
+        "pickup_availability_etUTLc",
+        "image_QhCbh4"
       ],
       "settings": {
         "full_width": true,
