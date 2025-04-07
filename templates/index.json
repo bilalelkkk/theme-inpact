@@ -418,29 +418,93 @@
         "166442457738b23caf-0": {
           "type": "item",
           "settings": {
-            "title": "Do you ship overseas?",
-            "content": "<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout. We run discounts and promotions all year, so stay tuned for exclusive deals.</p>"
+            "title": "En quoi les écouteurs pour dormir sont-ils différents des écouteurs ordinaires ?",
+            "content": "<p>Nos écouteurs pour dormir se distinguent par leur design ergonomique qui permet de les porter confortablement toute la nuit. Ils sont plus plats, plus souples et disposent d'une autonomie de batterie plus longue. </p>"
           }
         },
         "166442457738b23caf-1": {
           "type": "item",
           "settings": {
-            "title": "How long will it take to get my orders?",
-            "content": "<p>It depends on where you are. Orders processed here will take 5-7 business days to arrive. Overseas deliveries can take anywhere from 7-16 days. Delivery details will be provided in your confirmation email.</p>"
+            "title": "Sont-ils résistants à l'eau/transpiration ?",
+            "content": "<p>Oui, nos écouteurs pour dormir sont certifiés IPX5, ce qui signifie qu'ils résistent parfaitement à la transpiration nocturne et peuvent même supporter des éclaboussures d'eau. Nous recommandons toutefois d'éviter de les immerger.</p>"
           }
         },
         "166442457738b23caf-2": {
           "type": "item",
           "settings": {
-            "title": "Any question?",
-            "content": "<p>You can contact us through our contact page! We will be happy to assist you.</p>"
+            "title": "Ces écouteurs peuvent-ils vraiment m'aider à mieux dormir ?",
+            "content": "<p>Oui, de nombreux utilisateurs constatent une amélioration significative de leur sommeil. Ces écouteurs peuvent vous aider en masquant les bruits ambiants gênants (ronflement d'un partenaire, bruit de la circulation, voisins bruyants) et en diffusant des sons relaxants comme du bruit blanc, des sons de la nature ou de la musique douce qui favorisent la détente et l'endormissement.</p>"
+          }
+        },
+        "item_a7pEQb": {
+          "type": "item",
+          "settings": {
+            "title": "Comment connecter les écouteurs à mon téléphone ?",
+            "content": "<p>La connexion est simple :</p><p>Sortez les écouteurs de leur boîtier de charge</p><p>Ils entreront automatiquement en mode d'appairage</p><p>Activez le Bluetooth sur votre téléphone</p><p>Sélectionnez \"TWS\" dans la liste des appareils disponibles</p>"
+          }
+        },
+        "item_ATazMb": {
+          "type": "item",
+          "settings": {
+            "title": "Question",
+            "content": "<p>Write content to answer to common questions your customers may have about your products, shipping policies..</p>"
+          }
+        },
+        "item_TeJrVF": {
+          "type": "item",
+          "settings": {
+            "title": "Question",
+            "content": "<p>Write content to answer to common questions your customers may have about your products, shipping policies..</p>"
+          }
+        },
+        "item_gzD6yp": {
+          "type": "item",
+          "settings": {
+            "title": "Question",
+            "content": "<p>Write content to answer to common questions your customers may have about your products, shipping policies..</p>"
+          }
+        },
+        "item_yRwFCz": {
+          "type": "item",
+          "settings": {
+            "title": "Question",
+            "content": "<p>Write content to answer to common questions your customers may have about your products, shipping policies..</p>"
+          }
+        },
+        "item_CgLjnH": {
+          "type": "item",
+          "settings": {
+            "title": "Question",
+            "content": "<p>Write content to answer to common questions your customers may have about your products, shipping policies..</p>"
+          }
+        },
+        "item_tX7Njr": {
+          "type": "item",
+          "settings": {
+            "title": "Question",
+            "content": "<p>Write content to answer to common questions your customers may have about your products, shipping policies..</p>"
+          }
+        },
+        "item_QT9cJW": {
+          "type": "item",
+          "settings": {
+            "title": "Question",
+            "content": "<p>Write content to answer to common questions your customers may have about your products, shipping policies..</p>"
           }
         }
       },
       "block_order": [
         "166442457738b23caf-0",
         "166442457738b23caf-1",
-        "166442457738b23caf-2"
+        "166442457738b23caf-2",
+        "item_a7pEQb",
+        "item_ATazMb",
+        "item_TeJrVF",
+        "item_gzD6yp",
+        "item_yRwFCz",
+        "item_CgLjnH",
+        "item_tX7Njr",
+        "item_QT9cJW"
       ],
       "settings": {
         "full_width": false,
