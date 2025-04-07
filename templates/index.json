@@ -201,6 +201,7 @@
         "stars_size": 28,
         "stars_size_mobile": 24,
         "text": "<p>basé sur <strong>1 067</strong> avis</p>",
+        "text_right_image": "shopify://shop_images/image-removebg-preview_1.png",
         "text_custom": false,
         "text_font": "josefin_sans_n4",
         "text_size": 20,
