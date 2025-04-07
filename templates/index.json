@@ -160,6 +160,9 @@
       "block_order": [
         "heading_LWqwLb"
       ],
+      "custom_css": [
+        ".section-full {padding-top: 30px; padding-bottom: 0px;}"
+      ],
       "settings": {
         "full_width": true,
         "content_width": "small",
@@ -171,6 +174,9 @@
     },
     "trustpilot_VdhhH4": {
       "type": "trustpilot",
+      "custom_css": [
+        ".section-full {padding-bottom: 0px;}"
+      ],
       "settings": {
         "content_align": "center",
         "content_align_mobile": "center",
@@ -374,6 +380,9 @@
         "item_TVAEdF",
         "item_9qCENA",
         "item_mDgh9g"
+      ],
+      "custom_css": [
+        ".section-full {padding-top: 0px; padding-bottom: 0px;}"
       ],
       "settings": {
         "full_width": true,
