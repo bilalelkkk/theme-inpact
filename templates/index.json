@@ -26,7 +26,7 @@
         "slide-1": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Banniere_4986322b-2b8e-4114-b189-e3caab695255.png",
+            "image": "shopify://shop_images/Banniere.jpg",
             "content_max_width": 780,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
