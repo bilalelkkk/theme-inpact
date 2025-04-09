@@ -138,11 +138,21 @@
             "max_width": 1000,
             "mobile_max_width": 600
           }
+        },
+        "heading_xFYVq3": {
+          "type": "heading",
+          "settings": {
+            "text": "Une nouvelle façon de relancer la repousse",
+            "heading_tag": "h3",
+            "text_color": "",
+            "gradient": ""
+          }
         }
       },
       "block_order": [
         "heading_zBwMwN",
-        "image_GqAxmf"
+        "image_GqAxmf",
+        "heading_xFYVq3"
       ],
       "settings": {
         "full_width": true,
@@ -151,6 +161,36 @@
         "background": "",
         "background_gradient": "",
         "text_color": ""
+      }
+    },
+    "video_mzKxxw": {
+      "type": "video",
+      "blocks": {
+        "play_V3J7Vk": {
+          "type": "play",
+          "settings": {}
+        },
+        "heading_cB8Qh6": {
+          "type": "heading",
+          "settings": {
+            "text": "Video",
+            "heading_tag": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "play_V3J7Vk",
+        "heading_cB8Qh6"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "autoplay": false,
+        "video_size": "auto",
+        "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
       }
     },
     "rich_text_MePiam": {
@@ -741,6 +781,7 @@
     "slideshow",
     "logo_list_tgYGNA",
     "rich_text_hKdjT7",
+    "video_mzKxxw",
     "rich_text_MePiam",
     "rich_text_xwe6nM",
     "trustpilot_VdhhH4",
