@@ -327,7 +327,7 @@
           "type": "tab",
           "settings": {
             "title": "Composition du Sérum Fortifiant Capillaire",
-            "content": "<p>Notre sérum est formulé à base d’ingrédients naturels et puissants :</p><ul><li>Biotine (vitamine B7) pour stimuler la croissance</li><li>Caféine pour activer la microcirculation du cuir chevelu</li><li>Kératine végétale pour renforcer la fibre capillaire</li><li>Acide hyaluronique pour hydrater en profondeur</li><li>Sans parabènes, sans sulfates, non testé sur les animaux<br/><br/></li></ul><p><br/><br/></p><p><br/></p><p><br/><br/></p><p><br/><br/></p><p><br/><br/></p><p><br/><br/></p><p><br/></p>",
+            "content": "<p>Notre sérum est formulé à base d’ingrédients naturels et puissants :</p><p></p><ul><li>Biotine (vitamine B7) pour stimuler la croissance</li><li>Caféine pour activer la microcirculation du cuir chevelu</li><li>Kératine végétale pour renforcer la fibre capillaire</li><li>Acide hyaluronique pour hydrater en profondeur</li><li>Sans parabènes, sans sulfates, non testé sur les animaux<br/><br/></li></ul><p><br/><br/></p><p><br/></p><p><br/><br/></p><p><br/><br/></p><p><br/><br/></p><p><br/><br/></p><p><br/></p>",
             "page": ""
           }
         },
@@ -335,7 +335,7 @@
           "type": "tab",
           "settings": {
             "title": "Est-ce indolore et sans danger pour le cuir chevelu ?",
-            "content": "<p>La livraison à domicile est gratuite. Selon le volume de commandes à traiter, le délai de livraison est éstimé entre 5 et 8 jours ouvrés.</p>",
+            "content": "<p>Non, le traitement est <strong>quasiment indolore</strong> grâce aux micro-aiguilles ultra fines.</p>",
             "page": ""
           }
         },
