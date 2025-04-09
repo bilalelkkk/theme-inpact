@@ -189,13 +189,13 @@
         "text_color": ""
       }
     },
-    "rich_text_xwe6nM": {
+    "rich_text_4mkD8H": {
       "type": "rich-text",
       "blocks": {
-        "heading_LWqwLb": {
+        "heading_V8g8Vx": {
           "type": "heading",
           "settings": {
-            "text": "Nos clients en parlent le mieux",
+            "text": "Nos clientes en parlent le mieux",
             "heading_tag": "h3",
             "text_color": "",
             "gradient": ""
@@ -203,10 +203,7 @@
         }
       },
       "block_order": [
-        "heading_LWqwLb"
-      ],
-      "custom_css": [
-        ".section-full {padding-top: 30px; padding-bottom: 0px;}"
+        "heading_V8g8Vx"
       ],
       "settings": {
         "full_width": true,
@@ -520,7 +517,7 @@
     "rich_text_hKdjT7",
     "image_with_text_overlay_Jhw9Bz",
     "rich_text_MePiam",
-    "rich_text_xwe6nM",
+    "rich_text_4mkD8H",
     "custom_liquid_pxYj9j",
     "featured_product_yJHJTN",
     "tabs_tikiTy",
