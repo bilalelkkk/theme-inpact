@@ -217,6 +217,18 @@
         "text_color": ""
       }
     },
+    "custom_liquid_pxYj9j": {
+      "type": "custom-liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<style>\n  .trustpilot-reviews-section {\n    display: flex;\n    justify-content: space-between;\n    padding: 20px;\n    background-color: #f9f9f9;\n    border-radius: 8px;\n    position: relative;\n  }\n\n  .trustpilot-summary {\n    flex-basis: 20%;\n    text-align: left;\n  }\n\n  .trustpilot-summary h2 {\n    font-size: 24px;\n    font-weight: bold;\n    margin-bottom: 10px;\n  }\n\n  .trustpilot-stars img {\n    width: 100px;\n    margin-bottom: 10px;\n  }\n\n  .trustpilot-logo {\n    width: 100px;\n    margin-top: 10px;\n  }\n\n  .review-carousel {\n    display: flex;\n    flex-basis: 75%;\n    overflow: hidden;\n    position: relative;\n  }\n\n  .review-card {\n    width: 270px;\n    padding: 15px;\n    margin-right: 15px;\n    background-color: #fff;\n    border: 1px solid #eaeaea;\n    border-radius: 8px;\n    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);\n    transition: transform 0.3s ease;\n    flex-shrink: 0;\n  }\n\n  .review-card:hover {\n    transform: scale(1.05);\n  }\n\n  .review-card img {\n    width: 70px;\n  }\n\n  .review-card p {\n    margin: 5px 0;\n    font-size: 14px;\n  }\n\n  .review-card strong {\n    font-weight: bold;\n  }\n\n  .nav-arrow {\n    position: absolute;\n    top: 50%;\n    transform: translateY(-50%);\n    background-color: #fff;\n    border: 2px solid #ddd;\n    border-radius: 50%;\n    width: 40px;\n    height: 40px;\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    cursor: pointer;\n    transition: background-color 0.3s ease, box-shadow 0.3s ease;\n    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);\n  }\n\n  .nav-arrow:hover {\n    background-color: #f0f0f0;\n    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);\n  }\n\n  .arrow-left {\n    left: -20px; \n  }\n\n  .arrow-right {\n    right: -20px; \n  }\n\n  .nav-arrow::before {\n    content: '';\n    display: block;\n    border: solid #333;\n    border-width: 0 3px 3px 0;\n    padding: 5px;\n  }\n\n  .arrow-left::before {\n    transform: rotate(135deg);\n  }\n\n  .arrow-right::before {\n    transform: rotate(-45deg);\n  }\n\n  @media (max-width: 768px) {\n    .trustpilot-reviews-section {\n      flex-direction: column;\n      padding: 10px;\n    }\n\n    .trustpilot-summary {\n      flex-basis: 100%;\n      text-align: center; \n      margin-bottom: 20px;\n    }\n\n    .trustpilot-stars img {\n      width: 80px;\n      margin: 0 auto;\n    }\n\n    .trustpilot-logo {\n      width: 80px;\n      margin-top: 5px;\n      margin: 0 auto; \n    }\n\n    .review-carousel {\n      flex-basis: 100%;\n      overflow-x: auto;\n      padding-bottom: 10px;\n    }\n\n    .review-card {\n      min-width: 85%;\n      margin-right: 10px;\n    }\n\n    .nav-arrow {\n      display: none;\n    }\n  }\n</style>\n\n<div class=\"trustpilot-reviews-section\">\n  <div class=\"trustpilot-summary\">\n    <h2>Excellent !</h2>\n    <div class=\"trustpilot-stars\">\n      <!-- Modifier Lien Image ici pour les étoiles -->\n      <img src=\"https://cdn.shopify.com/s/files/1/0891/0028/8264/files/stars-5.svg?v=1727197779\" alt=\"5 stars rating\">\n    </div>\n    <p>Basé sur plus de 827 avis</p>\n    <!-- Modifier Lien Image ici pour logo -->\n    <img src=\"https://cdn.shopify.com/s/files/1/0891/0028/8264/files/Trustpilot_logo.png?v=1727197788\" alt=\"Trustpilot logo\" class=\"trustpilot-logo\">\n  </div>\n\n  <div class=\"review-carousel\" id=\"review-carousel\">\n     <!-- Modifier Avis ICI -->\n    <div class=\"review-card\">\n      <!-- Modifier Lien Image ici pour les étoiles -->\n      <img src=\"https://cdn.shopify.com/s/files/1/0891/0028/8264/files/stars-5.svg?v=1727197779\" alt=\"5 stars rating\">\n      <p><strong>Vérifié</strong></p>\n      <p>Taille parfaite et service rapide</p>\n      <p>Il est toujours difficile de commander des vêtements en ligne, mais cette boutique en ligne l'a très bien fait. La robe s'adapte parfaitement et a été expédiée dans les 24 heures.</p>\n      <p><strong>Anna V.</strong> - 23/08/2024</p>\n    </div>\n     <!-- Modifier Avis ICI -->\n    <div class=\"review-card\">\n      <!-- Modifier Lien Image ici pour les étoiles -->\n      <img src=\"https://cdn.shopify.com/s/files/1/0891/0028/8264/files/stars-5.svg?v=1727197779\" alt=\"5 stars rating\">\n      <p><strong>Vérifié</strong></p>\n      <p>Livraison rapide, excellente qualité</p>\n      <p>La commande a été livrée très rapidement et la qualité des vêtements est vraiment top. L'ensemble me va très bien et j'ai déjà reçu de nombreux compliments.</p>\n      <p><strong>Mila D.</strong> - 23/08/2024</p>\n    </div>\n    <!-- Modifier Avis ICI -->\n    <div class=\"review-card\">\n      <!-- Modifier Lien Image ici pour les étoiles -->\n      <img src=\"https://cdn.shopify.com/s/files/1/0891/0028/8264/files/stars-5.svg?v=1727197779\" alt=\"5 stars rating\">\n      <p><strong>Vérifié</strong></p>\n      <p>Ma nouvelle robe préférée !</p>\n      <p>Tellement content de mon achat ! La robe est de grande qualité et la taille était parfaite.</p>\n      <p><strong>Julia H.</strong> - 23/08/2024</p>\n    </div>\n     <!-- Si vous voulez rajouter des Avis c'est ICI -->\n  </div>\n\n  <!-- Flèches de navigation -->\n  <button class=\"nav-arrow arrow-left\" onclick=\"scrollReviews(-1)\"></button>\n  <button class=\"nav-arrow arrow-right\" onclick=\"scrollReviews(1)\"></button>\n</div>\n\n<script>\n  const reviewCarousel = document.getElementById('review-carousel');\n\n  function scrollReviews(direction) {\n    const scrollAmount = 320; \n    reviewCarousel.scrollBy({ left: direction * scrollAmount, behavior: 'smooth' });\n  }\n</script>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "featured_product_yJHJTN": {
       "type": "featured-product",
       "blocks": {
@@ -343,7 +355,7 @@
           "type": "tab",
           "settings": {
             "title": "Livraison offerte à domicile",
-            "content": "<p><strong>Ouvrez le boîtier</strong> : Les écouteurs s’allument automatiquement.</p><p><strong>Activez le Bluetooth</strong> de votre téléphone ou appareil.<br/><br/><strong>Sélectionnez les écouteurs \"TWS\"</strong> dans la liste des appareils disponibles.<br/><br/><strong>Insérez-les dans vos oreilles</strong> : Ils se connectent automatiquement une fois appairés.<br/><br/><strong>Remettez-les dans le boîtier</strong> pour les éteindre et les recharger.<br/><br/></p>",
+            "content": "<p><strong>Livraison 100 % gratuite</strong> sans minimum d’achat<br/><br/>Expédition en France et en Europe<br/><br/>Délai moyen : 2 à 5 jours ouvrés<br/><br/>Suivi de colis disponible à chaque étape<br/><br/>Emballage soigné, discret et sécurisé</p>",
             "page": ""
           }
         },
@@ -351,7 +363,7 @@
           "type": "tab",
           "settings": {
             "title": "Service client 7J/7",
-            "content": "<p>Notre équipe vous répond <strong>tous les jours de la semaine</strong>.<br/><br/>📩 Contact par email ou chat<br/><br/>⏱ Temps de réponse moyen : moins de 24h</p>",
+            "content": "<p>Notre équipe vous répond <strong>tous les jours de la semaine</strong>.<br/><br/>Contact par email ou chat<br/><br/>Temps de réponse moyen : moins de 24h</p>",
             "page": ""
           }
         }
@@ -382,71 +394,71 @@
         "166442457738b23caf-0": {
           "type": "item",
           "settings": {
-            "title": "❓ Comment fonctionne la micro-infusion capillaire ?",
-            "content": "<p>La micro-infusion utilise une technologie avancée qui délivre des actifs puissants <strong>directement au cœur du cuir chevelu</strong> 🧠. Grâce à de <strong>micro-aiguilles indolores</strong>, elle stimule la repousse là où les cheveux se font rares 🧴🌱.</p>"
+            "title": "Comment fonctionne la micro-infusion capillaire ?",
+            "content": "<p>La micro-infusion utilise une technologie avancée qui délivre des actifs puissants <strong>directement au cœur du cuir chevelu</strong>. Grâce à de <strong>micro-aiguilles indolores</strong>, elle stimule la repousse là où les cheveux se font rares.</p>"
           }
         },
         "166442457738b23caf-1": {
           "type": "item",
           "settings": {
-            "title": "😌 Est-ce que c’est douloureux ?",
-            "content": "<p>Pas du tout ! La technologie est conçue pour être <strong>100% indolore</strong>. Aucune aiguille invasive, <strong>aucune gêne</strong>, juste un soin agréable à appliquer 💆‍♀️💆‍♂️.</p>"
+            "title": "Est-ce que c’est douloureux ?",
+            "content": "<p>Pas du tout ! La technologie est conçue pour être <strong>100% indolore</strong>. Aucune aiguille invasive, <strong>aucune gêne</strong>, juste un soin agréable à appliquer.</p>"
           }
         },
         "166442457738b23caf-2": {
           "type": "item",
           "settings": {
-            "title": "⏳ Quand vais-je voir les premiers résultats ?",
-            "content": "<p>Certains utilisateurs remarquent une <strong>repousse visible dès 3 semaines</strong> 📆. Les cheveux deviennent plus forts, plus denses, et le cuir chevelu reprend vie 💪✨.</p>"
+            "title": "Quand vais-je voir les premiers résultats ?",
+            "content": "<p>Certains utilisateurs remarquent une <strong>repousse visible dès 3 semaines</strong>. Les cheveux deviennent plus forts, plus denses, et le cuir chevelu reprend vie.</p>"
           }
         },
         "item_a7pEQb": {
           "type": "item",
           "settings": {
-            "title": "🌍 Est-ce que ça fonctionne sur tous les types de cheveux ?",
-            "content": "<p>Oui ! Que vos cheveux soient <strong>bouclés, raides, fins ou épais</strong>, notre soin s’adapte à tous les profils 🧬. Il cible les besoins du cuir chevelu sans distinction.</p>"
+            "title": "Est-ce que ça fonctionne sur tous les types de cheveux ?",
+            "content": "<p>Oui ! Que vos cheveux soient <strong>bouclés, raides, fins ou épais</strong>, notre soin s’adapte à tous les profils. Il cible les besoins du cuir chevelu sans distinction.</p>"
           }
         },
         "item_ATazMb": {
           "type": "item",
           "settings": {
-            "title": "📈 Combien de séances faut-il faire ?",
-            "content": "<p>Un soin peut déjà montrer des résultats, mais pour une transformation durable, <strong>1 séance par mois</strong> est recommandée 📅. Plus vous êtes régulier, plus vos cheveux gagnent en densité 💥.</p>"
+            "title": "Combien de séances faut-il faire ?",
+            "content": "<p>Un soin peut déjà montrer des résultats, mais pour une transformation durable, <strong>1 séance par mois</strong> est recommandée. Plus vous êtes régulier, plus vos cheveux gagnent en densité.</p>"
           }
         },
         "item_TeJrVF": {
           "type": "item",
           "settings": {
-            "title": "🔄 Puis-je l’utiliser avec d'autres traitements ?",
-            "content": "<p>Oui, c’est <strong>complémentaire</strong> à vos routines capillaires actuelles 🧴. C’est même un booster parfait pour maximiser vos résultats — sans interférer avec d’autres soins.</p>"
+            "title": "Puis-je l’utiliser avec d'autres traitements ?",
+            "content": "<p>Oui, c’est <strong>complémentaire</strong> à vos routines capillaires actuelles. C’est même un booster parfait pour maximiser vos résultats — sans interférer avec d’autres soins.</p>"
           }
         },
         "item_gzD6yp": {
           "type": "item",
           "settings": {
-            "title": "👶 À partir de quel âge peut-on l’utiliser ?",
-            "content": "<p>Le traitement est recommandé <strong>à partir de 18 ans</strong> 👨👩. Il convient aux jeunes adultes comme aux personnes plus âgées souffrant de chute de cheveux ou de perte de densité.</p>"
+            "title": "À partir de quel âge peut-on l’utiliser ?",
+            "content": "<p>Le traitement est recommandé <strong>à partir de 18 ans</strong>. Il convient aux jeunes adultes comme aux personnes plus âgées souffrant de chute de cheveux ou de perte de densité.</p>"
           }
         },
         "item_yRwFCz": {
           "type": "item",
           "settings": {
-            "title": "🔒 Les résultats sont-ils durables ?",
-            "content": "<p>Oui, tant que vous suivez un usage régulier 🔁. Si le traitement est arrêté, une partie des effets peut diminuer avec le temps. La <strong>régularité est la clé</strong> 🗝️.</p>"
+            "title": "Les résultats sont-ils durables ?",
+            "content": "<p>Oui, tant que vous suivez un usage régulier. Si le traitement est arrêté, une partie des effets peut diminuer avec le temps. La <strong>régularité est la clé</strong>.</p>"
           }
         },
         "item_CgLjnH": {
           "type": "item",
           "settings": {
-            "title": "💇‍♀️ Puis-je l’utiliser avec des perruques ou des extensions ?",
-            "content": "<p>Absolument ✅. Le soin agit sur le cuir chevelu, pas les longueurs. Il est donc <strong>parfaitement compatible</strong> avec les perruques, postiches ou extensions.</p>"
+            "title": "Puis-je l’utiliser avec des perruques ou des extensions ?",
+            "content": "<p>Absolument. Le soin agit sur le cuir chevelu, pas les longueurs. Il est donc <strong>parfaitement compatible</strong> avec les perruques, postiches ou extensions.</p>"
           }
         },
         "item_tX7Njr": {
           "type": "item",
           "settings": {
-            "title": "🧪 Est-ce testé dermatologiquement ?",
-            "content": "<p>Oui ! Nos produits sont <strong>testés dermatologiquement</strong> 🧼🔬 et respectent <strong>tous les types de peaux</strong>, même les plus sensibles.</p>"
+            "title": "Est-ce testé dermatologiquement ?",
+            "content": "<p>Oui ! Nos produits sont <strong>testés dermatologiquement</strong> et respectent <strong>tous les types de peaux</strong>, même les plus sensibles.</p>"
           }
         }
       },
@@ -509,6 +521,7 @@
     "image_with_text_overlay_Jhw9Bz",
     "rich_text_MePiam",
     "rich_text_xwe6nM",
+    "custom_liquid_pxYj9j",
     "featured_product_yJHJTN",
     "tabs_tikiTy",
     "faq",
