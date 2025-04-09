@@ -217,226 +217,6 @@
         "text_color": ""
       }
     },
-    "trustpilot_VdhhH4": {
-      "type": "trustpilot",
-      "custom_css": [
-        ".section-full {padding-bottom: 0px;}"
-      ],
-      "settings": {
-        "content_align": "center",
-        "content_align_mobile": "center",
-        "heading": "",
-        "heading_custom": false,
-        "heading_font": "josefin_sans_n4",
-        "heading_size": 40,
-        "heading_size_mobile": 24,
-        "heading_height": 130,
-        "rating_text": "Excellent",
-        "rating_text_custom": false,
-        "rating_text_font": "josefin_sans_n4",
-        "rating_text_size": 24,
-        "rating_text_size_mobile": 20,
-        "rating_text_height": 130,
-        "rating_text_mt": 16,
-        "rating_text_mt_mobile": 16,
-        "rating": 4.7,
-        "rating_hide": false,
-        "rating_text_hide": false,
-        "stars_count": 5,
-        "stars_size": 28,
-        "stars_size_mobile": 24,
-        "text": "<p>basé sur <strong>1 067</strong> avis</p>",
-        "text_custom": false,
-        "text_font": "josefin_sans_n4",
-        "text_size": 20,
-        "text_size_mobile": 16,
-        "text_height": 130,
-        "text_mt": 16,
-        "text_mt_mobile": 16,
-        "scrolling_velocity": 80,
-        "scrolling_velocity_mobile": 100,
-        "reverse_direction": false,
-        "pause_hover": true,
-        "scrolling_mt": 36,
-        "scrolling_mt_mobile": 36,
-        "scrolling_gap": 20,
-        "scrolling_gap_mobile": 20,
-        "card_width": 360,
-        "card_width_mobile": 280,
-        "card_padding_vertical": 36,
-        "card_padding_vertical_mobile": 28,
-        "card_padding_horizontal": 40,
-        "card_padding_horizontal_mobile": 24,
-        "card_radius": 16,
-        "card_border_thickness": 0,
-        "card_shadow_style": "2",
-        "card_content_align": "center",
-        "card_content_align_mobile": "center",
-        "card_height": false,
-        "card_heading_custom": false,
-        "card_heading_font": "josefin_sans_n4",
-        "card_heading_size": 24,
-        "card_heading_size_mobile": 20,
-        "card_heading_height": 130,
-        "card_heading_mt": 16,
-        "card_heading_mt_mobile": 16,
-        "card_text_custom": false,
-        "card_text_font": "josefin_sans_n4",
-        "card_text_size": 14,
-        "card_text_size_mobile": 14,
-        "card_text_height": 150,
-        "card_text_mt": 16,
-        "card_text_mt_mobile": 16,
-        "card_text_more": "View More",
-        "card_text_less": "View Less",
-        "card_count_words": 60,
-        "author_image_size": 56,
-        "author_image_size_mobile": 40,
-        "author_image_position": "inline_text",
-        "card_author_date_text_custom": false,
-        "card_author_date_text_font": "josefin_sans_n4",
-        "card_author_date_text_size": 16,
-        "card_author_date_text_size_mobile": 16,
-        "card_author_date_text_height": 130,
-        "card_author_date_text_mt": 16,
-        "card_author_date_text_mt_mobile": 16,
-        "button": "",
-        "button_url": "",
-        "button_custom": false,
-        "button_font": "josefin_sans_n4",
-        "button_size": 16,
-        "button_size_mobile": 14,
-        "button_height": 100,
-        "button_align": "center",
-        "button_align_mobile": "center",
-        "button_mt": 32,
-        "button_mt_mobile": 28,
-        "button_padding_vertical": 16,
-        "button_padding_vertical_mobile": 16,
-        "button_padding_horizontal": 20,
-        "button_padding_horizontal_mobile": 20,
-        "button_radius": 8,
-        "button_border_thickness": 1,
-        "button_style": "outline",
-        "button_color": "#ffffff",
-        "button_hover_color": "#000000",
-        "button_bg_color": "#000000",
-        "button_bg_hover_color": "#ffffff",
-        "button_border_color": "#000000",
-        "button_border_hover_color": "#000000",
-        "card_bg_color": "#ffffff",
-        "card_border_color": "#000000",
-        "card_heading_color": "#000000",
-        "card_text_color": "#000000",
-        "card_author_date_text_color": "#000000",
-        "view_color": "#000000",
-        "heading_color": "#000000",
-        "rating_text_color": "#000000",
-        "stars_bg_color": "#00b67a",
-        "stars_color": "#ffffff",
-        "text_color": "#000000",
-        "background_color": "#d4d3dc",
-        "background_gradient": "",
-        "border_color": "#000000",
-        "margin_top": 0,
-        "margin_bottom": 0,
-        "padding_top": 0,
-        "padding_bottom": 0,
-        "padding_horizontal": 5,
-        "padding_horizontal_mobile": 1.5,
-        "full_width": true,
-        "content_width": 120,
-        "border_thickness": 0,
-        "lazy": true
-      }
-    },
-    "multi_column_QfhYMM": {
-      "type": "multi-column",
-      "blocks": {
-        "item_WCXWxj": {
-          "type": "item",
-          "settings": {
-            "column_size": "3",
-            "title": "Sophia L.",
-            "heading_tag": "h4",
-            "content": "<p>Enfin des écouteurs qui ne font pas mal aux oreilles ! Je m'endors paisiblement avec mes musiques préférées.</p>",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        },
-        "item_kWq3AG": {
-          "type": "item",
-          "settings": {
-            "column_size": "3",
-            "title": "Maria B.",
-            "heading_tag": "h4",
-            "content": "<p>Enfin je peux m'endormir en écoutant mes sons ASMR sans me réveiller à cause d'oreilles douloureuses. Merci Somniris !</p>",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        },
-        "item_TVAEdF": {
-          "type": "item",
-          "settings": {
-            "column_size": "3",
-            "title": "Clara V.",
-            "heading_tag": "h4",
-            "content": "<p>Je dors sur le côté et pourtant ces écouteurs restent confortables toute la nuit. Une vraie révolution pour mon sommeil.</p>",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        },
-        "item_9qCENA": {
-          "type": "item",
-          "settings": {
-            "column_size": "3",
-            "title": "Caroline D.",
-            "heading_tag": "h4",
-            "content": "<p>Mon mari ronfle comme un tracteur mais grâce aux Somniris, je dors comme un bébé ! Confortables toute la nuit, je n'ai même pas besoin de les retirer. Meilleur investissement pour sauver mon mariage !</p>",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        },
-        "item_mDgh9g": {
-          "type": "item",
-          "settings": {
-            "column_size": "3",
-            "title": "Thomas D.",
-            "heading_tag": "h4",
-            "content": "<p>Ces écouteurs sont si confortables que j'oublie les porter. Parfaits pour écouter des sons relaxants avant de dormir.</p>",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        }
-      },
-      "block_order": [
-        "item_WCXWxj",
-        "item_kWq3AG",
-        "item_TVAEdF",
-        "item_9qCENA",
-        "item_mDgh9g"
-      ],
-      "custom_css": [
-        ".section-full {padding-top: 0px; padding-bottom: 0px;}"
-      ],
-      "settings": {
-        "full_width": true,
-        "stack_on_mobile": false,
-        "gap": "medium",
-        "text_alignment": "center",
-        "subheading": "",
-        "title": "",
-        "content": "",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
     "featured_product_yJHJTN": {
       "type": "featured-product",
       "blocks": {
@@ -517,10 +297,10 @@
       "settings": {
         "full_width": true,
         "product": "micro-infusion-capillaire-keralis",
-        "desktop_media_width": 55,
+        "desktop_media_width": 50,
         "desktop_media_layout": "carousel_thumbnails_left",
         "mobile_media_size": "expanded",
-        "mobile_carousel_control": "floating_dots",
+        "mobile_carousel_control": "thumbnails",
         "enable_video_autoplay": true,
         "enable_video_looping": false,
         "enable_image_zoom": true,
@@ -538,24 +318,32 @@
         "tab_MHFViU": {
           "type": "tab",
           "settings": {
-            "title": "Caractéristiques",
-            "content": "<ul><li>Recharge rapide via USB-C</li><li>Jusqu’à 8h d’autonomie par charge</li><li>Boîtier de recharge portable (20h d’autonomie totale)</li><li>Connexion Bluetooth 5.1 rapide et stable</li><li>Affichage LED du niveau de batterie</li><li>Commandes tactiles intuitives</li><li>Résistance à l’eau IPX4, parfait pour le sport</li><li>Qualité sonore HD avec basses profondes<br/><br/></li></ul><p><br/></p>",
+            "title": "Contenu du Kit Micro-Infusion Capillaire",
+            "content": "",
             "page": ""
           }
         },
         "tab_FV3X3x": {
           "type": "tab",
           "settings": {
-            "title": "Essayez-les 30 jours gratuitement",
-            "content": "<p>Essayez les écouteurs Somniris sans risques <strong>pendant 30 jours</strong>. Si vous n'êtes pas complètement satisfait de vos écouteurs Somniris vous avez la possibilité de les retourner et <strong>vous recevrez un remboursement intégral</strong>.</p>",
+            "title": "Composition du Sérum Fortifiant Capillaire",
+            "content": "<p>Notre sérum est formulé à base d’ingrédients naturels et puissants :</p><ul><li>Biotine (vitamine B7) pour stimuler la croissance</li><li>Caféine pour activer la microcirculation du cuir chevelu</li><li>Kératine végétale pour renforcer la fibre capillaire</li><li>Acide hyaluronique pour hydrater en profondeur</li><li>Sans parabènes, sans sulfates, non testé sur les animaux<br/><br/></li></ul><p><br/><br/></p><p><br/></p><p><br/><br/></p><p><br/><br/></p><p><br/><br/></p><p><br/><br/></p><p><br/></p>",
             "page": ""
           }
         },
         "tab_4br3iG": {
           "type": "tab",
           "settings": {
-            "title": "Livraison gratuite à domicile",
+            "title": "Est-ce indolore et sans danger pour le cuir chevelu ?",
             "content": "<p>La livraison à domicile est gratuite. Selon le volume de commandes à traiter, le délai de livraison est éstimé entre 5 et 8 jours ouvrés.</p>",
+            "page": ""
+          }
+        },
+        "tab_LBUDNq": {
+          "type": "tab",
+          "settings": {
+            "title": "Livraison offerte à domicile",
+            "content": "<p><strong>Ouvrez le boîtier</strong> : Les écouteurs s’allument automatiquement.</p><p><strong>Activez le Bluetooth</strong> de votre téléphone ou appareil.<br/><br/><strong>Sélectionnez les écouteurs \"TWS\"</strong> dans la liste des appareils disponibles.<br/><br/><strong>Insérez-les dans vos oreilles</strong> : Ils se connectent automatiquement une fois appairés.<br/><br/><strong>Remettez-les dans le boîtier</strong> pour les éteindre et les recharger.<br/><br/></p>",
             "page": ""
           }
         },
@@ -563,15 +351,7 @@
           "type": "tab",
           "settings": {
             "title": "Service client 7J/7",
-            "content": "<p>Votre équipe Somniris est à votre disposition pour répondre à vos questions sept jours sur sept.</p>",
-            "page": ""
-          }
-        },
-        "tab_LBUDNq": {
-          "type": "tab",
-          "settings": {
-            "title": "Comment les utiliser",
-            "content": "<p><strong>Ouvrez le boîtier</strong> : Les écouteurs s’allument automatiquement.</p><p><strong>Activez le Bluetooth</strong> de votre téléphone ou appareil.<br/><br/><strong>Sélectionnez les écouteurs \"TWS\"</strong> dans la liste des appareils disponibles.<br/><br/><strong>Insérez-les dans vos oreilles</strong> : Ils se connectent automatiquement une fois appairés.<br/><br/><strong>Remettez-les dans le boîtier</strong> pour les éteindre et les recharger.<br/><br/></p>",
+            "content": "<p>Notre équipe vous répond <strong>tous les jours de la semaine</strong>.<br/><br/>📩 Contact par email ou chat<br/><br/>⏱ Temps de réponse moyen : moins de 24h</p>",
             "page": ""
           }
         }
@@ -580,8 +360,8 @@
         "tab_MHFViU",
         "tab_FV3X3x",
         "tab_4br3iG",
-        "tab_nUWi9g",
-        "tab_LBUDNq"
+        "tab_LBUDNq",
+        "tab_nUWi9g"
       ],
       "settings": {
         "full_width": true,
@@ -602,106 +382,71 @@
         "166442457738b23caf-0": {
           "type": "item",
           "settings": {
-            "title": "En quoi les écouteurs pour dormir sont-ils différents des écouteurs ordinaires ?",
-            "content": "<p>Nos écouteurs pour dormir se distinguent par leur design ergonomique qui permet de les porter confortablement toute la nuit. Ils sont plus plats, plus souples et disposent d'une autonomie de batterie plus longue. </p>"
+            "title": "❓ Comment fonctionne la micro-infusion capillaire ?",
+            "content": "<p>La micro-infusion utilise une technologie avancée qui délivre des actifs puissants <strong>directement au cœur du cuir chevelu</strong> 🧠. Grâce à de <strong>micro-aiguilles indolores</strong>, elle stimule la repousse là où les cheveux se font rares 🧴🌱.</p>"
           }
         },
         "166442457738b23caf-1": {
           "type": "item",
           "settings": {
-            "title": "Sont-ils résistants à l'eau/transpiration ?",
-            "content": "<p>Oui, nos écouteurs pour dormir sont certifiés IPX5, ce qui signifie qu'ils résistent parfaitement à la transpiration nocturne et peuvent même supporter des éclaboussures d'eau. Nous recommandons toutefois d'éviter de les immerger.</p>"
+            "title": "😌 Est-ce que c’est douloureux ?",
+            "content": "<p>Pas du tout ! La technologie est conçue pour être <strong>100% indolore</strong>. Aucune aiguille invasive, <strong>aucune gêne</strong>, juste un soin agréable à appliquer 💆‍♀️💆‍♂️.</p>"
           }
         },
         "166442457738b23caf-2": {
           "type": "item",
           "settings": {
-            "title": "Ces écouteurs peuvent-ils vraiment m'aider à mieux dormir ?",
-            "content": "<p>Oui, de nombreux utilisateurs constatent une amélioration significative de leur sommeil. Ces écouteurs peuvent vous aider en masquant les bruits ambiants gênants (ronflement d'un partenaire, bruit de la circulation, voisins bruyants) et en diffusant des sons relaxants comme du bruit blanc, des sons de la nature ou de la musique douce qui favorisent la détente et l'endormissement.</p>"
+            "title": "⏳ Quand vais-je voir les premiers résultats ?",
+            "content": "<p>Certains utilisateurs remarquent une <strong>repousse visible dès 3 semaines</strong> 📆. Les cheveux deviennent plus forts, plus denses, et le cuir chevelu reprend vie 💪✨.</p>"
           }
         },
         "item_a7pEQb": {
           "type": "item",
           "settings": {
-            "title": "Comment connecter les écouteurs à mon téléphone ?",
-            "content": "<p>La connexion est simple :</p><p>Sortez les écouteurs de leur boîtier de charge</p><p>Ils entreront automatiquement en mode d'appairage</p><p>Activez le Bluetooth sur votre téléphone</p><p>Sélectionnez \"TWS\" dans la liste des appareils disponibles</p>"
+            "title": "🌍 Est-ce que ça fonctionne sur tous les types de cheveux ?",
+            "content": "<p>Oui ! Que vos cheveux soient <strong>bouclés, raides, fins ou épais</strong>, notre soin s’adapte à tous les profils 🧬. Il cible les besoins du cuir chevelu sans distinction.</p>"
           }
         },
         "item_ATazMb": {
           "type": "item",
           "settings": {
-            "title": "Les frais de livraison sont-ils inclus ?",
-            "content": "<p>Nous offrons la livraison gratuite pour toutes les commandes.</p>"
+            "title": "📈 Combien de séances faut-il faire ?",
+            "content": "<p>Un soin peut déjà montrer des résultats, mais pour une transformation durable, <strong>1 séance par mois</strong> est recommandée 📅. Plus vous êtes régulier, plus vos cheveux gagnent en densité 💥.</p>"
           }
         },
         "item_TeJrVF": {
           "type": "item",
           "settings": {
-            "title": "Sont-ils sans fil ?",
-            "content": "<p>Oui, nos écouteurs pour dormir fonctionnent via Bluetooth, sans aucun fil qui pourrait s'enrouler autour de vous pendant votre sommeil, garantissant ainsi confort et sécurité.</p>"
+            "title": "🔄 Puis-je l’utiliser avec d'autres traitements ?",
+            "content": "<p>Oui, c’est <strong>complémentaire</strong> à vos routines capillaires actuelles 🧴. C’est même un booster parfait pour maximiser vos résultats — sans interférer avec d’autres soins.</p>"
           }
         },
         "item_gzD6yp": {
           "type": "item",
           "settings": {
-            "title": "Puis-je dormir sur le côté avec ces écouteurs ?",
-            "content": "<p>Absolument ! C'est l'un des principaux avantages de nos écouteurs pour dormir. Leur design ultra-fin et ergonomique a été spécialement conçu pour permettre de dormir confortablement dans n'importe quelle position, y compris sur le côté.</p>"
+            "title": "👶 À partir de quel âge peut-on l’utiliser ?",
+            "content": "<p>Le traitement est recommandé <strong>à partir de 18 ans</strong> 👨👩. Il convient aux jeunes adultes comme aux personnes plus âgées souffrant de chute de cheveux ou de perte de densité.</p>"
           }
         },
         "item_yRwFCz": {
           "type": "item",
           "settings": {
-            "title": "Combien de temps dure la batterie ?",
-            "content": "<p>Nos écouteurs pour dormir offrent une autonomie allant jusqu'à 8 heures d'utilisation continue, ce qui est largement suffisant pour une nuit complète de sommeil. Le boîtier de recharge fourni permet également plusieurs recharges supplémentaires.</p>"
+            "title": "🔒 Les résultats sont-ils durables ?",
+            "content": "<p>Oui, tant que vous suivez un usage régulier 🔁. Si le traitement est arrêté, une partie des effets peut diminuer avec le temps. La <strong>régularité est la clé</strong> 🗝️.</p>"
           }
         },
         "item_CgLjnH": {
           "type": "item",
           "settings": {
-            "title": "Peut-on les utiliser pour d'autres activités que le sommeil ?",
-            "content": "<p>Certainement ! Bien qu'ils soient optimisés pour le sommeil, nos écouteurs conviennent parfaitement pour la méditation, les voyages, le travail dans des environnements bruyants ou simplement pour écouter de la musique dans un confort optimal.</p>"
+            "title": "💇‍♀️ Puis-je l’utiliser avec des perruques ou des extensions ?",
+            "content": "<p>Absolument ✅. Le soin agit sur le cuir chevelu, pas les longueurs. Il est donc <strong>parfaitement compatible</strong> avec les perruques, postiches ou extensions.</p>"
           }
         },
         "item_tX7Njr": {
           "type": "item",
           "settings": {
-            "title": "Les écouteurs bloquent-ils complètement les bruits extérieurs ?",
-            "content": "<p>Nos écouteurs offrent une isolation passive efficace qui atténue considérablement les bruits ambiants. Ils ne bloquent pas complètement tous les sons (comme le feraient des écouteurs à réduction active du bruit), ce qui est en fait préférable pour la sécurité pendant le sommeil, vous permettant d'entendre les alarmes importantes ou autres sons d'urgence.</p>"
-          }
-        },
-        "item_QT9cJW": {
-          "type": "item",
-          "settings": {
-            "title": "Quel est le délai de livraison ?",
-            "content": "<p>Nous expédions généralement les commandes sous 24 heures. Le délai de livraison dépend ensuite de votre localisation : 5 à 8 jours ouvrés</p>"
-          }
-        },
-        "item_4xec4Y": {
-          "type": "item",
-          "settings": {
-            "title": "Puis-je retourner les écouteurs si je ne suis pas satisfait ?",
-            "content": "<p>Oui, nous offrons une politique de retour \"satisfait ou remboursé\" de 30 jours. Si nos écouteurs ne répondent pas à vos attentes, vous pouvez les retourner dans leur emballage d'origine pour un remboursement.</p>"
-          }
-        },
-        "item_P3jRew": {
-          "type": "item",
-          "settings": {
-            "title": "Puis-je utiliser une application spécifique avec ces écouteurs ?",
-            "content": "<p>Nos écouteurs sont compatibles avec toutes les applications de musique, de méditation ou de sons pour dormir disponibles sur iOS et Android. </p>"
-          }
-        },
-        "item_Nb4MCE": {
-          "type": "item",
-          "settings": {
-            "title": "Les écouteurs sont-ils adaptés aux enfants ?",
-            "content": "<p>Nos écouteurs peuvent être utilisés par les adolescents et les enfants plus âgés (à partir de 12 ans environ). Pour les enfants plus jeunes, nous recommandons la supervision d'un adulte. Notez également que le volume devrait toujours être maintenu à un niveau modéré pour protéger l'audition en développement.</p>"
-          }
-        },
-        "item_WGmfQh": {
-          "type": "item",
-          "settings": {
-            "title": "Comment nettoyer les écouteurs ?",
-            "content": "<p>Nous recommandons de nettoyer régulièrement vos écouteurs avec un chiffon doux légèrement humide. Pour un nettoyage plus en profondeur, utilisez un coton-tige légèrement imbibé d'alcool isopropylique pour nettoyer la surface. Évitez de mouiller les parties électroniques et assurez-vous qu'ils soient complètement secs avant de les utiliser ou de les ranger.</p>"
+            "title": "🧪 Est-ce testé dermatologiquement ?",
+            "content": "<p>Oui ! Nos produits sont <strong>testés dermatologiquement</strong> 🧼🔬 et respectent <strong>tous les types de peaux</strong>, même les plus sensibles.</p>"
           }
         }
       },
@@ -715,12 +460,7 @@
         "item_gzD6yp",
         "item_yRwFCz",
         "item_CgLjnH",
-        "item_tX7Njr",
-        "item_QT9cJW",
-        "item_4xec4Y",
-        "item_P3jRew",
-        "item_Nb4MCE",
-        "item_WGmfQh"
+        "item_tX7Njr"
       ],
       "settings": {
         "full_width": false,
@@ -732,8 +472,8 @@
         "answer_time": "",
         "button_text": "",
         "button_url": "",
-        "text_position": "start",
-        "background": "#d4d3dc",
+        "text_position": "center",
+        "background": "#ffffff",
         "background_gradient": "",
         "text_color": "",
         "heading_color": "",
@@ -769,8 +509,6 @@
     "image_with_text_overlay_Jhw9Bz",
     "rich_text_MePiam",
     "rich_text_xwe6nM",
-    "trustpilot_VdhhH4",
-    "multi_column_QfhYMM",
     "featured_product_yJHJTN",
     "tabs_tikiTy",
     "faq",
