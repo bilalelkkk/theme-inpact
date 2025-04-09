@@ -28,10 +28,10 @@
             "url": ""
           }
         },
-        "message_XYrjDa": {
+        "message_Vn6VzX": {
           "type": "message",
           "settings": {
-            "text": "Announce something here",
+            "text": "SATISFAIT OU REMBOURSÉ",
             "url": ""
           }
         },
@@ -41,21 +41,13 @@
             "text": "STOCKS BIENTÔT ÉPUISÉS",
             "url": ""
           }
-        },
-        "message_Vn6VzX": {
-          "type": "message",
-          "settings": {
-            "text": "SATISFAIT OU REMBOURSÉ",
-            "url": ""
-          }
         }
       },
       "block_order": [
         "message",
         "message_f8Ddd7",
-        "message_XYrjDa",
-        "message_iabLgf",
-        "message_Vn6VzX"
+        "message_Vn6VzX",
+        "message_iabLgf"
       ],
       "settings": {
         "enable_sticky": false,
