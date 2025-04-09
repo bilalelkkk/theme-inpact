@@ -133,7 +133,7 @@
         "image_GqAxmf": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Pourquoi.png",
+            "image": "shopify://shop_images/Pourquoi_OK.png",
             "width_mode": "full_width",
             "max_width": 1000,
             "mobile_max_width": 600
