@@ -26,16 +26,16 @@
         "slide-1": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Banniere.jpg",
+            "image": "shopify://shop_images/Keralis_Banniere_OK.png",
             "content_max_width": 780,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
             "subheading": "",
-            "title": "Une micro-infusion, une renaissance capillaire",
+            "title": "Une micro-infusion, contre la chute",
             "heading_tag": "h2",
             "button_text": "",
             "button_link": "",
-            "text_color": "#1a1a1a",
+            "text_color": "#ffffff",
             "button_background": "#ffffff",
             "button_text_color": "#000000",
             "overlay_color": "#000000",
@@ -124,8 +124,8 @@
         "heading_zBwMwN": {
           "type": "heading",
           "settings": {
-            "text": "Pourquoi choisir",
-            "heading_tag": "h2",
+            "text": "Pourquoi choisir Keralis ?",
+            "heading_tag": "h3",
             "text_color": "",
             "gradient": ""
           }
@@ -133,7 +133,7 @@
         "image_GqAxmf": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Koralyne.png",
+            "image": "shopify://shop_images/Pourquoi.png",
             "width_mode": "full_width",
             "max_width": 1000,
             "mobile_max_width": 600
