@@ -189,6 +189,72 @@
         "text_color": ""
       }
     },
+    "rich_text_DwwVxF": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_hGkFLg": {
+          "type": "heading",
+          "settings": {
+            "text": "Avant / Après",
+            "heading_tag": "h3",
+            "text_color": "",
+            "gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_hGkFLg"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "image_with_text_overlay_rDHG47": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "subheading_CgB3kd": {
+          "type": "subheading",
+          "settings": {
+            "text": ""
+          }
+        },
+        "heading_G8khG9": {
+          "type": "heading",
+          "settings": {
+            "text": "",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_iXEUd8": {
+          "type": "richtext",
+          "settings": {
+            "content": ""
+          }
+        }
+      },
+      "block_order": [
+        "subheading_CgB3kd",
+        "heading_G8khG9",
+        "richtext_iXEUd8"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify://shop_images/NOUVEAU_ELU_PRODUIT_DE_L_ANNEE_2025_CHEVEUX_1024_x_712_px_1500_x_1500_px.gif",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
     "rich_text_4mkD8H": {
       "type": "rich-text",
       "blocks": {
@@ -517,6 +583,8 @@
     "rich_text_hKdjT7",
     "image_with_text_overlay_Jhw9Bz",
     "rich_text_MePiam",
+    "rich_text_DwwVxF",
+    "image_with_text_overlay_rDHG47",
     "rich_text_4mkD8H",
     "custom_liquid_pxYj9j",
     "featured_product_yJHJTN",
