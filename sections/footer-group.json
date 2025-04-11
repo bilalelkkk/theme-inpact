@@ -99,7 +99,7 @@
           "type": "text",
           "settings": {
             "title": "Nous contacter",
-            "content": "<p><strong>Service client :</strong> keralis.contact@gmail.com</p>",
+            "content": "<p><strong>Service client :</strong> contact@keralis.fr</p>",
             "enable_follow_on_shop": false
           }
         }
