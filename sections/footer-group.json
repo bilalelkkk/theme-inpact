@@ -91,7 +91,7 @@
         "links": {
           "type": "links",
           "settings": {
-            "menu": "footer",
+            "menu": "main-menu",
             "show_menu_title": true
           }
         },
@@ -99,7 +99,7 @@
           "type": "text",
           "settings": {
             "title": "Nous contacter",
-            "content": "<p><strong>Service client :</strong> somniris.contact@gmail.com</p>",
+            "content": "<p><strong>Service client :</strong> keralis.contact@gmail.com</p>",
             "enable_follow_on_shop": false
           }
         }
