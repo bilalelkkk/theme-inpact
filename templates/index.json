@@ -353,6 +353,7 @@
         "image_QhCbh4": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/badgetrust2.png",
             "alignment": "center",
             "max_width": 500
           }
