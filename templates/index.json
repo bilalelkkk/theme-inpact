@@ -26,12 +26,12 @@
         "slide-1": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Keralis_Banniere_OK.png",
+            "image": "shopify://shop_images/Image_header.png",
             "content_max_width": 780,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
             "subheading": "",
-            "title": "Retrouvez vos cheveux d'avant, grâce a la micro infusion",
+            "title": "Votre sourire idéal, instantanément",
             "heading_tag": "h2",
             "button_text": "",
             "button_link": "",
@@ -74,7 +74,7 @@
         "logo_4MehwJ": {
           "type": "logo",
           "settings": {
-            "logo": "shopify://shop_images/Vogue.png",
+            "logo": "shopify://shop_images/TopSante.webp",
             "logo_width": 120,
             "link": ""
           }
@@ -82,7 +82,7 @@
         "logo_kFKT8X": {
           "type": "logo",
           "settings": {
-            "logo": "shopify://shop_images/Femme-actuelle-logo-1-1024x512.png",
+            "logo": "shopify://shop_images/Le_monde_logo.svg",
             "logo_width": 120,
             "link": ""
           }
@@ -90,7 +90,7 @@
         "logo_WNty8y": {
           "type": "logo",
           "settings": {
-            "logo": "shopify://shop_images/Bilal.svg",
+            "logo": "shopify://shop_images/Marie_Claire_Magazine_logo_svg.png",
             "logo_width": 120,
             "link": ""
           }
@@ -133,7 +133,7 @@
         "image_GqAxmf": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Pourquoi_OK.png",
+            "image": "shopify://shop_images/Facette_Dentaire.png",
             "width_mode": "custom",
             "max_width": 1000,
             "mobile_max_width": 600
@@ -170,12 +170,36 @@
         "allow_transparent_header": false,
         "enable_parallax": false,
         "image_size": "auto",
-        "image": "shopify://shop_images/SUBLEAME_Angle_40_5_1.gif",
+        "image": "shopify://shop_images/Facette_Dentaire_Demo.webp",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#ffffff",
         "overlay_color": "#000000",
         "overlay_opacity": 30
+      }
+    },
+    "before_after_image_3CCUjH": {
+      "type": "before-after-image",
+      "settings": {
+        "full_width": true,
+        "subheading": "",
+        "title": "Avant / Après",
+        "content": "",
+        "before_image": "shopify://shop_images/gempages_532016320011568021-3a79aca5-498e-4741-806c-df166e125326.jpg",
+        "after_image": "shopify://shop_images/22.jpg",
+        "expand_image": false,
+        "text_position": "center",
+        "before_after_text_position": "top",
+        "before_text": "Before",
+        "after_text": "After",
+        "drag_initial_position": 50,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "before_text_color": "#ffffff",
+        "after_text_color": "#ffffff",
+        "drag_cursor_background": "#ffffff",
+        "drag_cursor_color": "#1a1a1a"
       }
     },
     "rich_text_MePiam": {
@@ -187,72 +211,6 @@
         "background": "",
         "background_gradient": "",
         "text_color": ""
-      }
-    },
-    "rich_text_DwwVxF": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_hGkFLg": {
-          "type": "heading",
-          "settings": {
-            "text": "Avant / Après",
-            "heading_tag": "h3",
-            "text_color": "",
-            "gradient": ""
-          }
-        }
-      },
-      "block_order": [
-        "heading_hGkFLg"
-      ],
-      "settings": {
-        "full_width": true,
-        "content_width": "small",
-        "text_position": "center",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
-    "image_with_text_overlay_rDHG47": {
-      "type": "image-with-text-overlay",
-      "blocks": {
-        "subheading_CgB3kd": {
-          "type": "subheading",
-          "settings": {
-            "text": ""
-          }
-        },
-        "heading_G8khG9": {
-          "type": "heading",
-          "settings": {
-            "text": "",
-            "heading_tag": "h1"
-          }
-        },
-        "richtext_iXEUd8": {
-          "type": "richtext",
-          "settings": {
-            "content": ""
-          }
-        }
-      },
-      "block_order": [
-        "subheading_CgB3kd",
-        "heading_G8khG9",
-        "richtext_iXEUd8"
-      ],
-      "settings": {
-        "full_width": true,
-        "allow_transparent_header": false,
-        "enable_parallax": false,
-        "image_size": "auto",
-        "image": "shopify://shop_images/NOUVEAU_ELU_PRODUIT_DE_L_ANNEE_2025_CHEVEUX_1024_x_712_px_1500_x_1500_px.gif",
-        "mobile_text_position": "place-self-center text-center",
-        "desktop_text_position": "sm:place-self-center sm:text-center",
-        "text_color": "#ffffff",
-        "overlay_color": "#000000",
-        "overlay_opacity": 10
       }
     },
     "rich_text_4mkD8H": {
@@ -583,9 +541,8 @@
     "logo_list_tgYGNA",
     "rich_text_hKdjT7",
     "image_with_text_overlay_Jhw9Bz",
+    "before_after_image_3CCUjH",
     "rich_text_MePiam",
-    "rich_text_DwwVxF",
-    "image_with_text_overlay_rDHG47",
     "rich_text_4mkD8H",
     "custom_liquid_pxYj9j",
     "featured_product_yJHJTN",
