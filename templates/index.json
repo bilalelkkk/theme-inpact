@@ -352,24 +352,24 @@
         "tab_MHFViU": {
           "type": "tab",
           "settings": {
-            "title": "Contenu du Kit Micro-Infusion Capillaire",
-            "content": "<p><strong>Contenu de chaque kit :</strong></p><p></p><ul><li><strong>1 mois</strong> : 1 embouts stériles + 2 flacons de sérum (2 traitements) + 1 Sérum extra offert</li></ul><p></p><ul><li><strong>2 mois</strong> : 2 embouts stériles + 4 flacons de sérum (4 traitements) + 2 Sérum extra offerts</li></ul><p></p><ul><li><strong>3 mois</strong> : 3 embouts stériles + 6 flacons de sérum (6 traitements) + 3 Sérum extra offerts</li></ul><p></p><p>Chaque kit de micro-infusion est conçu pour un nombre précis de traitements. Les embouts à micro-aiguilles (profondeur <strong>0,5 mm</strong>) sont stériles et réutilisables <strong>trois fois</strong>. Ils doivent être <strong>nettoyés </strong>entre chaque utilisation, garantissant une hygiène irréprochable et des résultats optimaux.</p><p><strong>UN GUIDE D’UTILISATION ET DE NETTOYAGE SERA FOURNI DANS L’E-MAIL DE CONFIRMATION DE COMMANDE.</strong></p>",
+            "title": "Contenu du Kit ÉclatDent",
+            "content": "<p><strong>Tout ce dont vous avez besoin pour transformer votre sourire, directement à la maison :</strong></p><ul><li>1 facette supérieure + 1 facette inférieure (réutilisables)<br/></li><li>1 boîte de rangement hygiénique et élégante<br/></li><li>1 sachet de perles thermoplastiques pour ajustement personnalisé<br/></li><li>1 guide d’utilisation clair et illustré (étape par étape)<br/></li></ul><p><strong>UN GUIDE D’UTILISATION ET DE NETTOYAGE SERA FOURNI DANS L’E-MAIL DE CONFIRMATION DE COMMANDE.</strong></p>",
             "page": ""
           }
         },
         "tab_9AJzKN": {
           "type": "tab",
           "settings": {
-            "title": "Composition du Sérum Fortifiant Capillaire",
-            "content": "<p>Notre sérum est formulé à base d’ingrédients naturels et puissants :</p><ul><li>Biotine (vitamine B7) pour stimuler la croissance</li><li>Caféine pour activer la microcirculation du cuir chevelu</li><li>Kératine végétale pour renforcer la fibre capillaire</li><li>Acide hyaluronique pour hydrater en profondeur</li><li>Sans parabènes, sans sulfates, non testé sur les animaux</li></ul>",
+            "title": "Composition des Facettes ÉclatDent",
+            "content": "<p>Nos facettes sont fabriquées à partir de <strong>résine médicale de haute qualité</strong>, soigneusement sélectionnée pour un usage bucco-dentaire :<br/></p><ul><li>Sans BPA (Bisphénol A)</li><li>Hypoallergénique et non toxique</li><li>Conforme aux normes européennes CE</li><li>Conçue pour un usage prolongé sans dégradation ni altération<br/><br/></li></ul><p><br/><br/></p><p><br/><br/></p><p><br/><br/></p>",
             "page": ""
           }
         },
         "tab_4br3iG": {
           "type": "tab",
           "settings": {
-            "title": "Est-ce indolore et sans danger pour le cuir chevelu ?",
-            "content": "<p>Non, le traitement est <strong>quasiment indolore</strong> grâce aux micro-aiguilles ultra fines.</p>",
+            "title": "Est-ce sans danger pour les dents ?",
+            "content": "<p>Oui, absolument. Les facettes ÉclatDent sont <strong>sans douleur, sans danger et non invasives</strong> :<br/></p><ul><li>Aucun perçage, collage ou traitement agressif<br/></li><li>Ne modifie pas l’émail ni la structure de vos dents naturelles<br/></li><li>Facilement amovibles : vous les portez quand vous le souhaitez<br/></li><li><strong>Parfaites pour un usage quotidien ou ponctuel (soirée, photo, entretien, mariage…)</strong>, sans aucun risque pour votre santé bucco-dentaire</li></ul>",
             "page": ""
           }
         },
@@ -377,7 +377,7 @@
           "type": "tab",
           "settings": {
             "title": "Livraison offerte à domicile",
-            "content": "<p><strong>Livraison 100 % gratuite</strong> sans minimum d’achat<br/><br/>Expédition en France et en Europe<br/><br/>Suivi de colis disponible à chaque étape<br/><br/>Emballage soigné, discret et sécurisé</p>",
+            "content": "<p><strong>Livraison 100 % gratuite</strong> sans minimum d’achat.<br/><br/>Expédition en France et en Europe.<br/><br/>Suivi de colis disponible à chaque étape.<br/><br/>Emballage soigné, discret et sécurisé.</p>",
             "page": ""
           }
         },
@@ -385,7 +385,7 @@
           "type": "tab",
           "settings": {
             "title": "Service client 7J/7",
-            "content": "<p>Notre équipe vous répond <strong>tous les jours de la semaine</strong>.<br/><br/>Contact par email ou chat<br/><br/>Temps de réponse moyen : moins de 24h</p>",
+            "content": "<p>Notre équipe vous répond <strong>tous les jours de la semaine</strong>.<br/><br/>Contact par email ou chat.<br/><br/>Temps de réponse moyen : moins de 24h</p>",
             "page": ""
           }
         }
