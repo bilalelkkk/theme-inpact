@@ -361,7 +361,7 @@
           "type": "tab",
           "settings": {
             "title": "Composition des Facettes ÉclatDent",
-            "content": "<p>Nos facettes sont fabriquées à partir de <strong>résine médicale de haute qualité</strong>, soigneusement sélectionnée pour un usage bucco-dentaire :<br/></p><ul><li>Sans BPA (Bisphénol A)</li><li>Hypoallergénique et non toxique</li><li>Conforme aux normes européennes CE</li><li>Conçue pour un usage prolongé sans dégradation ni altération</li></ul><p><br/><br/></p>",
+            "content": "<p>Nos facettes sont fabriquées à partir de <strong>résine médicale de haute qualité</strong>, soigneusement sélectionnée pour un usage bucco-dentaire :<br/></p><ul><li>Sans BPA (Bisphénol A)</li><li>Hypoallergénique et non toxique</li><li>Conforme aux normes européennes CE</li><li>Conçue pour un usage prolongé sans dégradation ni altération<br/></li></ul><p><br/><br/></p><p><br/><br/></p>",
             "page": ""
           }
         },
