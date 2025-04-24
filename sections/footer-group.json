@@ -120,7 +120,7 @@
           "type": "text",
           "settings": {
             "title": "Nous contacter",
-            "content": "<p><strong>Service client :</strong> contact@keralis.fr</p>",
+            "content": "<p><strong>Service client :</strong> contact@eclatdent.com</p>",
             "enable_follow_on_shop": false
           }
         }
@@ -140,8 +140,8 @@
     }
   },
   "order": [
-    "text-with-icons",
     "contact_j8dmcw",
+    "text-with-icons",
     "footer"
   ]
 }
