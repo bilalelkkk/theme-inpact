@@ -416,71 +416,57 @@
         "166442457738b23caf-0": {
           "type": "item",
           "settings": {
-            "title": "Comment fonctionne la micro-infusion capillaire ?",
-            "content": "<p>La micro-infusion utilise une technologie avancée qui délivre des actifs puissants <strong>directement au cœur du cuir chevelu</strong>. Grâce à de <strong>micro-aiguilles indolores</strong>, elle stimule la repousse là où les cheveux se font rares.</p>"
+            "title": "Qu’est-ce que les facettes ÉclatDent ?",
+            "content": "<p>Les facettes ÉclatDent sont des prothèses dentaires esthétiques, amovibles et indolores. Elles permettent d'améliorer instantanément l'apparence de votre sourire en couvrant les dents abîmées, tachées, espacées ou mal alignées.</p>"
           }
         },
         "166442457738b23caf-1": {
           "type": "item",
           "settings": {
-            "title": "Est-ce que c’est douloureux ?",
-            "content": "<p>Pas du tout ! La technologie est conçue pour être <strong>100% indolore</strong>. Aucune aiguille invasive, <strong>aucune gêne</strong>, juste un soin agréable à appliquer.</p>"
+            "title": "Comment les utiliser ?",
+            "content": "<ol><li><strong>Chauffez</strong> le moule dans de l’eau à 90°C.<br/></li><li><strong>Modelez</strong> les facettes dans votre bouche pour un ajustement personnalisé.<br/></li><li><strong>Fixez</strong> en refroidissant dans l’eau froide pour solidifier la forme.<br/></li><li><strong>Réutilisez</strong> à volonté après nettoyage.<br/></li></ol><p>Temps de pose : 5 minutes chrono !</p>"
           }
         },
         "166442457738b23caf-2": {
           "type": "item",
           "settings": {
-            "title": "Quand vais-je voir les premiers résultats ?",
-            "content": "<p>Certains utilisateurs remarquent une <strong>repousse visible dès 3 semaines</strong>. Les cheveux deviennent plus forts, plus denses, et le cuir chevelu reprend vie.</p>"
+            "title": "Est-ce que c’est confortable ?",
+            "content": "<p>Oui ! Une fois bien moulées, les facettes ÉclatDent épousent la forme de vos dents et deviennent pratiquement imperceptibles. Vous pouvez parler normalement après quelques minutes d’adaptation.</p>"
           }
         },
         "item_a7pEQb": {
           "type": "item",
           "settings": {
-            "title": "Est-ce que ça fonctionne sur tous les types de cheveux ?",
-            "content": "<p>Oui ! Que vos cheveux soient <strong>bouclés, raides, fins ou épais</strong>, notre soin s’adapte à tous les profils. Il cible les besoins du cuir chevelu sans distinction.</p>"
+            "title": "Peut-on manger avec ?",
+            "content": "<p>Les facettes ÉclatDent sont principalement conçues pour un <strong>usage esthétique</strong>.<br/><br/>Cependant, une fois bien moulées, elles tiennent suffisamment pour être portées <strong>durant un repas léger</strong> ou une boisson fraîche.</p><p><strong>Nous recommandons toutefois</strong> de les retirer pour les repas plus copieux ou pour consommer des aliments chauds, afin de préserver leur durabilité.</p>"
           }
         },
         "item_ATazMb": {
           "type": "item",
           "settings": {
-            "title": "Combien de séances faut-il faire ?",
-            "content": "<p>Un soin peut déjà montrer des résultats, mais pour une transformation durable, <strong>1 séance par mois</strong> est recommandée. Plus vous êtes régulier, plus vos cheveux gagnent en densité.</p>"
+            "title": "Sont-elles réutilisables ?",
+            "content": "<p>Oui, elles sont réutilisables autant de fois que nécessaire. Il suffit de les nettoyer à l’eau tiède après chaque usage.</p>"
           }
         },
         "item_TeJrVF": {
           "type": "item",
           "settings": {
-            "title": "Puis-je l’utiliser avec d'autres traitements ?",
-            "content": "<p>Oui, c’est <strong>complémentaire</strong> à vos routines capillaires actuelles. C’est même un booster parfait pour maximiser vos résultats — sans interférer avec d’autres soins.</p>"
+            "title": "Est-ce un dispositif médical ?",
+            "content": "<p>Non. Les facettes ÉclatDent ne remplacent pas un traitement dentaire professionnel. Elles sont destinées à un usage esthétique temporaire.</p>"
           }
         },
         "item_gzD6yp": {
           "type": "item",
           "settings": {
-            "title": "À partir de quel âge peut-on l’utiliser ?",
-            "content": "<p>Le traitement est recommandé <strong>à partir de 18 ans</strong>. Il convient aux jeunes adultes comme aux personnes plus âgées souffrant de chute de cheveux ou de perte de densité.</p>"
+            "title": "Est-ce que ça convient à toutes les tailles de dents ?",
+            "content": "<p>Nos facettes sont conçues pour s’adapter à la <strong>plupart des morphologies dentaires adultes</strong>, grâce au moulage thermique ajustable.</p>"
           }
         },
         "item_yRwFCz": {
           "type": "item",
           "settings": {
-            "title": "Les résultats sont-ils durables ?",
-            "content": "<p>Oui, tant que vous suivez un usage régulier. Si le traitement est arrêté, une partie des effets peut diminuer avec le temps. La <strong>régularité est la clé</strong>.</p>"
-          }
-        },
-        "item_CgLjnH": {
-          "type": "item",
-          "settings": {
-            "title": "Puis-je l’utiliser avec des perruques ou des extensions ?",
-            "content": "<p>Absolument. Le soin agit sur le cuir chevelu, pas les longueurs. Il est donc <strong>parfaitement compatible</strong> avec les perruques, postiches ou extensions.</p>"
-          }
-        },
-        "item_tX7Njr": {
-          "type": "item",
-          "settings": {
-            "title": "Est-ce testé dermatologiquement ?",
-            "content": "<p>Oui ! Nos produits sont <strong>testés dermatologiquement</strong> et respectent <strong>tous les types de peaux</strong>, même les plus sensibles.</p>"
+            "title": "Comment contacter le service client ?",
+            "content": "<p>Par email à <a><strong>contact@eclatdent.fr</strong></a> ou via notre formulaire en ligne 24h/24.<br/><br/>Notre équipe vous répond sous 24h ouvrées.</p>"
           }
         }
       },
@@ -492,9 +478,7 @@
         "item_ATazMb",
         "item_TeJrVF",
         "item_gzD6yp",
-        "item_yRwFCz",
-        "item_CgLjnH",
-        "item_tX7Njr"
+        "item_yRwFCz"
       ],
       "settings": {
         "full_width": false,
