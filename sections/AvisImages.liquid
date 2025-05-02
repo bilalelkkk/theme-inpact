@@ -1,6 +1,1384 @@
+{% liquid
+    assign heading = section.settings.heading
+    assign heading_size = section.settings.heading_size
+    assign heading_weight = section.settings.heading_weight
+    assign heading_color = section.settings.heading_color
+    assign heading_size_mobile = section.settings.heading_size_mobile
+
+    assign subheading = section.settings.subheading
+    assign subheading_size = section.settings.subheading_size
+    assign subheading_weight = section.settings.subheading_weight
+    assign subheading_color = section.settings.subheading_color
+    assign subheading_size_mobile = section.settings.subheading_size_mobile
+
+    assign text = section.settings.text
+    assign text_size = section.settings.text_size
+    assign text_color = section.settings.text_color
+    assign text_size_mobile = section.settings.text_size_mobile
+
+    assign rating = section.settings.rating
+    assign rating_color = section.settings.rating_color
+
+
+    assign slide_background = section.settings.slide_background
+    assign slide_border_width = section.settings.slide_border_width 
+    assign slide_border_style = section.settings.slide_border_style
+    assign slide_border_color = section.settings.slide_border_color
+    assign slide_border_radius = section.settings.slide_border_radius
+
+
+    assign slide_text_size = section.settings.slide_text_size
+    assign slide_text_color = section.settings.slide_text_color
+    assign slide_text_size_mobile = section.settings.slide_text_size_mobile
+
+    assign slide_verify_text_size = section.settings.slide_verify_text_size
+    assign slide_verify_text_color = section.settings.slide_verify_text_color
+    assign slide_verify_text_size_mobile = section.settings.slide_verify_text_size_mobile
+
+    assign slide_author_name_size = section.settings.slide_author_name_size
+    assign slide_author_name_color = section.settings.slide_author_name_color
+    assign slide_author_name_weight = section.settings.slide_author_name_weight
+    assign slide_author_name_size_mobile = section.settings.slide_author_name_size_mobile
+
+    assign slide_author_date_size = section.settings.slide_author_date_size
+    assign slide_author_date_color = section.settings.slide_author_date_color
+    assign slide_author_date_weight = section.settings.slide_author_date_weight
+    assign slide_author_date_size_mobile = section.settings.slide_author_date_size_mobile
+
+    assign slide_rating_color = section.settings.slide_rating_color
+
+
+    assign layout_background_color = section.settings.layout_background_color
+    assign layout_background_image = section.settings.layout_background_image   
+    assign layout_margin_top = section.settings.layout_margin_top
+    assign layout_margin_bottom = section.settings.layout_margin_bottom
+%}
+<div id="shopify-section-pc-{{section.id}}" class="shopify-section">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+  <style data-shopify="">
+
+    .section-pc-{{section.id}} {
+      border-top: solid #121212 0px;
+      border-bottom: solid #121212 0px;
+      margin-top: {{ layout_margin_top }}px;
+      margin-bottom: {{ layout_margin_bottom }}px;
+      margin-left: 0rem;
+      margin-right: 0rem;
+      border-radius: 0px;
+      overflow: hidden;
+    }
+
+    .section-pc-{{section.id}}-settings {
+      margin: 0 auto;
+      padding-top: 27px;
+      padding-bottom: 27px;
+      padding-left: 1.5rem;
+      padding-right: 1.5rem;
+    }
+
+    .testimonials-slider-pc-{{section.id}} {
+      position: relative !important;
+      margin-top: 40px !important;
+      margin-left: -1.5rem !important;
+      margin-right: -1.5rem !important;
+      padding-left: 1.5rem !important;
+      padding-right: 1.5rem !important;
+    }
+
+    .testimonials-slider-wrapper-pc-{{section.id}} {
+      align-items: center !important;
+    }
+
+    .testimonials-slide-pc-{{section.id}} {
+      opacity: 0.7;
+      transform: scale(0.9) !important;
+      height: auto !important;
+      box-sizing: border-box !important;
+      padding: 24px 24px !important;
+      border: {{ slide_border_width }}px {{ slide_border_style }} {{ slide_border_color }} !important;
+      border-radius: {{ slide_border_radius }}px !important;
+      background-color: {{ slide_background }} !important;
+      overflow: hidden !important;
+      transition: all 0.25s ease 0s;
+    }
+
+    .testimonials-slide-pc-{{section.id}}.swiper-slide-active {
+      opacity: 1;
+      transform: scale(1) !important;
+      transition: all 0.25s ease 0s;
+    }
+
+    .testimonials-slide-text-pc-{{section.id}} {
+      text-align: left;
+    }
+
+    .testimonials-slide-text-pc-{{section.id}} * {
+      margin: 0;
+      font-size: {{ slide_text_size_mobile }}px;
+      color: {{ slide_text_color }};
+      line-height: 160%;
+      text-transform: unset;
+      text-decoration: none;
+      word-break: break-word;
+    }
+
+    .testimonials-slide-verify-pc-{{section.id}} {
+      display: flex;
+      align-items: center;
+      gap: 5px;
+      justify-content: start;
+      margin-top: 10px;
+    }
+
+    .testimonials-slide-verify-icon-pc-{{section.id}} {
+      width: 20px;
+      height: 20px;
+    }
+
+    .testimonials-slide-verify-icon-pc-{{section.id}} img,
+    .testimonials-slide-verify-icon-pc-{{section.id}} svg {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .testimonials-slide-verify-icon-pc-{{section.id}} svg path {
+      fill: #cecece;
+    }
+
+    .testimonials-slide-verify-text-pc-{{section.id}} {
+      margin: 0;
+      text-align: left;
+      font-size: {{ slide_verify_text_size_mobile }}px;
+      color: {{ slide_verify_text_color }};
+      line-height: 130%;
+      text-transform: unset;
+      text-decoration: none;
+      word-break: break-word;
+    }
+
+    .testimonials-slide-bottom-pc-{{section.id}} {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      gap: 10px;
+      margin-top: 10px;
+    }
+
+    .testimonials-slide-author-pc-{{section.id}} {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .testimonials-slide-auhtor-image-pc-{{section.id}} {
+      flex-shrink: 0;
+      border: 0px solid #121212;
+      border-radius: 100px;
+      overflow: hidden;
+      aspect-ratio: 1/1;
+      width: 50px;
+    }
+
+    .testimonials-slide-auhtor-image-pc-{{section.id}} img,
+    .testimonials-slide-auhtor-image-pc-{{section.id}} svg {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .testimonials-slide-auhtor-image-pc-{{section.id}} svg {
+      background-color: #afafaf;
+    }
+
+    .testimonials-slide-author-name-pc-{{section.id}} {
+      margin: 0;
+      font-size: {{ slide_author_name_size_mobile }}px;
+      color: {{ slide_author_name_color }};
+      font-weight: {{ slide_author_name_weight }};
+      line-height: 130%;
+      text-transform: unset;
+      text-decoration: none;
+      word-break: break-word;
+    }
+
+    .testimonials-slide-author-date-pc-{{section.id}} {
+      margin: 0;
+      margin-top: 4px;
+      font-size: {{ slide_author_date_size_mobile }}px;
+      color: {{ slide_author_date_color }};
+      font-weight: {{ slide_author_date_weight }};
+      line-height: 130%;
+      text-transform: unset;
+      text-decoration: none;
+      word-break: break-word;
+    }
+
+    .testimonials-slide-rating-wrap-pc-{{section.id}} {
+      display: flex;
+      align-items: center;
+      gap: 5px;
+      justify-content: start;
+    }
+
+    .testimonials-slide-stars-pc-{{section.id}} {
+      display: flex;
+      align-items: center;
+      gap: 1px;
+      max-width: fit-content;
+    }
+
+    .testimonials-slide-stars-pc-{{section.id}} svg,
+    .testimonials-slide-stars-pc-{{section.id}} img {
+      display: block;
+      width: 18px;
+      height: 18px;
+      object-fit: cover;
+    }
+
+    .testimonials-btn-prev-pc-{{section.id}},
+    .testimonials-btn-next-pc-{{section.id}} {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      display: flex;
+      flex-shrink: 0;
+      z-index: 2;
+      width: 38px;
+      height: 38px;
+      border: 0px;
+      border: 0px solid #c7c7c7;
+      border-radius: 100px;
+      background: transparent;
+      background: #ebebeb;
+      align-items: center;
+      justify-content: center;
+      transition: all 0.3s ease 0s;
+      cursor: pointer;
+      -webkit-appearance: none;
+      /* box-shadow: 0px 0px 10px 0px rgba(0,0,0,.15); */
+    }
+
+    .testimonials-btn-prev-pc-{{section.id}} {
+      left: 5%;
+    }
+
+    .testimonials-btn-next-pc-{{section.id}} {
+      right: 5%;
+    }
+
+    .testimonials-btn-prev-pc-{{section.id}} .animate-icon,
+    .testimonials-btn-next-pc-{{section.id}} .animate-icon {
+      pointer-events: none;
+      place-items: center;
+      display: grid;
+    }
+
+    .testimonials-btn-prev-pc-{{section.id}} .animate-icon:before,
+    .testimonials-btn-next-pc-{{section.id}} .animate-icon:before {
+      content: '';
+      grid-area: 1 / -1;
+      transition: all 0.2s ease;
+      width: 8px;
+      height: 8px;
+      transform: rotate(calc(1 * 45deg));
+      box-sizing: border-box;
+      border-style: solid;
+      border: 0px;
+      border-right: 2px solid currentColor;
+      border-top: 2px solid currentColor;
+      position: relative;
+      left: -1px;
+    }
+
+    .testimonials-btn-prev-pc-{{section.id}} .animate-icon:before {
+      left: unset;
+      right: -1px;
+      border-right: 0px;
+      border-top: 0px;
+      border-bottom: 2px solid currentColor;
+      border-left: 2px solid currentColor;
+    }
+
+    .testimonials-btn-prev-pc-{{section.id}} .animate-icon:after,
+    .testimonials-btn-next-pc-{{section.id}} .animate-icon:after {
+      content: '';
+      grid-area: 1 / -1;
+      transition: all 0.2s ease;
+      width: 7.7px;
+      height: 1.6px;
+      transform-origin: center;
+      opacity: 0;
+      background: currentColor;
+      transform: scaleX(0.5);
+    }
+
+    .testimonials-btn-prev-pc-{{section.id}} span,
+    .testimonials-btn-next-pc-{{section.id}} span {
+      color: #7b7b7b;
+    }
+
+    .testimonials-btn-prev-pc-{{section.id}}.swiper-button-disabled,
+    .testimonials-btn-next-pc-{{section.id}}.swiper-button-disabled {
+      opacity: 0.5;
+    }
+
+    .testimonials-btn-prev-pc-{{section.id}}.swiper-button-lock,
+    .testimonials-btn-next-pc-{{section.id}}.swiper-button-lock {
+      opacity: 0;
+      pointer-events: none;
+    }
+
+    @media (min-width: 1024px) {
+      .section-pc-{{section.id}} {
+        margin-top: {{ layout_margin_top }}px;
+        margin-bottom: {{ layout_margin_bottom }}px;
+        margin-left: 0rem;
+        margin-right: 0rem;
+        border-radius: 0px;
+      }
+
+      .section-pc-{{section.id}}-settings {
+        padding: 0 5rem;
+        padding-top: 36px;
+        padding-bottom: 36px;
+        padding-left: 5rem;
+        padding-right: 5rem;
+      }
+
+      .testimonials-slider-pc-{{section.id}} {
+        margin-top: 32px !important;
+        margin-left: -5rem !important;
+        margin-right: -5rem !important;
+        padding-left: 5rem !important;
+        padding-right: 5rem !important;
+      }
+
+      .testimonials-slide-pc-{{section.id}} {
+        padding: 30px 30px !important;
+      }
+
+      .testimonials-slide-text-pc-{{section.id}} {
+        text-align: left;
+      }
+
+      .testimonials-slide-text-pc-{{section.id}} * {
+        font-size: {{ slide_text_size }}px;
+      }
+
+      .testimonials-slide-verify-pc-{{section.id}} {
+        justify-content: start;
+        margin-top: 10px;
+      }
+
+      .testimonials-slide-verify-icon-pc-{{section.id}} {
+        width: 20px;
+        height: 20px;
+      }
+
+      .testimonials-slide-verify-text-pc-{{section.id}} {
+        text-align: left;
+        font-size: {{ slide_verify_text_size }}px;
+      }
+
+      .testimonials-slide-bottom-pc-{{section.id}} {
+        margin-top: 10px;
+      }
+
+      .testimonials-slide-auhtor-image-pc-{{section.id}} {
+        width: 50px;
+      }
+
+      .testimonials-slide-author-name-pc-{{section.id}} {
+        font-size: {{ slide_author_name_size }}px;
+      }
+
+      .testimonials-slide-author-date-pc-{{section.id}} {
+        margin-top: 4px;
+        font-size: {{ slide_author_date_size }}px;
+      }
+
+      .testimonials-slide-stars-pc-{{section.id}} svg,
+      .testimonials-slide-stars-pc-{{section.id}} img {
+        display: block;
+        width: 18px;
+        height: 18px;
+        object-fit: cover;
+      }
+
+      .testimonials-btn-prev-pc-{{section.id}},
+      .testimonials-btn-next-pc-{{section.id}} {
+        width: 48px;
+        height: 48px;
+        transition: all 0.25s ease 0s;
+      }
+
+      .testimonials-btn-prev-pc-{{section.id}} .animate-icon:before,
+      .testimonials-btn-next-pc-{{section.id}} .animate-icon:before {
+        width: 10px;
+        height: 10px;
+      }
+
+      .testimonials-btn-prev-pc-{{section.id}} .animate-icon:after,
+      .testimonials-btn-next-pc-{{section.id}} .animate-icon:after {
+        width: 9.7px;
+      }
+    }
+  </style>
+
+  <style>
+    .testimonials-slide-pc-{{section.id}} {
+      box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+    }
+  </style>
+
+  <style>
+    .testimonials-btn-prev-pc-{{section.id}}:hover,
+    .testimonials-btn-next-pc-{{section.id}}:hover {
+      transition: all 0.3s ease 0s;
+      border: 0px solid #c7c7c7;
+      background: #f5f5f5;
+    }
+
+    .testimonials-btn-prev-pc-{{section.id}}:hover .animate-icon,
+    .testimonials-btn-next-pc-{{section.id}}:hover .animate-icon {
+      color: #7b7b7b;
+    }
+  </style>
+
+  <style>
+    .testimonials-btn-prev-pc-{{section.id}},
+    .testimonials-btn-next-pc-{{section.id}} {
+      display: none;
+    }
+  </style>
+
+  <style>
+    @media (min-width: 1024px) {
+      .testimonials-btn-prev-pc-{{section.id}},
+      .testimonials-btn-next-pc-{{section.id}} {
+        {% comment %} display: none; {% endcomment %}
+      }
+    }
+  </style>
+
+  <style>
+    
+
+    .testimonials-heading-heading_qwpxit {
+      text-align: center;
+    }
+
+    .testimonials-heading-heading_qwpxit * {
+      margin: 0;
+      font-size: {{ heading_size_mobile }}px;
+      color: {{ heading_color }};
+      line-height: 130%;
+      text-transform: unset;
+      text-decoration: none;
+      word-break: break-word;
+      font-weight: {{ heading_weight }};
+    }
+    @media (min-width: 1024px) {
+      .testimonials-heading-heading_qwpxit {
+        text-align: center;
+      }
+
+      .testimonials-heading-heading_qwpxit * {
+        font-size: {{ heading_size }}px;
+      }
+    }
+  </style>
+
+  <style>
+    
+
+    .testimonials-text-text_Qmfmwh {
+      text-align: center;
+      margin-top: 10px;
+    }
+
+    .testimonials-text-text_Qmfmwh * {
+      margin: 0;
+      font-size: {{ subheading_size_mobile }}px;
+      color: {{ subheading_color }};
+      font-weight: {{ subheading_weight }};
+      line-height: 150%;
+      text-transform: unset;
+      text-decoration: none;
+      word-break: break-word;
+    }
+    @media (min-width: 1024px) {
+      .testimonials-text-text_Qmfmwh {
+        text-align: center;
+        margin-top: 10px;
+      }
+
+      .testimonials-text-text_Qmfmwh * {
+        font-size: {{ subheading_size }}px;
+      }
+    }
+  </style>
+
+  <style>
+   
+
+    .testimonials-rating-wrap-rating_h47m6M {
+      display: flex;
+      align-items: center;
+      margin-top: 10px;
+      gap: 5px;
+      justify-content: center;
+    }
+
+    .testimonials-rating-text-rating_h47m6M * {
+      margin: 0;
+      font-size: {{ text_size_mobile }}px;
+      color: {{ text_color }};
+      line-height: 130%;
+      text-transform: unset;
+      text-decoration: none;
+      word-break: break-word;
+    }
+
+    .testimonials-stars-rating_h47m6M {
+      display: flex;
+      align-items: center;
+      gap: 2px;
+      max-width: fit-content;
+    }
+
+    .testimonials-stars-rating_h47m6M svg,
+    .testimonials-stars-rating_h47m6M img {
+      display: block;
+      width: 18px;
+      height: 18px;
+      object-fit: cover;
+    }
+    @media (min-width: 1024px) {
+      .testimonials-rating-wrap-rating_h47m6M {
+        justify-content: center;
+        margin-top: 10px;
+      }
+
+      .testimonials-rating-text-rating_h47m6M * {
+        font-size: {{ text_size }}px;
+      }
+
+      .testimonials-stars-rating_h47m6M svg,
+      .testimonials-stars-rating_h47m6M img {
+        width: 18px;
+        height: 18px;
+      }
+    }
+  </style>
+
+  <style>
+
+    .testimonials-button-wrap-button_EDLyU4 {
+      display: flex;
+      align-items: center;
+      width: 100%;
+      justify-content: center;
+    }
+
+    .testimonials-button-button_EDLyU4 {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      max-width: fit-content;
+      gap: 10px;
+      box-sizing: border-box;
+      width: 100%;
+      margin: 0;
+      margin-top: 30px;
+      font-size: {{ button_text_size_mobile }}px;
+      color: {{ button_text_color }};
+      line-height: 100%;
+      text-align: center;
+      text-transform: unset;
+      text-decoration: none;
+      padding: 16px 24px;
+      border-radius: {{ button_border_radius }}px;
+      transition: all 0.25s ease 0s;
+      background-color: transparent;
+      border: {{ button_border_width }}px {{button_border_style }} {{ button_border_color }};
+      cursor: pointer;
+      font-weight: {{ button_text_weight }};
+    }
+
+    .testimonials-button-inner-button_EDLyU4 {
+      margin: 0px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+    }
+
+    .testimonials-button-button_EDLyU4:hover {
+      {% comment %} color: #ffffff; {% endcomment %}
+      transition: all 0.25s ease 0s;
+    }
+
+    .testimonials-button-button_EDLyU4 svg {
+      width: 14px;
+      height: 14px;
+    }
+
+    .testimonials-button-button_EDLyU4 svg path {
+      {% comment %} fill: #ffffff; {% endcomment %}
+      transition: all 0.25s ease 0s;
+    }
+
+    .testimonials-button-button_EDLyU4:hover svg path {
+      {% comment %} fill: #ffffff; {% endcomment %}
+      transition: all 0.25s ease 0s;
+    }
+    @media (min-width: 1024px) {
+      .testimonials-button-wrap-button_EDLyU4 {
+        justify-content: center;
+      }
+
+      .testimonials-button-button_EDLyU4 {
+        margin-top: 30px;
+        padding: 16px 24px;
+        font-size: {{ button_text_size }}px;
+      }
+    }
+  </style>
+
+
+  <style>
+    .testimonials-button-button_EDLyU4 {
+      transition: all 0.25s ease 0s;
+      background-color: {{ button_background }};
+    }
+
+    .testimonials-button-button_EDLyU4:hover {
+      transition: all 0.25s ease 0s;
+      background-color: {{ button_background }};
+    }
+  </style>
+
+  <style>
+    .testimonials-slider-pc-{{section.id}}.preview .swiper-wrapper {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      overflow: hidden;
+    }
+
+    .testimonials-slider-pc-{{section.id}}.preview
+      .testimonials-slide-pc-{{section.id}} {
+      width: 100%;
+    }
+
+    .testimonials-slider-pc-{{section.id}}.preview
+      .testimonials-slide-pc-{{section.id}}:not(:first-child) {
+      margin-left: 0px;
+    }
+
+    @media (min-width: 1024px) {
+      .testimonials-slider-pc-{{section.id}}.preview
+        .testimonials-slide-pc-{{section.id}}:not(:first-child) {
+        margin-left: 0px;
+      }
+
+      .testimonials-slider-pc-{{section.id}}.preview
+        .testimonials-slide-pc-{{section.id}} {
+        width: calc(100% / 3.5 - (0px));
+      }
+    }
+  </style>
+
+  <div
+    class="section-pc-{{section.id}} testimonials-pc-{{section.id}}"
+    style="background-color: {{layout_background }} ; background-image: {{ layout_background_image }};"
+  >
+    <div class="section-pc-{{section.id}}-settings">
+        {% if heading != blank %}
+      <div class="testimonials-heading-heading_qwpxit"><h2> {{ heading }} </h2></div>
+            {%endif %}
+            {%if subheading != blank %}
+      <div class="testimonials-text-text_Qmfmwh"><p>{{ subheading }}</p></div>
+            {%endif %}
+      <div class="testimonials-rating-wrap-rating_h47m6M">
+
+        <div class="testimonials-rating-text-rating_h47m6M"><p>{{ text }}</p></div>
+
+        <div class="testimonials-stars-rating_h47m6M">
+            {%for i in (1..rating) %}
+          <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+
+            <rect width="32" height="32" fill="{{ rating_color }}"></rect>
+            <g clip-path="url(#clip0_25_4)">
+            <path d="M9.20283 27L16.001 21.807L22.7972 27L20.2018 18.596L27 13.403H18.5984L16.001 5L13.4037 13.403H5L11.7982 18.596L9.20283 27Z" fill="#ffffff"></path>
+            </g>
+            <defs>
+            <clipPath id="clip0_25_4">
+            <rect width="22" height="22" fill="#ffffff" transform="translate(5 5)"></rect>
+            </clipPath>
+            </defs>
+          </svg>
+          {%endfor %}
+        </div>
+      </div>
+
+      <div
+        class="testimonials-slider-pc-{{section.id}} "
+        data-gap="0"
+        data-gap-mobile="0"
+        data-view="3.5"
+        data-view-mobile="1.2"
+      >
+        <div
+          class="swiper-wrapper testimonials-slider-wrapper-pc-{{section.id}}"
+        >
+            {%for block in section.blocks %}
+          <div
+            class="testimonials-slide-pc-{{section.id}} swiper-slide "
+          >
+            <div class="testimonials-slide-text-pc-{{section.id}}">
+              <p>
+                {{ block.settings.text }}
+            </p>
+            </div>
+
+            <div class="testimonials-slide-verify-pc-{{section.id}}">
+              <div class="testimonials-slide-verify-icon-pc-{{section.id}}">
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="#121212" viewBox="0 0 256 256">
+                  <path d="M225.86,102.82c-3.77-3.94-7.67-8-9.14-11.57-1.36-3.27-1.44-8.69-1.52-13.94-.15-9.76-.31-20.82-8-28.51s-18.75-7.85-28.51-8c-5.25-.08-10.67-.16-13.94-1.52-3.56-1.47-7.63-5.37-11.57-9.14C146.28,23.51,138.44,16,128,16s-18.27,7.51-25.18,14.14c-3.94,3.77-8,7.67-11.57,9.14C88,40.64,82.56,40.72,77.31,40.8c-9.76.15-20.82.31-28.51,8S41,67.55,40.8,77.31c-.08,5.25-.16,10.67-1.52,13.94-1.47,3.56-5.37,7.63-9.14,11.57C23.51,109.72,16,117.56,16,128s7.51,18.27,14.14,25.18c3.77,3.94,7.67,8,9.14,11.57,1.36,3.27,1.44,8.69,1.52,13.94.15,9.76.31,20.82,8,28.51s18.75,7.85,28.51,8c5.25.08,10.67.16,13.94,1.52,3.56,1.47,7.63,5.37,11.57,9.14C109.72,232.49,117.56,240,128,240s18.27-7.51,25.18-14.14c3.94-3.77,8-7.67,11.57-9.14,3.27-1.36,8.69-1.44,13.94-1.52,9.76-.15,20.82-.31,28.51-8s7.85-18.75,8-28.51c.08-5.25.16-10.67,1.52-13.94,1.47-3.56,5.37-7.63,9.14-11.57C232.49,146.28,240,138.44,240,128S232.49,109.73,225.86,102.82Zm-11.55,39.29c-4.79,5-9.75,10.17-12.38,16.52-2.52,6.1-2.63,13.07-2.73,19.82-.1,7-.21,14.33-3.32,17.43s-10.39,3.22-17.43,3.32c-6.75.1-13.72.21-19.82,2.73-6.35,2.63-11.52,7.59-16.52,12.38S132,224,128,224s-9.15-4.92-14.11-9.69-10.17-9.75-16.52-12.38c-6.1-2.52-13.07-2.63-19.82-2.73-7-.1-14.33-.21-17.43-3.32s-3.22-10.39-3.32-17.43c-.1-6.75-.21-13.72-2.73-19.82-2.63-6.35-7.59-11.52-12.38-16.52S32,132,32,128s4.92-9.15,9.69-14.11,9.75-10.17,12.38-16.52c2.52-6.1,2.63-13.07,2.73-19.82.1-7,.21-14.33,3.32-17.43S70.51,56.9,77.55,56.8c6.75-.1,13.72-.21,19.82-2.73,6.35-2.63,11.52-7.59,16.52-12.38S124,32,128,32s9.15,4.92,14.11,9.69,10.17,9.75,16.52,12.38c6.1,2.52,13.07,2.63,19.82,2.73,7,.1,14.33.21,17.43,3.32s3.22,10.39,3.32,17.43c.1,6.75.21,13.72,2.73,19.82,2.63,6.35,7.59,11.52,12.38,16.52S224,124,224,128,219.08,137.15,214.31,142.11ZM173.66,98.34a8,8,0,0,1,0,11.32l-56,56a8,8,0,0,1-11.32,0l-24-24a8,8,0,0,1,11.32-11.32L112,148.69l50.34-50.35A8,8,0,0,1,173.66,98.34Z"></path>
+                </svg>
+              </div>
+
+              <p class="testimonials-slide-verify-text-pc-{{section.id}}">
+                {{ block.settings.verified }}
+              </p>
+            </div>
+
+            <div class="testimonials-slide-bottom-pc-{{section.id}}">
+              <div class="testimonials-slide-author-pc-{{section.id}}">
+                <div class="testimonials-slide-auhtor-image-pc-{{section.id}}">
+                  <img
+                    src="{{block.settings.img | img_url: 'master'}}"
+                    alt=""
+                  >
+                </div>
+                <div class="testimonials-slide-author-content-pc-{{section.id}}">
+                  <p class="testimonials-slide-author-name-pc-{{section.id}}">
+                    {{ block.settings.author_name }}
+                  </p>
+
+                  <p class="testimonials-slide-author-date-pc-{{section.id}}">
+                    {{ block.settings.posted_date }}
+                  </p>
+                </div>
+              </div>
+              <div class="testimonials-slide-stars-pc-{{section.id}} testimonials-slide-stars-testimonial_WWU6CV">
+                {%for i in (1..block.settings.rating) %}
+                <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+
+                  <rect width="32" height="32" fill="{{slide_rating_color}}"></rect>
+                  <g clip-path="url(#clip0_25_4)">
+                  <path d="M9.20283 27L16.001 21.807L22.7972 27L20.2018 18.596L27 13.403H18.5984L16.001 5L13.4037 13.403H5L11.7982 18.596L9.20283 27Z" fill="#ffffff"></path>
+                  </g>
+                  <defs>
+                  <clipPath id="clip0_25_4">
+                  <rect width="22" height="22" fill="#ffffff" transform="translate(5 5)"></rect>
+                  </clipPath>
+                  </defs>
+                </svg>
+                {%endfor %}
+              </div>
+            </div>
+          </div>
+        {% endfor %}
+        </div>
+        <button
+          class="testimonials-btn-prev-pc-{{section.id}}"
+          tabindex="0"
+          aria-label="Previous slide"
+          aria-controls="swiper-wrapper-7014a46b82433d91"
+        >
+          <span class="animate-icon"></span>
+        </button>
+        <button
+          class="testimonials-btn-next-pc-{{section.id}}"
+          tabindex="0"
+          aria-label="Next slide"
+          aria-controls="swiper-wrapper-7014a46b82433d91"
+        >
+          <span class="animate-icon"></span>
+        </button>
+        <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>
+      </div>
+
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+  <script>
+    function initTestimonials33() {
+      const slider = new Swiper(`.testimonials-slider-pc-{{section.id}}`, {
+        speed: 300,
+        loop: true,
+        centeredSlides: true,
+        navigation: {
+          nextEl: `.testimonials-btn-next-pc-{{section.id}}`,
+          prevEl: `.testimonials-btn-prev-pc-{{section.id}}`,
+        },
+
+        autoplay: {
+          delay: 4000,
+        },
+
+        breakpoints: {
+          320: {
+            spaceBetween: parseInt(
+              document.querySelector(`.testimonials-slider-pc-{{section.id}}`).dataset
+                .gapMobile || 0
+            ),
+            slidesPerView: parseFloat(
+              document.querySelector(`.testimonials-slider-pc-{{section.id}}`).dataset
+                .viewMobile || 1
+            ),
+          },
+          768: {
+            spaceBetween: parseInt(
+              document.querySelector(`.testimonials-slider-pc-{{section.id}}`).dataset
+                .gap || 0
+            ),
+            slidesPerView: parseFloat(
+              document.querySelector(`.testimonials-slider-pc-{{section.id}}`).dataset
+                .view || 3
+            ),
+          },
+          1024: {
+            spaceBetween: parseInt(
+              document.querySelector(`.testimonials-slider-pc-{{section.id}}`).dataset
+                .gap || 0
+            ),
+            slidesPerView: parseFloat(
+              document.querySelector(`.testimonials-slider-pc-{{section.id}}`).dataset
+                .view || 3
+            ),
+          },
+        },
+      });
+    }
+
+    document.addEventListener('DOMContentLoaded', initTestimonials33);
+
+    if (Shopify.designMode) {
+      document.addEventListener('shopify:section:unload', initTestimonials33);
+      document.addEventListener('shopify:section:load', initTestimonials33);
+    }
+  </script>
+</div>
+
 {% schema %}
-  {
-    "name": "Section name",
-    "settings": []
-  }
+{
+    "name": "PC - Testimonials #133",
+    "settings": [
+        {
+            "type": "header",
+            "content": "Heading Settings"
+        },
+        {
+            "type": "text",
+            "id": "heading",
+            "label": "Heading",
+            "default": "In your own words"
+        },
+        {
+            "type": "range",
+            "id": "heading_size",
+            "label": "Heading Size",
+            "default": 28,
+            "min": 10,
+            "max": 100,
+            "step": 1
+        },
+        {
+            "type": "select",
+            "id": "heading_weight",
+            "label": "Heading Weight",
+            "default": "700",
+            "options": [
+                {
+                    "value": "400",
+                    "label": "Normal"
+                },
+                {
+                    "value": "700",
+                    "label": "Bold"
+                }
+            ]
+        },
+        {
+            "type": "color",
+            "id": "heading_color",
+            "label": "Heading Color",
+            "default": "#121212"
+        },
+        {
+            "type": "range",
+            "id": "heading_size_mobile",
+            "label": "Heading Size Mobile",
+            "default": 20,
+            "min": 10,
+            "max": 100,
+            "step": 1
+        },
+        {
+            "type": "header",
+            "content": "Subheading Settings"
+        },
+        {
+            "type": "text",
+            "id": "subheading",
+            "label": "Subheading",
+            "default": "Based on 1 067 reviews"
+        },
+        {
+            "type": "range",
+            "id": "subheading_size",
+            "label": "Subheading Size",
+            "default": 16,
+            "min": 10,
+            "max": 100,
+            "step": 1
+        },
+        {
+            "type": "select",
+            "id": "subheading_weight",
+            "label": "Subheading Weight",
+            "default": "500",
+            "options": [
+                {
+                    "value": "400",
+                    "label": "Normal"
+                },
+                {
+                    "value": "500",
+                    "label": "Medium"
+                }
+            ]
+        },
+        {
+            "type": "color",
+            "id": "subheading_color",
+            "label": "Subheading Color",
+            "default": "#121212"
+        },
+        {
+            "type": "range",
+            "id": "subheading_size_mobile",
+            "label": "Subheading Size Mobile",
+            "default": 14,
+            "min": 10,
+            "max": 100,
+            "step": 1
+        },
+        {
+            "type": "header",
+            "content": "Text Settings"
+        },
+        {
+            "type": "textarea",
+            "id": "text",
+            "label": "Text",
+            "default": "Very good 4.7/5"
+        },
+        {
+            "type": "range",
+            "id": "text_size",
+            "label": "Text Size",
+            "default": 16,
+            "min": 10,
+            "max": 100,
+            "step": 1
+        },
+        {
+            "type": "color",
+            "id": "text_color",
+            "label": "Text Color",
+            "default": "#121212"
+        },
+        {
+            "type": "range",
+            "id": "text_size_mobile",
+            "label": "Text Size Mobile",
+            "default": 14,
+            "min": 10,
+            "max": 100,
+            "step": 1
+        },
+        {
+            "type": "header",
+            "content": "Rating Settings"
+        },
+        {
+            "type": "range",
+            "id": "rating",
+            "label": "Rating",
+            "default": 5,
+            "min": 0,
+            "max": 5,
+            "step": 1
+        },
+        {
+            "type": "color",
+            "id": "rating_color",
+            "label": "Rating Color",
+            "default": "#00b67a"
+        },
+        
+        {
+            "type": "header",
+            "content": "Slide Settings"
+        },
+        {
+            "type": "color",
+            "id": "slide_background",
+            "label": "Slide Background Color",
+            "default": "#ffffff"
+        },
+        {
+            "type": "range",
+            "id": "slide_border_width",
+            "label": "Slide Border Width",
+            "default": 0,
+            "min": 0,
+            "max": 10,
+            "step": 1
+        },
+        {
+            "type": "select",
+            "id": "slide_border_style",
+            "label": "Slide Border Style",
+            "default": "solid",
+            "options": [
+                {
+                    "value": "solid",
+                    "label": "Solid"
+                },
+                {
+                    "value": "dashed",
+                    "label": "Dashed"
+                },
+                {
+                    "value": "dotted",
+                    "label": "Dotted"
+                }
+            ]
+        },
+        {
+            "type": "color",
+            "id": "slide_border_color",
+            "label": "Slide Border Color",
+            "default": "#121212"
+        },
+        {
+            "type": "range",
+            "id": "slide_border_radius",
+            "label": "Slide Border Radius",
+            "default": 10,
+            "min": 0,
+            "max": 50,
+            "step": 1
+        },
+        {
+            "type": "range",
+            "id": "slide_text_size",
+            "label": "Slide Text Size",
+            "default": 14,
+            "min": 10,
+            "max": 100,
+            "step": 1
+        },
+        {
+            "type": "color",
+            "id": "slide_text_color",
+            "label": "Slide Text Color",
+            "default": "#121212"
+        },
+        {
+            "type": "range",
+            "id": "slide_text_size_mobile",
+            "label": "Slide Text Size Mobile",
+            "default": 12,
+            "min": 10,
+            "max": 100,
+            "step": 1
+        },
+        {
+            "type": "range",
+            "id": "slide_verify_text_size",
+            "label": "Slide Verify Text Size",
+            "default": 14,
+            "min": 10,
+            "max": 100,
+            "step": 1
+        },
+        {
+            "type": "color",
+            "id": "slide_verify_text_color",
+            "label": "Slide Verify Text Color",
+            "default": "#121212"
+        },
+        {
+            "type": "range",
+            "id": "slide_verify_text_size_mobile",
+            "label": "Slide Verify Text Size Mobile",
+            "default": 12,
+            "min": 10,
+            "max": 100,
+            "step": 1
+        },
+        {
+            "type": "range",
+            "id": "slide_author_name_size",
+            "label": "Slide Author Name Size",
+            "default": 14,
+            "min": 10,
+            "max": 100,
+            "step": 1
+        },
+        {
+            "type": "color",
+            "id": "slide_author_name_color",
+            "label": "Slide Author Name Color",
+            "default": "#121212"
+        },
+        {
+            "type": "select",
+            "id": "slide_author_name_weight",
+            "label": "Slide Author Name Weight",
+            "default": "700",
+            "options": [
+                {
+                    "value": "400",
+                    "label": "Normal"
+                },
+                {
+                    "value": "700",
+                    "label": "Bold"
+                }
+            ]
+        },
+        {
+            "type": "range",
+            "id": "slide_author_name_size_mobile",
+            "label": "Slide Author Name Size Mobile",
+            "default": 12,
+            "min": 10,
+            "max": 100,
+            "step": 1
+        },
+        {
+            "type": "range",
+            "id": "slide_author_date_size",
+            "label": "Slide Author Date Size",
+            "default": 10,
+            "min": 10,
+            "max": 100,
+            "step": 1
+        },
+        {
+            "type": "color",
+            "id": "slide_author_date_color",
+            "label": "Slide Author Date Color",
+            "default": "#121212"
+        },
+        {
+            "type": "select",
+            "id": "slide_author_date_weight",
+            "label": "Slide Author Date Weight",
+            "default": "400",
+            "options": [
+                {
+                    "value": "400",
+                    "label": "Normal"
+                },
+                {
+                    "value": "700",
+                    "label": "Bold"
+                }
+            ]
+        },
+        {
+            "type": "range",
+            "id": "slide_author_date_size_mobile",
+            "label": "Slide Author Date Size Mobile",
+            "default": 10,
+            "min": 10,
+            "max": 100,
+            "step": 1
+        },
+        {
+            "type": "color",
+            "id": "slide_rating_color",
+            "label": "Slide Rating Color",
+            "default": "#00b67a"
+        },
+        {
+            "type": "header",
+            "content": "Layout Settings"
+        },
+        
+        {
+            "type": "color_background",
+            "id": "layout_background_image",
+            "label": "Layout Background gradient",
+            "default": "linear-gradient(180deg, rgba(255, 255, 255, 1), rgba(5, 11, 3, 0.41) 150%)"
+        },
+        {
+            "type": "range",
+            "id": "layout_margin_top",
+            "label": "Layout Margin Top",
+            "default": 0,
+            "min": 0,
+            "max": 100,
+            "step": 1
+        },
+        {
+            "type": "range",
+            "id": "layout_margin_bottom",
+            "label": "Layout Margin Bottom",
+            "default": 0,
+            "min": 0,
+            "max": 100,
+            "step": 1
+        }
+    ],
+    "presets": [
+        {
+            "category": "Testimonials",
+            "name": "PC - Testimonials #133",
+            "blocks": [
+                {
+                    "type": "slide",
+                    "settings": {
+                        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+                        "verified": "Verified Buyer",
+                        "author_name": "John Doe",
+                        "posted_date": "2 minutes ago",
+                        "rating": 5
+                    }
+                },
+                {
+                    "type": "slide",
+                    "settings": {
+                        "text": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                        "verified": "Verified Buyer",
+                        "author_name": "Jane Smith",
+                        "posted_date": "1 hour ago",
+                        "rating": 4
+                    }
+                },
+                {
+                    "type": "slide",
+                    "settings": {
+                        "text": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.",
+                        "verified": "Verified Buyer",
+                        "author_name": "Alice Johnson",
+                        "posted_date": "3 days ago",
+                        "rating": 5
+                    }
+                },
+                {
+                    "type": "slide",
+                    "settings": {
+                        "text": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore.",
+                        "verified": "Verified Buyer",
+                        "author_name": "Bob Brown",
+                        "posted_date": "1 week ago",
+                        "rating": 3
+                    }
+                },
+                {
+                    "type": "slide",
+                    "settings": {
+                        "text": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia.",
+                        "verified": "Verified Buyer",
+                        "author_name": "Charlie Davis",
+                        "posted_date": "2 weeks ago",
+                        "rating": 4
+                    }
+                },
+                {
+                    "type": "slide",
+                    "settings": {
+                        "text": "Mollit anim id est laborum. Lorem ipsum dolor sit amet.",
+                        "verified": "Verified Buyer",
+                        "author_name": "Diana Evans",
+                        "posted_date": "1 month ago",
+                        "rating": 5
+                    }
+                },
+                {
+                    "type": "slide",
+                    "settings": {
+                        "text": "Consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
+                        "verified": "Verified Buyer",
+                        "author_name": "Eve Foster",
+                        "posted_date": "3 months ago",
+                        "rating": 4
+                    }
+                }
+            ]
+        }
+    ],
+    "blocks": [
+        {
+            "type": "slide",
+            "name": "Slide",
+            "settings": [
+                {
+                    "type": "textarea",
+                    "id": "text",
+                    "label": "Testimonial",
+                    "default": "Lorem ipsum dolor sit amet consectur, scola hostis in bellum umbra sanctus expello nex"
+                },
+                {
+                    "type": "text",
+                    "id": "verified",
+                    "label": "Verify",
+                    "default": "Verified Buyer"
+                },
+                {
+                    "type": "image_picker",
+                    "id": "img",
+                    "label": "Author Image"
+                },
+                {
+                    "type": "text",
+                    "id": "author_name",
+                    "label": "Author Name",
+                    "default": "John Doe"
+                },
+                {
+                    "type": "text",
+                    "id": "posted_date",
+                    "label": "Posted date",
+                    "default": "2 minutes ago"
+                },
+                {
+                    "type": "range",
+                    "id": "rating",
+                    "label": "Rating",
+                    "default": 5,
+                    "min": 0,
+                    "max": 5,
+                    "step": 1
+                }
+            ]
+        }
+    ],
+}
 {% endschema %}
