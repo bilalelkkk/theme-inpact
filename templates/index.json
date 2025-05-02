@@ -26,7 +26,7 @@
         "slide-1": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Sans_titre_1500_x_1500_px.png",
+            "image": "shopify://shop_images/Banniere_OK.png",
             "content_max_width": 780,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
@@ -124,7 +124,7 @@
         "heading_zBwMwN": {
           "type": "heading",
           "settings": {
-            "text": "Pourquoi choisir EclatDent ?",
+            "text": "Pourquoi choisir BilSmile ?",
             "heading_tag": "h3",
             "text_color": "",
             "gradient": ""
@@ -133,7 +133,7 @@
         "image_GqAxmf": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Facette_Dentaire.png",
+            "image": "shopify://shop_images/benefices.png",
             "width_mode": "custom",
             "max_width": 1000,
             "mobile_max_width": 600
@@ -444,6 +444,83 @@
         "heading_gradient": ""
       }
     },
+    "logo_list_Ymb7PX": {
+      "type": "logo-list",
+      "blocks": {
+        "logo_kcWjyE": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/Dents_Manquantes_1.png",
+            "logo_width": 300,
+            "link": ""
+          }
+        },
+        "logo_f48zNB": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/Dents_Tachees_2.png",
+            "logo_width": 300,
+            "link": ""
+          }
+        },
+        "logo_nGXCwK": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/Dents_Courtes_3.png",
+            "logo_width": 300,
+            "link": ""
+          }
+        },
+        "logo_TpKKit": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/Dents_Tordues_5_71d17ae0-3a05-4e45-b0c2-f16883befab6.png",
+            "logo_width": 300,
+            "link": ""
+          }
+        },
+        "logo_HzxjNU": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/Dents_Cassees_4_ee656a1e-cb0b-4dd8-87da-e8deed29063c.png",
+            "logo_width": 300,
+            "link": ""
+          }
+        },
+        "logo_pUXUXB": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/Espaces_entre_les_dents_6.png",
+            "logo_width": 300,
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "logo_kcWjyE",
+        "logo_f48zNB",
+        "logo_nGXCwK",
+        "logo_TpKKit",
+        "logo_HzxjNU",
+        "logo_pUXUXB"
+      ],
+      "name": "Logo list",
+      "settings": {
+        "full_width": true,
+        "stack_mobile": false,
+        "title": "Avant les facettes …",
+        "content": "",
+        "text_alignment": "center",
+        "items_per_row": 5,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "logo_item_background": "#ffffff",
+        "logo_item_border": ""
+      }
+    },
     "rich_text_8AmNCT": {
       "type": "rich-text",
       "blocks": {
@@ -616,6 +693,7 @@
     "rich_text_iCG3tA",
     "featured_product_yJHJTN",
     "tabs_tikiTy",
+    "logo_list_Ymb7PX",
     "rich_text_8AmNCT",
     "custom_liquid_pxYj9j",
     "faq",
