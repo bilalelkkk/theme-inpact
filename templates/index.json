@@ -521,6 +521,68 @@
         "logo_item_border": ""
       }
     },
+    "multi_column_9BRDDU": {
+      "type": "multi-column",
+      "blocks": {
+        "item_gCpfE4": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/gempages_519105540727505808-179b8929-c889-493e-88dc-028f8d849ff0_1024x_f1f9a7ae-da35-42e4-b323-f82ce55ce5e5.png",
+            "column_size": "3",
+            "title": "Column title",
+            "heading_tag": "h4",
+            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_HNVMLr": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/gempages_532016320011568021-02ffaca8-6cb1-4bc1-9977-ce502b6c926e.png",
+            "column_size": "3",
+            "title": "Column title",
+            "heading_tag": "h4",
+            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_xXMzmq": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/gempages_532016320011568021-35d19801-8129-4dd0-a6ba-4f2b57e11223.jpg",
+            "column_size": "3",
+            "title": "Column title",
+            "heading_tag": "h4",
+            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "item_gCpfE4",
+        "item_HNVMLr",
+        "item_xXMzmq"
+      ],
+      "name": "Multi-column",
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "gap": "medium",
+        "text_alignment": "start",
+        "subheading": "About",
+        "title": "Featured content",
+        "content": "<p>Organize content into multiple columns to share useful information to your customers about your products, values...</p>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "rich_text_8AmNCT": {
       "type": "rich-text",
       "blocks": {
@@ -694,6 +756,7 @@
     "featured_product_yJHJTN",
     "tabs_tikiTy",
     "logo_list_Ymb7PX",
+    "multi_column_9BRDDU",
     "rich_text_8AmNCT",
     "custom_liquid_pxYj9j",
     "faq",
