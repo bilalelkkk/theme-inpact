@@ -350,6 +350,14 @@
             "alignment": "center",
             "max_width": 500
           }
+        },
+        "image_wPYAJN": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Cadeau.png",
+            "alignment": "center",
+            "max_width": 500
+          }
         }
       },
       "block_order": [
@@ -360,7 +368,8 @@
         "buy_buttons_MW7ihw",
         "pickup_availability_etUTLc",
         "liquid_LXNKJb",
-        "image_QhCbh4"
+        "image_QhCbh4",
+        "image_wPYAJN"
       ],
       "settings": {
         "full_width": true,
