@@ -527,11 +527,11 @@
         "item_gCpfE4": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/gempages_519105540727505808-179b8929-c889-493e-88dc-028f8d849ff0_1024x_f1f9a7ae-da35-42e4-b323-f82ce55ce5e5.png",
+            "image": "shopify://shop_images/Avis.png",
             "column_size": "3",
-            "title": "Column title",
+            "title": "Une transformation immédiate",
             "heading_tag": "h4",
-            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "content": "<p>Cela m'a donné un vrai sourire hollywoodien. J'avais peur qu'ils ne s'adaptent pas, mais le moulage était parfait.</p>",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
@@ -540,11 +540,37 @@
         "item_HNVMLr": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/gempages_532016320011568021-02ffaca8-6cb1-4bc1-9977-ce502b6c926e.png",
+            "image": "shopify://shop_images/Avis_1.png",
             "column_size": "3",
-            "title": "Column title",
+            "title": "Je les mets en 2 minutes",
             "heading_tag": "h4",
-            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "content": "<p>Je pensais qu'ils feraient une drôle de sensation, mais ils sont superbes et me vont à merveille. Super faciles à modeler, et je peux manger avec.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_teLVmJ": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Avis_4.png",
+            "column_size": "3",
+            "title": "Enfin une solution abordable",
+            "heading_tag": "h4",
+            "content": "<p>Elles épousent parfaitement la forme et restent en place toute la journée. Une solution idéale pour un plus beau sourire sans se ruiner !</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_K7NGAa": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Avis_3.png",
+            "column_size": "3",
+            "title": "J’ai repris goût à sourire en public",
+            "heading_tag": "h4",
+            "content": "<p>J'avais un mariage de prévu et je voulais que mon sourire soit impeccable. Franchement le résultat est bluffant.</p>",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
@@ -553,11 +579,11 @@
         "item_xXMzmq": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/gempages_532016320011568021-35d19801-8129-4dd0-a6ba-4f2b57e11223.jpg",
+            "image": "shopify://shop_images/Avis_2.png",
             "column_size": "3",
-            "title": "Column title",
+            "title": "Des facettes bluffantes",
             "heading_tag": "h4",
-            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "content": "<p>J'avais peur que ça fasse faux, mais en réalité, l'effet est super discret. Mes proches ont juste remarqué que j'avais un sourire plus éclatant, sans deviner pourquoi.</p>",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
@@ -567,6 +593,8 @@
       "block_order": [
         "item_gCpfE4",
         "item_HNVMLr",
+        "item_teLVmJ",
+        "item_K7NGAa",
         "item_xXMzmq"
       ],
       "name": "Multi-column",
@@ -574,62 +602,10 @@
         "full_width": true,
         "stack_on_mobile": false,
         "gap": "medium",
-        "text_alignment": "start",
-        "subheading": "About",
-        "title": "Featured content",
-        "content": "<p>Organize content into multiple columns to share useful information to your customers about your products, values...</p>",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
-    "rich_text_8AmNCT": {
-      "type": "rich-text",
-      "blocks": {
-        "subheading_3aktgw": {
-          "type": "subheading",
-          "settings": {
-            "text": ""
-          }
-        },
-        "heading_HJJwGL": {
-          "type": "heading",
-          "settings": {
-            "text": "Nos clients en parlent mieux que nous !",
-            "heading_tag": "h3",
-            "text_color": "",
-            "gradient": ""
-          }
-        },
-        "richtext_3fErNp": {
-          "type": "richtext",
-          "settings": {
-            "content": ""
-          }
-        }
-      },
-      "block_order": [
-        "subheading_3aktgw",
-        "heading_HJJwGL",
-        "richtext_3fErNp"
-      ],
-      "name": "Rich text",
-      "settings": {
-        "full_width": true,
-        "content_width": "small",
-        "text_position": "center",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
-    "custom_liquid_pxYj9j": {
-      "type": "custom-liquid",
-      "settings": {
-        "full_width": true,
-        "remove_vertical_spacing": false,
-        "remove_horizontal_spacing": false,
-        "liquid": "<!-- Section Avis Clients Keralis - Copywriting Optimisé - Sans logo Trustpilot -->\n<style>\n  .trustpilot-reviews-section {\n    display: flex;\n    justify-content: space-between;\n    padding: 20px;\n    background-color: #f9f9f9;\n    border-radius: 8px;\n    position: relative;\n  }\n\n  .trustpilot-summary {\n    flex-basis: 20%;\n    text-align: left;\n  }\n\n  .trustpilot-summary h2 {\n    font-size: 24px;\n    font-weight: bold;\n    margin-bottom: 10px;\n  }\n\n  .trustpilot-stars img {\n    width: 100px;\n    margin-bottom: 10px;\n  }\n\n  .review-carousel {\n    display: flex;\n    flex-basis: 75%;\n    overflow: hidden;\n    position: relative;\n  }\n\n  .review-card {\n    width: 270px;\n    padding: 15px;\n    margin-right: 15px;\n    background-color: #fff;\n    border: 1px solid #eaeaea;\n    border-radius: 8px;\n    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);\n    transition: transform 0.3s ease;\n    flex-shrink: 0;\n  }\n\n  .review-card:hover {\n    transform: scale(1.05);\n  }\n\n  .review-card img {\n    width: 70px;\n  }\n\n  .review-card p {\n    margin: 5px 0;\n    font-size: 14px;\n  }\n\n  .review-card strong {\n    font-weight: bold;\n  }\n\n  .nav-arrow {\n    position: absolute;\n    top: 50%;\n    transform: translateY(-50%);\n    background-color: #fff;\n    border: 2px solid #ddd;\n    border-radius: 50%;\n    width: 40px;\n    height: 40px;\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    cursor: pointer;\n    transition: background-color 0.3s ease, box-shadow 0.3s ease;\n    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);\n  }\n\n  .nav-arrow:hover {\n    background-color: #f0f0f0;\n    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);\n  }\n\n  .arrow-left {\n    left: -20px;\n  }\n\n  .arrow-right {\n    right: -20px;\n  }\n\n  .nav-arrow::before {\n    content: '';\n    display: block;\n    border: solid #333;\n    border-width: 0 3px 3px 0;\n    padding: 5px;\n  }\n\n  .arrow-left::before {\n    transform: rotate(135deg);\n  }\n\n  .arrow-right::before {\n    transform: rotate(-45deg);\n  }\n\n  @media (max-width: 768px) {\n    .trustpilot-reviews-section {\n      flex-direction: column;\n      padding: 10px;\n    }\n\n    .trustpilot-summary {\n      flex-basis: 100%;\n      text-align: center;\n      margin-bottom: 20px;\n    }\n\n    .trustpilot-stars img {\n      width: 80px;\n      margin: 0 auto;\n    }\n\n    .review-carousel {\n      flex-basis: 100%;\n      overflow-x: auto;\n      padding-bottom: 10px;\n    }\n\n    .review-card {\n      min-width: 85%;\n      margin-right: 10px;\n    }\n\n    .nav-arrow {\n      display: none;\n    }\n  }\n</style>\n\n<div class=\"trustpilot-reviews-section\">\n  <div class=\"trustpilot-summary\">\n    <h2>Excellent !</h2>\n    <div class=\"trustpilot-stars\">\n      <img src=\"https://cdn.shopify.com/s/files/1/0891/0028/8264/files/stars-5.svg?v=1727197779\" alt=\"5 stars rating\">\n    </div>\n    <p>Basé sur plus de 403 avis</p>\n  </div>\n\n  <div class=\"review-carousel\" id=\"review-carousel\">\n\n    <!-- AVIS 1 -->\n    <div class=\"review-card\">\n      <img src=\"https://cdn.shopify.com/s/files/1/0891/0028/8264/files/stars-5.svg?v=1727197779\" alt=\"5 stars rating\">\n      <p><strong>Vérifié</strong></p>\n      <p></p>\n      <p>J’ai retrouvé confiance en moi dès la première pose. Les facettes sont faciles à mettre, hyper naturelles, et personne ne remarque que ce ne sont pas mes vraies dents !</p>\n      <p><strong>Sarah L.</strong> – 15/03/2025</p>\n    </div>\n\n    <!-- AVIS 2 -->\n    <div class=\"review-card\">\n      <img src=\"https://cdn.shopify.com/s/files/1/0891/0028/8264/files/stars-5.svg?v=1727197779\" alt=\"5 stars rating\">\n      <p><strong>Vérifié</strong></p>\n      <p></p>\n      <p>Bluffée par le résultat ! Moi qui complexe sur mes dents depuis des années…\nLà, c’est instantané. Je souris tout le temps maintenant.</p>\n      <p><strong>Karim T.</strong> – 18/03/2025</p>\n    </div>\n\n    <!-- AVIS 3 -->\n    <div class=\"review-card\">\n      <img src=\"https://cdn.shopify.com/s/files/1/0891/0028/8264/files/stars-5.svg?v=1727197779\" alt=\"5 stars rating\">\n      <p><strong>Vérifié</strong></p>\n      <p></p>\n      <p>Facile à utiliser, pas besoin d’aller chez le dentiste et le rendu est canon. J’ai même eu des compliments dès le premier jour.</p>\n      <p><strong>Julie D.</strong> – 20/03/2025</p>\n    </div>\n\n    <!-- AVIS 4 -->\n    <div class=\"review-card\">\n      <img src=\"https://cdn.shopify.com/s/files/1/0891/0028/8264/files/stars-5.svg?v=1727197779\" alt=\"5 stars rating\">\n      <p><strong>Vérifié</strong></p>\n      <p></p>\n      <p>C’est léger, confortable et super réaliste. On sent à peine qu’on les porte. Je recommande à 100 % pour ceux qui veulent améliorer leur sourire sans douleur ni frais.</p>\n      <p><strong>Inès M.</strong> – 21/03/2025</p>\n    </div>\n\n    <!-- AVIS 5 -->\n    <div class=\"review-card\">\n      <img src=\"https://cdn.shopify.com/s/files/1/0891/0028/8264/files/stars-5.svg?v=1727197779\" alt=\"5 stars rating\">\n      <p><strong>Vérifié</strong></p>\n      <p>Super packaging, livraison rapide</p>\n      <p>Commandé le lundi, reçu le jeudi. Le kit est bien présenté, tout est bien expliqué.</p>\n      <p><strong>Omar B.</strong> – 23/03/2025</p>\n    </div>\n\n  </div>\n\n  <button class=\"nav-arrow arrow-left\" onclick=\"scrollReviews(-1)\"></button>\n  <button class=\"nav-arrow arrow-right\" onclick=\"scrollReviews(1)\"></button>\n</div>\n\n<script>\n  const reviewCarousel = document.getElementById('review-carousel');\n  function scrollReviews(direction) {\n    const scrollAmount = 320;\n    reviewCarousel.scrollBy({ left: direction * scrollAmount, behavior: 'smooth' });\n  }\n</script>",
+        "text_alignment": "center",
+        "subheading": "",
+        "title": "Nos clients en parlent mieux que nous !",
+        "content": "",
         "background": "",
         "background_gradient": "",
         "text_color": ""
@@ -757,8 +733,6 @@
     "tabs_tikiTy",
     "logo_list_Ymb7PX",
     "multi_column_9BRDDU",
-    "rich_text_8AmNCT",
-    "custom_liquid_pxYj9j",
     "faq",
     "1744040063e8512595"
   ]
