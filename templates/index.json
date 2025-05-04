@@ -310,6 +310,12 @@
             "heading_tag": "h2"
           }
         },
+        "liquid_PJVUYY": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<div style=\"max-width: 600px; margin: auto; font-family: Arial, sans-serif; background-color: #f5f5f5; padding: 20px; border-radius: 12px;\">\n\n  <div style=\"background-color: #d9d9d9; padding: 8px 12px; border-radius: 6px; margin-bottom: 8px;\">\n    ✅ Faciles à modeler grâce à notre kit\n  </div>\n  <div style=\"background-color: #d9d9d9; padding: 8px 12px; border-radius: 6px; margin-bottom: 8px;\">\n    ✅ Sourire effet naturel\n  </div>\n  <div style=\"background-color: #d9d9d9; padding: 8px 12px; border-radius: 6px; margin-bottom: 8px;\">\n    ✅ Confortables tout au long de la journée\n  </div>\n  <div style=\"background-color: #d9d9d9; padding: 8px 12px; border-radius: 6px; margin-bottom: 8px;\">\n    ✅ Vous pouvez manger et boire<span style=\"font-size: 12px;\"></span>\n  </div>\n\n  <p style=\"font-size: 12px; margin-top: 6px;\"></p>\n</div>"
+          }
+        },
         "liquid_mTNi3P": {
           "type": "liquid",
           "settings": {
@@ -363,6 +369,7 @@
       "block_order": [
         "liquid_tfTBBt",
         "title_aDzfRw",
+        "liquid_PJVUYY",
         "liquid_mTNi3P",
         "kaching_bundles_app_block_LpAAt7",
         "buy_buttons_MW7ihw",
