@@ -242,59 +242,6 @@
         "drag_cursor_color": "#1a1a1a"
       }
     },
-    "rich_text_iCG3tA": {
-      "type": "rich-text",
-      "blocks": {
-        "subheading_8QeERa": {
-          "type": "subheading",
-          "settings": {
-            "text": ""
-          }
-        },
-        "heading_ca6YMC": {
-          "type": "heading",
-          "settings": {
-            "text": "Des sourires qui parlent d’eux-mêmes",
-            "heading_tag": "h3",
-            "text_color": "",
-            "gradient": ""
-          }
-        },
-        "image_GdD4hG": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Avant_Apres_0.webp",
-            "width_mode": "custom",
-            "max_width": 600,
-            "mobile_max_width": 400
-          }
-        },
-        "image_ngxLtW": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Avant_Apres_9.webp",
-            "width_mode": "custom",
-            "max_width": 600,
-            "mobile_max_width": 400
-          }
-        }
-      },
-      "block_order": [
-        "subheading_8QeERa",
-        "heading_ca6YMC",
-        "image_GdD4hG",
-        "image_ngxLtW"
-      ],
-      "name": "Rich text",
-      "settings": {
-        "full_width": true,
-        "content_width": "medium",
-        "text_position": "center",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
     "featured_product_yJHJTN": {
       "type": "featured-product",
       "blocks": {
@@ -737,7 +684,6 @@
     "image_with_text_overlay_Jhw9Bz",
     "rich_text_GeM7xL",
     "before_after_image_3CCUjH",
-    "rich_text_iCG3tA",
     "featured_product_yJHJTN",
     "tabs_tikiTy",
     "logo_list_Ymb7PX",
