@@ -26,20 +26,20 @@
         "slide-1": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Banniere_OK.png",
+            "image": "shopify://shop_images/1_dd2d703d-418a-4760-8137-b90a520333d3.png",
             "content_max_width": 780,
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "mobile_text_position": "place-self-end-center text-center",
+            "desktop_text_position": "sm:place-self-end-center sm:text-center",
             "subheading": "",
             "title": "Sublimez votre sourire en un instant",
-            "heading_tag": "h2",
+            "heading_tag": "h1",
             "button_text": "",
             "button_link": "",
             "text_color": "#ffffff",
             "button_background": "#ffffff",
             "button_text_color": "#000000",
             "overlay_color": "#000000",
-            "overlay_opacity": 10,
+            "overlay_opacity": 0,
             "background": "",
             "background_gradient": ""
           }
@@ -133,7 +133,7 @@
         "image_GqAxmf": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/benefices.png",
+            "image": "shopify://shop_images/Benefice_Prime.png",
             "width_mode": "custom",
             "max_width": 1000,
             "mobile_max_width": 600
