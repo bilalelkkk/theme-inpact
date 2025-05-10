@@ -118,6 +118,32 @@
         "logo_item_border": ""
       }
     },
+    "rich_text_GeM7xL": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_jhczaH": {
+          "type": "heading",
+          "settings": {
+            "text": "Avant / Après",
+            "heading_tag": "h3",
+            "text_color": "",
+            "gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_jhczaH"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "rich_text_hKdjT7": {
       "type": "rich-text",
       "blocks": {
@@ -176,46 +202,6 @@
         "text_color": "#ffffff",
         "overlay_color": "#000000",
         "overlay_opacity": 30
-      }
-    },
-    "rich_text_GeM7xL": {
-      "type": "rich-text",
-      "blocks": {
-        "subheading_K6RML9": {
-          "type": "subheading",
-          "settings": {
-            "text": ""
-          }
-        },
-        "heading_jhczaH": {
-          "type": "heading",
-          "settings": {
-            "text": "Avant / Après",
-            "heading_tag": "h3",
-            "text_color": "",
-            "gradient": ""
-          }
-        },
-        "richtext_mxxFVK": {
-          "type": "richtext",
-          "settings": {
-            "content": ""
-          }
-        }
-      },
-      "block_order": [
-        "subheading_K6RML9",
-        "heading_jhczaH",
-        "richtext_mxxFVK"
-      ],
-      "name": "Rich text",
-      "settings": {
-        "full_width": true,
-        "content_width": "small",
-        "text_position": "center",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
       }
     },
     "before_after_image_3CCUjH": {
@@ -680,9 +666,9 @@
     "rich_text_dkHnJC",
     "slideshow",
     "logo_list_tgYGNA",
+    "rich_text_GeM7xL",
     "rich_text_hKdjT7",
     "image_with_text_overlay_Jhw9Bz",
-    "rich_text_GeM7xL",
     "before_after_image_3CCUjH",
     "featured_product_yJHJTN",
     "tabs_tikiTy",
