@@ -31,8 +31,8 @@
             "mobile_text_position": "place-self-end-center text-center",
             "desktop_text_position": "sm:place-self-end-center sm:text-center",
             "subheading": "",
-            "title": "Sublimez votre sourire en un instant",
-            "heading_tag": "h1",
+            "title": "Un sourire éclatant, instantanément et sans douleur",
+            "heading_tag": "h2",
             "button_text": "",
             "button_link": "",
             "text_color": "#ffffff",
@@ -118,6 +118,41 @@
         "logo_item_border": ""
       }
     },
+    "rich_text_hKdjT7": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_zBwMwN": {
+          "type": "heading",
+          "settings": {
+            "text": "Pourquoi choisir BilSmile ?",
+            "heading_tag": "h3",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "image_GqAxmf": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Benefice_Prime.png",
+            "width_mode": "custom",
+            "max_width": 1000,
+            "mobile_max_width": 600
+          }
+        }
+      },
+      "block_order": [
+        "heading_zBwMwN",
+        "image_GqAxmf"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "rich_text_GeM7xL": {
       "type": "rich-text",
       "blocks": {
@@ -144,66 +179,6 @@
         "text_color": ""
       }
     },
-    "rich_text_hKdjT7": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_zBwMwN": {
-          "type": "heading",
-          "settings": {
-            "text": "Pourquoi choisir BilSmile ?",
-            "heading_tag": "h3",
-            "text_color": "",
-            "gradient": ""
-          }
-        },
-        "image_GqAxmf": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Benefice_Prime.png",
-            "width_mode": "custom",
-            "max_width": 1000,
-            "mobile_max_width": 600
-          }
-        },
-        "heading_xFYVq3": {
-          "type": "heading",
-          "settings": {
-            "text": "Ton nouveau sourire commence ici",
-            "heading_tag": "h3",
-            "text_color": "",
-            "gradient": ""
-          }
-        }
-      },
-      "block_order": [
-        "heading_zBwMwN",
-        "image_GqAxmf",
-        "heading_xFYVq3"
-      ],
-      "settings": {
-        "full_width": true,
-        "content_width": "small",
-        "text_position": "center",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
-    "image_with_text_overlay_Jhw9Bz": {
-      "type": "image-with-text-overlay",
-      "settings": {
-        "full_width": false,
-        "allow_transparent_header": false,
-        "enable_parallax": false,
-        "image_size": "auto",
-        "image": "shopify://shop_images/Facette_Dentaire_Demo.webp",
-        "mobile_text_position": "place-self-center text-center",
-        "desktop_text_position": "sm:place-self-center sm:text-center",
-        "text_color": "#ffffff",
-        "overlay_color": "#000000",
-        "overlay_opacity": 30
-      }
-    },
     "before_after_image_3CCUjH": {
       "type": "before-after-image",
       "settings": {
@@ -226,6 +201,54 @@
         "after_text_color": "#ffffff",
         "drag_cursor_background": "#ffffff",
         "drag_cursor_color": "#1a1a1a"
+      }
+    },
+    "rich_text_LJ6bMN": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_wdCCAV": {
+          "type": "heading",
+          "settings": {
+            "text": "Ton nouveau sourire commence ici",
+            "heading_tag": "h3",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_bachyM": {
+          "type": "richtext",
+          "settings": {
+            "content": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_wdCCAV",
+        "richtext_bachyM"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "image_with_text_overlay_Jhw9Bz": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "full_width": false,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify://shop_images/Facette_Dentaire_Demo.webp",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
       }
     },
     "featured_product_yJHJTN": {
@@ -253,6 +276,14 @@
           "type": "shopify://apps/kaching-bundles/blocks/app-block/6c637362-a106-4a32-94ac-94dcfd68cdb8",
           "settings": {
             "product": "{{section.settings.product}}"
+          }
+        },
+        "image_wPYAJN": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/zeubi.png",
+            "alignment": "center",
+            "max_width": 500
           }
         },
         "buy_buttons_MW7ihw": {
@@ -283,14 +314,6 @@
             "alignment": "center",
             "max_width": 500
           }
-        },
-        "image_wPYAJN": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/zeubi.png",
-            "alignment": "center",
-            "max_width": 500
-          }
         }
       },
       "block_order": [
@@ -298,11 +321,11 @@
         "title_aDzfRw",
         "liquid_mTNi3P",
         "kaching_bundles_app_block_LpAAt7",
+        "image_wPYAJN",
         "buy_buttons_MW7ihw",
         "pickup_availability_etUTLc",
         "liquid_LXNKJb",
-        "image_QhCbh4",
-        "image_wPYAJN"
+        "image_QhCbh4"
       ],
       "settings": {
         "full_width": true,
@@ -666,10 +689,11 @@
     "rich_text_dkHnJC",
     "slideshow",
     "logo_list_tgYGNA",
-    "rich_text_GeM7xL",
     "rich_text_hKdjT7",
-    "image_with_text_overlay_Jhw9Bz",
+    "rich_text_GeM7xL",
     "before_after_image_3CCUjH",
+    "rich_text_LJ6bMN",
+    "image_with_text_overlay_Jhw9Bz",
     "featured_product_yJHJTN",
     "tabs_tikiTy",
     "logo_list_Ymb7PX",
