@@ -251,6 +251,52 @@
         "overlay_opacity": 30
       }
     },
+    "rich_text_VMkzW7": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_QVNTHP": {
+          "type": "heading",
+          "settings": {
+            "text": "Nos clients en parlent le mieux",
+            "heading_tag": "h3",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "image_mHLTYD": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Avant_Apres_0.webp",
+            "width_mode": "custom",
+            "max_width": 600,
+            "mobile_max_width": 400
+          }
+        },
+        "image_Lti3yj": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Avant_Apres_9.webp",
+            "width_mode": "custom",
+            "max_width": 600,
+            "mobile_max_width": 400
+          }
+        }
+      },
+      "block_order": [
+        "heading_QVNTHP",
+        "image_mHLTYD",
+        "image_Lti3yj"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "featured_product_yJHJTN": {
       "type": "featured-product",
       "blocks": {
@@ -694,6 +740,7 @@
     "before_after_image_3CCUjH",
     "rich_text_LJ6bMN",
     "image_with_text_overlay_Jhw9Bz",
+    "rich_text_VMkzW7",
     "featured_product_yJHJTN",
     "tabs_tikiTy",
     "logo_list_Ymb7PX",
