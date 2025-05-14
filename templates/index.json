@@ -26,13 +26,13 @@
         "slide-1": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/1_dd2d703d-418a-4760-8137-b90a520333d3.png",
+            "image": "shopify://shop_images/ChatGPT_Image_14_mai_2025_10_36_57_07f40158-caab-4edc-bdaf-9b49371b4abd.png",
             "content_max_width": 780,
             "mobile_text_position": "place-self-end-center text-center",
             "desktop_text_position": "sm:place-self-end-center sm:text-center",
             "subheading": "",
             "title": "Un sourire éclatant, instantanément et sans douleur",
-            "heading_tag": "h2",
+            "heading_tag": "h4",
             "button_text": "",
             "button_link": "",
             "text_color": "#ffffff",
