@@ -26,12 +26,12 @@
         "slide-1": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/ChatGPT_Image_14_mai_2025_10_36_57_07f40158-caab-4edc-bdaf-9b49371b4abd.png",
-            "content_max_width": 780,
+            "image": "shopify://shop_images/ChatGPT_Image_25_mai_2025_15_00_26.png",
+            "content_max_width": 740,
             "mobile_text_position": "place-self-end-center text-center",
             "desktop_text_position": "sm:place-self-end-center sm:text-center",
-            "subheading": "",
-            "title": "Un sourire éclatant, instantanément et sans douleur",
+            "subheading": "Transforme ton sourire avan",
+            "title": "",
             "heading_tag": "h4",
             "button_text": "",
             "button_link": "",
@@ -118,10 +118,10 @@
         "logo_item_border": ""
       }
     },
-    "rich_text_hKdjT7": {
+    "rich_text_jL3cKF": {
       "type": "rich-text",
       "blocks": {
-        "heading_zBwMwN": {
+        "heading_VPGKKg": {
           "type": "heading",
           "settings": {
             "text": "Pourquoi choisir BilSmile ?",
@@ -129,21 +129,12 @@
             "text_color": "",
             "gradient": ""
           }
-        },
-        "image_GqAxmf": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/6_benefices.png",
-            "width_mode": "custom",
-            "max_width": 1000,
-            "mobile_max_width": 600
-          }
         }
       },
       "block_order": [
-        "heading_zBwMwN",
-        "image_GqAxmf"
+        "heading_VPGKKg"
       ],
+      "name": "Rich text",
       "settings": {
         "full_width": true,
         "content_width": "small",
@@ -151,6 +142,22 @@
         "background": "",
         "background_gradient": "",
         "text_color": ""
+      }
+    },
+    "image_with_text_overlay_38Tqyy": {
+      "type": "image-with-text-overlay",
+      "name": "Image with text overlay",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify://shop_images/6_benefices.png",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
       }
     },
     "rich_text_GeM7xL": {
@@ -726,7 +733,8 @@
     "rich_text_dkHnJC",
     "slideshow",
     "logo_list_tgYGNA",
-    "rich_text_hKdjT7",
+    "rich_text_jL3cKF",
+    "image_with_text_overlay_38Tqyy",
     "rich_text_GeM7xL",
     "before_after_image_3CCUjH",
     "rich_text_LJ6bMN",
