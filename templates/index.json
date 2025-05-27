@@ -26,7 +26,7 @@
         "slide-1": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/ChatGPT_Image_26_mai_2025_21_12_18.png",
+            "image": "shopify://shop_images/ChatGPT_Image_25_mai_2025_15_00_26.png",
             "content_max_width": 740,
             "mobile_text_position": "place-self-end-center text-center",
             "desktop_text_position": "sm:place-self-end-center sm:text-center",
@@ -66,7 +66,7 @@
         "logo_eN9AjG": {
           "type": "logo",
           "settings": {
-            "logo": "shopify://shop_images/The-Guardian-logo_VRAI.png",
+            "logo": "shopify://shop_images/Le_monde_logo.svg",
             "logo_width": 300,
             "link": ""
           }
@@ -74,7 +74,7 @@
         "logo_4MehwJ": {
           "type": "logo",
           "settings": {
-            "logo": "shopify://shop_images/1.png",
+            "logo": "shopify://shop_images/Marie_Claire_Magazine_logo_svg.png",
             "logo_width": 300,
             "link": ""
           }
@@ -82,6 +82,7 @@
         "logo_kFKT8X": {
           "type": "logo",
           "settings": {
+            "logo": "shopify://shop_images/TopSante.webp",
             "logo_width": 120,
             "link": ""
           }
@@ -89,6 +90,7 @@
         "logo_WNty8y": {
           "type": "logo",
           "settings": {
+            "logo": "shopify://shop_images/Bilal.svg",
             "logo_width": 120,
             "link": ""
           }
@@ -150,6 +152,7 @@
         "allow_transparent_header": false,
         "enable_parallax": false,
         "image_size": "auto",
+        "image": "shopify://shop_images/Benefices_4d788dd4-e06a-40e6-b866-8ce9bd461b19.png",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#ffffff",
@@ -190,6 +193,8 @@
         "subheading": "",
         "title": "",
         "content": "",
+        "before_image": "shopify://shop_images/gempages_532016320011568021-3a79aca5-498e-4741-806c-df166e125326.jpg",
+        "after_image": "shopify://shop_images/22.jpg",
         "expand_image": false,
         "text_position": "center",
         "before_after_text_position": "top",
@@ -245,6 +250,7 @@
         "allow_transparent_header": false,
         "enable_parallax": false,
         "image_size": "auto",
+        "image": "shopify://shop_images/Facette_Dentaire_Demo.webp",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#ffffff",
@@ -262,6 +268,24 @@
             "heading_tag": "h3",
             "text_color": "",
             "gradient": ""
+          }
+        },
+        "image_93GQMp": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Avant_Apres_0.webp",
+            "width_mode": "custom",
+            "max_width": 600,
+            "mobile_max_width": 400
+          }
+        },
+        "image_z9MkWd": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Mtn.jpg",
+            "width_mode": "custom",
+            "max_width": 600,
+            "mobile_max_width": 400
           }
         },
         "image_mHLTYD": {
@@ -283,6 +307,8 @@
       },
       "block_order": [
         "heading_QVNTHP",
+        "image_93GQMp",
+        "image_z9MkWd",
         "image_mHLTYD",
         "image_Lti3yj"
       ],
@@ -315,6 +341,12 @@
           "type": "liquid",
           "settings": {
             "liquid": "<style>\n  .blink {\n    animation: blink-animation 1.5s steps(5, start) infinite;\n    color: red;\n    display: inline-block; /* Display as inline-block */\n    vertical-align: middle; /* Align vertically to middle */\n    font-size: 10px; /* Set font size */\n  }\n\n  @keyframes blink-animation {\n    to {\n      visibility: hidden;\n    }\n  }\n\n  .red-div {\n    background-color: #ffcccc;\n    padding: 2px 10px; /* 6px vertical, 10px horizontal */\n    border-radius: 8px; /* Rounded corners */\n    display: inline-block; /* Display as inline-block */\n    text-align: center; /* Center align the content */\n    margin: 0 auto; /* Horizontally center the red-div */\n  }\n\n  .text {\n    display: inline-block; /* Display as inline-block */\n    vertical-align: middle; /* Align vertically to middle */\n    margin-left: 10px; /* Add some space between the dot and the text */\n    color: #AD0000; /* Text color */\n    font-weight: 500; /* Medium font weight */\n    font-size: 12px; /* Set font size */\n    text-align: justify; /* Justify the text to the center */\n  }\n</style>\n\n<div class=\"red-div\">\n  <div class=\"blink\">&#9679;</div>\n  <div class=\"text\">Stock restant : 7 Kits </div>\n</div>"
+          }
+        },
+        "kaching_bundles_app_block_n6xjM6": {
+          "type": "shopify://apps/kaching-bundles/blocks/app-block/6c637362-a106-4a32-94ac-94dcfd68cdb8",
+          "settings": {
+            "product": "{{section.settings.product}}"
           }
         },
         "buy_buttons_MW7ihw": {
@@ -350,6 +382,7 @@
         "liquid_tfTBBt",
         "title_aDzfRw",
         "liquid_mTNi3P",
+        "kaching_bundles_app_block_n6xjM6",
         "buy_buttons_MW7ihw",
         "pickup_availability_etUTLc",
         "liquid_LXNKJb",
@@ -443,6 +476,7 @@
         "logo_kcWjyE": {
           "type": "logo",
           "settings": {
+            "logo": "shopify://shop_images/Espaces_entre_les_dents_6.png",
             "logo_width": 300,
             "link": ""
           }
@@ -450,6 +484,7 @@
         "logo_f48zNB": {
           "type": "logo",
           "settings": {
+            "logo": "shopify://shop_images/Dents_Cassees_4_ee656a1e-cb0b-4dd8-87da-e8deed29063c.png",
             "logo_width": 300,
             "link": ""
           }
@@ -457,6 +492,7 @@
         "logo_nGXCwK": {
           "type": "logo",
           "settings": {
+            "logo": "shopify://shop_images/Dents_Tordues_5_71d17ae0-3a05-4e45-b0c2-f16883befab6.png",
             "logo_width": 300,
             "link": ""
           }
@@ -464,6 +500,7 @@
         "logo_TpKKit": {
           "type": "logo",
           "settings": {
+            "logo": "shopify://shop_images/Dents_Tachees_2.png",
             "logo_width": 300,
             "link": ""
           }
@@ -471,6 +508,7 @@
         "logo_HzxjNU": {
           "type": "logo",
           "settings": {
+            "logo": "shopify://shop_images/Dents_Courtes_3.png",
             "logo_width": 300,
             "link": ""
           }
@@ -478,6 +516,7 @@
         "logo_pUXUXB": {
           "type": "logo",
           "settings": {
+            "logo": "shopify://shop_images/Dents_Manquantes_1.png",
             "logo_width": 300,
             "link": ""
           }
@@ -514,6 +553,7 @@
         "item_gCpfE4": {
           "type": "item",
           "settings": {
+            "image": "shopify://shop_images/Avis.png",
             "column_size": "3",
             "title": "Une transformation immédiate",
             "heading_tag": "h4",
@@ -526,6 +566,7 @@
         "item_HNVMLr": {
           "type": "item",
           "settings": {
+            "image": "shopify://shop_images/Avis_3.png",
             "column_size": "3",
             "title": "Je les mets en 2 minutes",
             "heading_tag": "h4",
@@ -538,6 +579,7 @@
         "item_teLVmJ": {
           "type": "item",
           "settings": {
+            "image": "shopify://shop_images/Avis_1.png",
             "column_size": "3",
             "title": "Enfin une solution abordable",
             "heading_tag": "h4",
@@ -550,6 +592,7 @@
         "item_K7NGAa": {
           "type": "item",
           "settings": {
+            "image": "shopify://shop_images/gempages_532016320011568021-35d19801-8129-4dd0-a6ba-4f2b57e11223.jpg",
             "column_size": "3",
             "title": "J’ai repris goût à sourire en public",
             "heading_tag": "h4",
@@ -562,6 +605,7 @@
         "item_xXMzmq": {
           "type": "item",
           "settings": {
+            "image": "shopify://shop_images/Avis_2.png",
             "column_size": "3",
             "title": "Des facettes bluffantes",
             "heading_tag": "h4",
