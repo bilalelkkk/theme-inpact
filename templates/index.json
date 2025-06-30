@@ -26,7 +26,8 @@
         "slide-1": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/ChatGPT_Image_25_mai_2025_15_00_26.png",
+            "image": "shopify://shop_images/Drone.png",
+            "mobile_image": "shopify://shop_images/Drone.png",
             "content_max_width": 740,
             "mobile_text_position": "place-self-end-center text-center",
             "desktop_text_position": "sm:place-self-end-center sm:text-center",
@@ -66,7 +67,7 @@
         "logo_eN9AjG": {
           "type": "logo",
           "settings": {
-            "logo": "shopify://shop_images/Le_monde_logo.svg",
+            "logo": "shopify://shop_images/la-grande-recre.webp",
             "logo_width": 300,
             "link": ""
           }
@@ -74,7 +75,7 @@
         "logo_4MehwJ": {
           "type": "logo",
           "settings": {
-            "logo": "shopify://shop_images/Marie_Claire_Magazine_logo_svg.png",
+            "logo": "shopify://shop_images/kingjouet.jpg",
             "logo_width": 300,
             "link": ""
           }
@@ -82,16 +83,16 @@
         "logo_kFKT8X": {
           "type": "logo",
           "settings": {
-            "logo": "shopify://shop_images/TopSante.webp",
-            "logo_width": 120,
+            "logo": "shopify://shop_images/Logo_JoueClub_2016.jpg",
+            "logo_width": 300,
             "link": ""
           }
         },
         "logo_WNty8y": {
           "type": "logo",
           "settings": {
-            "logo": "shopify://shop_images/Bilal.svg",
-            "logo_width": 120,
+            "logo": "shopify://shop_images/logo_maxi-toys.png",
+            "logo_width": 300,
             "link": ""
           }
         }
@@ -109,13 +110,13 @@
         "content": "",
         "text_alignment": "center",
         "items_per_row": 5,
-        "background": "",
+        "background": "#ffffff",
         "background_gradient": "",
-        "text_color": "",
+        "text_color": "#161718",
         "heading_color": "",
         "heading_gradient": "",
-        "logo_item_background": "",
-        "logo_item_border": ""
+        "logo_item_background": "#ffffff",
+        "logo_item_border": "#ffffff"
       }
     },
     "rich_text_jL3cKF": {
@@ -124,7 +125,7 @@
         "heading_VPGKKg": {
           "type": "heading",
           "settings": {
-            "text": "Pourquoi choisir BilSmile ?",
+            "text": "Pourquoi choisir Flybotic ?",
             "heading_tag": "h3",
             "text_color": "",
             "gradient": ""
@@ -152,7 +153,6 @@
         "allow_transparent_header": false,
         "enable_parallax": false,
         "image_size": "auto",
-        "image": "shopify://shop_images/Benefices_4d788dd4-e06a-40e6-b866-8ce9bd461b19.png",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#ffffff",
@@ -193,8 +193,6 @@
         "subheading": "",
         "title": "",
         "content": "",
-        "before_image": "shopify://shop_images/gempages_532016320011568021-3a79aca5-498e-4741-806c-df166e125326.jpg",
-        "after_image": "shopify://shop_images/22.jpg",
         "expand_image": false,
         "text_position": "center",
         "before_after_text_position": "top",
@@ -250,7 +248,6 @@
         "allow_transparent_header": false,
         "enable_parallax": false,
         "image_size": "auto",
-        "image": "shopify://shop_images/Facette_Dentaire_Demo.webp",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#ffffff",
@@ -277,12 +274,6 @@
           "type": "liquid",
           "settings": {
             "liquid": "<div class=\"stock-alert\">\n  <span class=\"pulse-wrapper\">\n    <span class=\"pulse-dot\"></span>\n  </span>\n  <span class=\"stock-text\">\n    <strong>Seulement quelques articles en stock&nbsp;!</strong> – Dépêchez-vous.\n  </span>\n</div>\n\n<style>\n.stock-alert {\n  display: flex;\n  align-items: center;\n  gap: 8px;\n  font-family: Arial, sans-serif;\n  font-size: 13px;\n  color: #f59e0b;\n}\n\n.pulse-wrapper {\n  position: relative;\n  width: 14px;\n  height: 14px;\n  display: inline-block;\n}\n\n.pulse-dot {\n  width: 10px;\n  height: 10px;\n  background-color: #facc15;\n  border-radius: 50%;\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%, -50%);\n  z-index: 2;\n  box-shadow: 0 0 0 4px rgba(250, 204, 21, 0.3);\n}\n\n.pulse-wrapper::before {\n  content: \"\";\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  width: 10px;\n  height: 10px;\n  background-color: #facc15;\n  border-radius: 50%;\n  transform: translate(-50%, -50%) scale(1);\n  animation: pulse 1.5s infinite ease-out;\n  opacity: 0.5;\n  z-index: 1;\n}\n\n@keyframes pulse {\n  0% {\n    transform: translate(-50%, -50%) scale(1);\n    opacity: 0.5;\n  }\n  50% {\n    transform: translate(-50%, -50%) scale(2.2);\n    opacity: 0;\n  }\n  100% {\n    transform: translate(-50%, -50%) scale(1);\n    opacity: 0;\n  }\n}\n</style>"
-          }
-        },
-        "kaching_bundles_app_block_n6xjM6": {
-          "type": "shopify://apps/kaching-bundles/blocks/app-block/6c637362-a106-4a32-94ac-94dcfd68cdb8",
-          "settings": {
-            "product": "{{section.settings.product}}"
           }
         },
         "buy_buttons_MW7ihw": {
@@ -318,7 +309,6 @@
         "liquid_tfTBBt",
         "title_aDzfRw",
         "liquid_mTNi3P",
-        "kaching_bundles_app_block_n6xjM6",
         "buy_buttons_MW7ihw",
         "pickup_availability_etUTLc",
         "liquid_LXNKJb",
@@ -412,7 +402,6 @@
         "logo_kcWjyE": {
           "type": "logo",
           "settings": {
-            "logo": "shopify://shop_images/Espaces_entre_les_dents_6.png",
             "logo_width": 300,
             "link": ""
           }
@@ -420,7 +409,6 @@
         "logo_f48zNB": {
           "type": "logo",
           "settings": {
-            "logo": "shopify://shop_images/Dents_Cassees_4_ee656a1e-cb0b-4dd8-87da-e8deed29063c.png",
             "logo_width": 300,
             "link": ""
           }
@@ -428,7 +416,6 @@
         "logo_nGXCwK": {
           "type": "logo",
           "settings": {
-            "logo": "shopify://shop_images/Dents_Tordues_5_71d17ae0-3a05-4e45-b0c2-f16883befab6.png",
             "logo_width": 300,
             "link": ""
           }
@@ -436,7 +423,6 @@
         "logo_TpKKit": {
           "type": "logo",
           "settings": {
-            "logo": "shopify://shop_images/Dents_Tachees_2.png",
             "logo_width": 300,
             "link": ""
           }
@@ -444,7 +430,6 @@
         "logo_HzxjNU": {
           "type": "logo",
           "settings": {
-            "logo": "shopify://shop_images/Dents_Courtes_3.png",
             "logo_width": 300,
             "link": ""
           }
@@ -452,7 +437,6 @@
         "logo_pUXUXB": {
           "type": "logo",
           "settings": {
-            "logo": "shopify://shop_images/Dents_Manquantes_1.png",
             "logo_width": 300,
             "link": ""
           }
@@ -489,7 +473,6 @@
         "item_gCpfE4": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/Avis.png",
             "column_size": "3",
             "title": "Une transformation immédiate",
             "heading_tag": "h4",
@@ -502,7 +485,6 @@
         "item_HNVMLr": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/Avis_3.png",
             "column_size": "3",
             "title": "Je les mets en 2 minutes",
             "heading_tag": "h4",
@@ -515,7 +497,6 @@
         "item_teLVmJ": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/Avis_1.png",
             "column_size": "3",
             "title": "Enfin une solution abordable",
             "heading_tag": "h4",
@@ -528,7 +509,6 @@
         "item_K7NGAa": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/Avis_4.png",
             "column_size": "3",
             "title": "J’ai repris goût à sourire en public",
             "heading_tag": "h4",
@@ -541,7 +521,6 @@
         "item_xXMzmq": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/Avis_2.png",
             "column_size": "3",
             "title": "Des facettes bluffantes",
             "heading_tag": "h4",
