@@ -26,8 +26,6 @@
         "slide-1": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Drone.png",
-            "mobile_image": "shopify://shop_images/Drone.png",
             "content_max_width": 740,
             "mobile_text_position": "place-self-end-center text-center",
             "desktop_text_position": "sm:place-self-end-center sm:text-center",
@@ -112,7 +110,7 @@
         "items_per_row": 5,
         "background": "#ffffff",
         "background_gradient": "",
-        "text_color": "#161718",
+        "text_color": "#000000",
         "heading_color": "",
         "heading_gradient": "",
         "logo_item_background": "#ffffff",
@@ -153,6 +151,7 @@
         "allow_transparent_header": false,
         "enable_parallax": false,
         "image_size": "auto",
+        "image": "shopify://shop_images/6_benefices.png",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#ffffff",
@@ -206,53 +205,6 @@
         "after_text_color": "#ffffff",
         "drag_cursor_background": "#ffffff",
         "drag_cursor_color": "#1a1a1a"
-      }
-    },
-    "rich_text_LJ6bMN": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_wdCCAV": {
-          "type": "heading",
-          "settings": {
-            "text": "Ton nouveau sourire commence ici",
-            "heading_tag": "h3",
-            "text_color": "",
-            "gradient": ""
-          }
-        },
-        "richtext_bachyM": {
-          "type": "richtext",
-          "settings": {
-            "content": ""
-          }
-        }
-      },
-      "block_order": [
-        "heading_wdCCAV",
-        "richtext_bachyM"
-      ],
-      "name": "Rich text",
-      "settings": {
-        "full_width": true,
-        "content_width": "small",
-        "text_position": "center",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
-    "image_with_text_overlay_Jhw9Bz": {
-      "type": "image-with-text-overlay",
-      "settings": {
-        "full_width": false,
-        "allow_transparent_header": false,
-        "enable_parallax": false,
-        "image_size": "auto",
-        "mobile_text_position": "place-self-center text-center",
-        "desktop_text_position": "sm:place-self-center sm:text-center",
-        "text_color": "#ffffff",
-        "overlay_color": "#000000",
-        "overlay_opacity": 30
       }
     },
     "featured_product_yJHJTN": {
@@ -633,7 +585,7 @@
         "button_text": "",
         "button_url": "",
         "text_position": "center",
-        "background": "#ffffff",
+        "background": "#161718",
         "background_gradient": "",
         "text_color": "",
         "heading_color": "",
@@ -669,8 +621,6 @@
     "image_with_text_overlay_38Tqyy",
     "rich_text_GeM7xL",
     "before_after_image_3CCUjH",
-    "rich_text_LJ6bMN",
-    "image_with_text_overlay_Jhw9Bz",
     "featured_product_yJHJTN",
     "tabs_tikiTy",
     "logo_list_Ymb7PX",
