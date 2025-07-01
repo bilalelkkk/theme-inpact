@@ -30,7 +30,7 @@
             "mobile_text_position": "place-self-end-center text-center",
             "desktop_text_position": "sm:place-self-end-center sm:text-center",
             "subheading": "",
-            "title": "Souris comme tu l’as toujours voulu",
+            "title": "✨ Il ne joue pas avec un jouet… Il pilote un drone magique.",
             "heading_tag": "h2",
             "button_text": "",
             "button_link": "",
@@ -233,7 +233,7 @@
           "settings": {
             "show_payment_button": false,
             "show_gift_card_recipient": false,
-            "atc_button_background": "#1b2a6d",
+            "atc_button_background": "#22a9d6",
             "atc_button_text_color": "",
             "payment_button_background": "",
             "payment_button_text_color": ""
@@ -585,7 +585,7 @@
         "button_text": "",
         "button_url": "",
         "text_position": "center",
-        "background": "#161718",
+        "background": "#ffffff",
         "background_gradient": "",
         "text_color": "",
         "heading_color": "",
