@@ -26,6 +26,7 @@
         "slide-1": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/ChatGPT_Image_1_juil._2025_14_15_20.png",
             "content_max_width": 740,
             "mobile_text_position": "place-self-end-center text-center",
             "desktop_text_position": "sm:place-self-end-center sm:text-center",
