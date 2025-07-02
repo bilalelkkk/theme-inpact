@@ -236,7 +236,7 @@
           "settings": {
             "show_payment_button": false,
             "show_gift_card_recipient": false,
-            "atc_button_background": "#22a9d6",
+            "atc_button_background": "#1c2a6e",
             "atc_button_text_color": "",
             "payment_button_background": "",
             "payment_button_text_color": ""
@@ -271,7 +271,7 @@
       ],
       "settings": {
         "full_width": true,
-        "product": "hand-controlled-drone",
+        "product": "facettes-dentaires-bilsmile",
         "desktop_media_width": 50,
         "desktop_media_layout": "carousel_thumbnails_left",
         "mobile_media_size": "expanded",
@@ -357,6 +357,7 @@
         "logo_kcWjyE": {
           "type": "logo",
           "settings": {
+            "logo": "shopify://shop_images/Avis.png",
             "logo_width": 300,
             "link": ""
           }
@@ -364,6 +365,7 @@
         "logo_f48zNB": {
           "type": "logo",
           "settings": {
+            "logo": "shopify://shop_images/Avis_1.png",
             "logo_width": 300,
             "link": ""
           }
@@ -371,6 +373,7 @@
         "logo_nGXCwK": {
           "type": "logo",
           "settings": {
+            "logo": "shopify://shop_images/Avis_3.png",
             "logo_width": 300,
             "link": ""
           }
@@ -378,20 +381,7 @@
         "logo_TpKKit": {
           "type": "logo",
           "settings": {
-            "logo_width": 300,
-            "link": ""
-          }
-        },
-        "logo_HzxjNU": {
-          "type": "logo",
-          "settings": {
-            "logo_width": 300,
-            "link": ""
-          }
-        },
-        "logo_pUXUXB": {
-          "type": "logo",
-          "settings": {
+            "logo": "shopify://shop_images/Avis_4.png",
             "logo_width": 300,
             "link": ""
           }
@@ -401,9 +391,7 @@
         "logo_kcWjyE",
         "logo_f48zNB",
         "logo_nGXCwK",
-        "logo_TpKKit",
-        "logo_HzxjNU",
-        "logo_pUXUXB"
+        "logo_TpKKit"
       ],
       "name": "Logo list",
       "settings": {
@@ -428,6 +416,7 @@
         "item_gCpfE4": {
           "type": "item",
           "settings": {
+            "image": "shopify://shop_images/Avis.png",
             "column_size": "3",
             "title": "Une transformation immédiate",
             "heading_tag": "h4",
@@ -440,6 +429,7 @@
         "item_HNVMLr": {
           "type": "item",
           "settings": {
+            "image": "shopify://shop_images/Avis_1.png",
             "column_size": "3",
             "title": "Je les mets en 2 minutes",
             "heading_tag": "h4",
@@ -452,6 +442,7 @@
         "item_teLVmJ": {
           "type": "item",
           "settings": {
+            "image": "shopify://shop_images/Avis_3.png",
             "column_size": "3",
             "title": "Enfin une solution abordable",
             "heading_tag": "h4",
@@ -464,6 +455,7 @@
         "item_K7NGAa": {
           "type": "item",
           "settings": {
+            "image": "shopify://shop_images/Avis_4.png",
             "column_size": "3",
             "title": "J’ai repris goût à sourire en public",
             "heading_tag": "h4",
@@ -476,6 +468,7 @@
         "item_xXMzmq": {
           "type": "item",
           "settings": {
+            "image": "shopify://shop_images/Avis_2.png",
             "column_size": "3",
             "title": "Des facettes bluffantes",
             "heading_tag": "h4",
