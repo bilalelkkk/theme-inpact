@@ -26,12 +26,12 @@
         "slide-1": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/ChatGPT_Image_1_juil._2025_14_15_20.png",
+            "image": "shopify://shop_images/Banniere.png",
             "content_max_width": 740,
             "mobile_text_position": "place-self-end-center text-center",
             "desktop_text_position": "sm:place-self-end-center sm:text-center",
             "subheading": "",
-            "title": "✨ Il ne joue pas avec un jouet… Il pilote un drone magique.",
+            "title": "Encore en train de cacher ton sourire sur les photos ?",
             "heading_tag": "h2",
             "button_text": "",
             "button_link": "",
@@ -66,7 +66,7 @@
         "logo_eN9AjG": {
           "type": "logo",
           "settings": {
-            "logo": "shopify://shop_images/la-grande-recre.webp",
+            "logo": "shopify://shop_images/Logo_M6__2020__fond_clair__svg.png",
             "logo_width": 300,
             "link": ""
           }
@@ -74,7 +74,7 @@
         "logo_4MehwJ": {
           "type": "logo",
           "settings": {
-            "logo": "shopify://shop_images/kingjouet.jpg",
+            "logo": "shopify://shop_images/elle-magazine-logo.jpg",
             "logo_width": 300,
             "link": ""
           }
@@ -82,7 +82,7 @@
         "logo_kFKT8X": {
           "type": "logo",
           "settings": {
-            "logo": "shopify://shop_images/Logo_JoueClub_2016.jpg",
+            "logo": "shopify://shop_images/Canal_News_logo_svg.png",
             "logo_width": 300,
             "link": ""
           }
@@ -90,7 +90,7 @@
         "logo_WNty8y": {
           "type": "logo",
           "settings": {
-            "logo": "shopify://shop_images/logo_maxi-toys.png",
+            "logo": "shopify://shop_images/Marie_claire_logo.png",
             "logo_width": 300,
             "link": ""
           }
@@ -124,7 +124,7 @@
         "heading_VPGKKg": {
           "type": "heading",
           "settings": {
-            "text": "Pourquoi choisir Flybotic ?",
+            "text": "Pourquoi choisir BilSmile ?",
             "heading_tag": "h3",
             "text_color": "",
             "gradient": ""
@@ -152,7 +152,7 @@
         "allow_transparent_header": false,
         "enable_parallax": false,
         "image_size": "auto",
-        "image": "shopify://shop_images/6_benefices.png",
+        "image": "shopify://shop_images/Benefices.png",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#ffffff",
@@ -193,6 +193,8 @@
         "subheading": "",
         "title": "",
         "content": "",
+        "before_image": "shopify://shop_images/Avant.jpg",
+        "after_image": "shopify://shop_images/Apres.jpg",
         "expand_image": false,
         "text_position": "center",
         "before_after_text_position": "top",
