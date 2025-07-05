@@ -472,20 +472,6 @@
             "title": "QUELS SONT LES DÉLAIS DE LIVRAISON ?",
             "content": "<p>Les commandes sont préparées en <strong>24 à 48h</strong>.<br/><br/>La livraison prend généralement entre <strong>5 et 9 jours ouvrés</strong>, selon votre localisation.</p>"
           }
-        },
-        "item_gzD6yp": {
-          "type": "item",
-          "settings": {
-            "title": "Est-ce que ça convient à toutes les tailles de dents ?",
-            "content": "<p>Nos facettes sont conçues pour s’adapter à la <strong>plupart des morphologies dentaires adultes</strong>, grâce au moulage thermique ajustable.</p>"
-          }
-        },
-        "item_yRwFCz": {
-          "type": "item",
-          "settings": {
-            "title": "Comment contacter le service client ?",
-            "content": "<p>Par email à <a><strong>contact@eclatdent.fr</strong></a> ou via notre formulaire en ligne 24h/24.<br/><br/>Notre équipe vous répond sous 24h ouvrées.</p>"
-          }
         }
       },
       "block_order": [
@@ -494,9 +480,7 @@
         "166442457738b23caf-2",
         "item_a7pEQb",
         "item_ATazMb",
-        "item_TeJrVF",
-        "item_gzD6yp",
-        "item_yRwFCz"
+        "item_TeJrVF"
       ],
       "settings": {
         "full_width": false,
