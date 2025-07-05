@@ -66,7 +66,7 @@
         "logo_eN9AjG": {
           "type": "logo",
           "settings": {
-            "logo": "shopify://shop_images/Logo_M6__2020__fond_clair__svg.png",
+            "logo": "shopify://shop_images/Le_monde_logo.svg",
             "logo_width": 300,
             "link": ""
           }
@@ -82,7 +82,7 @@
         "logo_kFKT8X": {
           "type": "logo",
           "settings": {
-            "logo": "shopify://shop_images/Canal_News_logo_svg.png",
+            "logo": "shopify://shop_images/Vogue_Logo.jpg",
             "logo_width": 300,
             "link": ""
           }
@@ -90,7 +90,7 @@
         "logo_WNty8y": {
           "type": "logo",
           "settings": {
-            "logo": "shopify://shop_images/Marie_claire_logo.png",
+            "logo": "shopify://shop_images/TF1_Logo.png",
             "logo_width": 300,
             "link": ""
           }
@@ -376,7 +376,7 @@
             "column_size": "3",
             "title": "Une transformation immédiate",
             "heading_tag": "h4",
-            "content": "<p>Cela m'a donné un vrai sourire hollywoodien. J'avais peur qu'ils ne s'adaptent pas, mais le moulage était parfait.</p>",
+            "content": "<p>J’ai les dents sensibles, et ce stylo est vraiment agréable à utiliser. Aucun inconfort, et je sens que ça fait du bien au quotidien.</p>",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
