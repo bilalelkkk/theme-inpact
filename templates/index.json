@@ -202,30 +202,6 @@
         "overlay_opacity": 0
       }
     },
-    "before_after_image_3CCUjH": {
-      "type": "before-after-image",
-      "settings": {
-        "full_width": true,
-        "subheading": "",
-        "title": "",
-        "content": "",
-        "before_image": "shopify://shop_images/Avant.jpg",
-        "after_image": "shopify://shop_images/Apres.jpg",
-        "expand_image": false,
-        "text_position": "center",
-        "before_after_text_position": "top",
-        "before_text": "Avant",
-        "after_text": "Après",
-        "drag_initial_position": 50,
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "before_text_color": "#ffffff",
-        "after_text_color": "#ffffff",
-        "drag_cursor_background": "#ffffff",
-        "drag_cursor_color": "#1a1a1a"
-      }
-    },
     "featured_product_yJHJTN": {
       "type": "featured-product",
       "blocks": {
@@ -633,7 +609,6 @@
     "image_with_text_overlay_38Tqyy",
     "rich_text_GeM7xL",
     "image_with_text_overlay_c4rrK3",
-    "before_after_image_3CCUjH",
     "featured_product_yJHJTN",
     "tabs_tikiTy",
     "logo_list_Ymb7PX",
