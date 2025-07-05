@@ -376,7 +376,7 @@
             "column_size": "3",
             "title": "Une transformation immédiate",
             "heading_tag": "h4",
-            "content": "<p>J’ai les dents sensibles, et ce stylo est vraiment agréable à utiliser. Aucun inconfort, et je sens que ça fait du bien au quotidien.</p>",
+            "content": "<p>\"J’ai les dents sensibles, et ce stylo est super doux. Aucune douleur, pas de picotements… juste une sensation fraîche et agréable. Dès les premières utilisations, j’ai vu mes dents s’éclaircir légèrement. C’est devenu un vrai petit rituel quotidien.\"</p>",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
@@ -387,9 +387,9 @@
           "settings": {
             "video": "shopify://files/videos/Vidéo 3.mp4",
             "column_size": "3",
-            "title": "Je les mets en 2 minutes",
+            "title": "Un blanchiment naturel",
             "heading_tag": "h4",
-            "content": "<p>Je pensais qu'ils feraient une drôle de sensation, mais ils sont superbes et me vont à merveille. Super faciles à modeler, et je peux manger avec.</p>",
+            "content": "<p>\"Je cherchais un truc discret pour améliorer mon sourire sans aller chez le dentiste. Le stylo est nickel : pas de goût bizarre, pas de sensibilité, et les résultats sont là. Je recommande à 100 %.\"</p>",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
@@ -402,7 +402,7 @@
             "column_size": "3",
             "title": "Enfin une solution abordable",
             "heading_tag": "h4",
-            "content": "<p>Elles épousent parfaitement la forme et restent en place toute la journée. Une solution idéale pour un plus beau sourire sans se ruiner !</p>",
+            "content": "<p>\"Je ne pensais pas que ce genre de produit pouvait vraiment marcher, mais ce stylo m’a bluffé. Simple, rapide et efficace. Je l’utilise après le café du matin et en quelques jours, mes dents sont visiblement plus claires.\"</p>",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
@@ -434,42 +434,42 @@
         "166442457738b23caf-0": {
           "type": "item",
           "settings": {
-            "title": "EST-CE QUE LE STYLO EST DOUX POUR L’ÉMAIL ?",
+            "title": "Est-ce que le stylo est doux pour l’émail ?",
             "content": "<p>Oui. La formule BilSmile est douce et pensée pour s’intégrer à une routine quotidienne.<br/><br/>Elle ne contient aucun ingrédient abrasif ou agressif, pour un usage confortable jour après jour.</p>"
           }
         },
         "166442457738b23caf-1": {
           "type": "item",
           "settings": {
-            "title": "COMBIEN DE TEMPS FAUT-IL POUR LE RESSENTIR ?",
+            "title": "Combien de temps faut-il pour le ressentir ?",
             "content": "<p>De nombreuses personnes parlent d’une sensation de fraîcheur et de propreté dès les premières utilisations.<br/><br/>Pour un effet durable, une application régulière pendant quelques jours est idéale.</p>"
           }
         },
         "166442457738b23caf-2": {
           "type": "item",
           "settings": {
-            "title": "EST-CE ADAPTÉ AUX DENTS SENSIBLES ?",
+            "title": "Est-ce adapté aux dents sensibles ?",
             "content": "<p>Absolument. BilSmile a été formulé pour s’adapter aux besoins des dents et gencives sensibles.<br/><br/>Le gel est agréable, ne pique pas et s’utilise facilement, sans inconfort.</p>"
           }
         },
         "item_a7pEQb": {
           "type": "item",
           "settings": {
-            "title": "FAUT-IL UTILISER UNE LUMIÈRE LED AVEC ?",
+            "title": "Faut-il utiliser une lumière LED avec ?",
             "content": "<p>Non, aucun appareil externe n’est nécessaire.<br/><br/>Le stylo BilSmile est pratique, simple et rapide à utiliser — même lors de vos déplacements.</p>"
           }
         },
         "item_ATazMb": {
           "type": "item",
           "settings": {
-            "title": "COMBIEN DE TEMPS DURE UN STYLO ?",
+            "title": "Combien de temps dure un stylo ?",
             "content": "<p>Chaque stylo offre environ <strong>20 à 25 applications</strong>, selon la quantité utilisée.<br/><br/>Cela représente plusieurs semaines d’utilisation quotidienne.</p>"
           }
         },
         "item_TeJrVF": {
           "type": "item",
           "settings": {
-            "title": "QUELS SONT LES DÉLAIS DE LIVRAISON ?",
+            "title": "Quels sont les délais de livraison ?",
             "content": "<p>Les commandes sont préparées en <strong>24 à 48h</strong>.<br/><br/>La livraison prend généralement entre <strong>5 et 9 jours ouvrés</strong>, selon votre localisation.</p>"
           }
         }
