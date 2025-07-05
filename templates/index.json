@@ -202,6 +202,29 @@
         "overlay_opacity": 0
       }
     },
+    "rich_text_d6hmGb": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_7XxpLz": {
+          "type": "subheading",
+          "settings": {
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "subheading_7XxpLz"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "featured_product_yJHJTN": {
       "type": "featured-product",
       "blocks": {
@@ -228,7 +251,7 @@
           "settings": {
             "show_payment_button": false,
             "show_gift_card_recipient": false,
-            "atc_button_background": "#1c2a6e",
+            "atc_button_background": "#eee0cc",
             "atc_button_text_color": "",
             "payment_button_background": "",
             "payment_button_text_color": ""
@@ -343,72 +366,13 @@
         "heading_gradient": ""
       }
     },
-    "logo_list_Ymb7PX": {
-      "type": "logo-list",
-      "blocks": {
-        "logo_kcWjyE": {
-          "type": "logo",
-          "settings": {
-            "logo": "shopify://shop_images/Dents_Manquantes_1.png",
-            "logo_width": 300,
-            "link": ""
-          }
-        },
-        "logo_f48zNB": {
-          "type": "logo",
-          "settings": {
-            "logo": "shopify://shop_images/Dents_Tachees_2.png",
-            "logo_width": 300,
-            "link": ""
-          }
-        },
-        "logo_nGXCwK": {
-          "type": "logo",
-          "settings": {
-            "logo": "shopify://shop_images/Avis_3.png",
-            "logo_width": 300,
-            "link": ""
-          }
-        },
-        "logo_TpKKit": {
-          "type": "logo",
-          "settings": {
-            "logo": "shopify://shop_images/Avis_4.png",
-            "logo_width": 300,
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "logo_kcWjyE",
-        "logo_f48zNB",
-        "logo_nGXCwK",
-        "logo_TpKKit"
-      ],
-      "name": "Logo list",
-      "settings": {
-        "full_width": true,
-        "stack_mobile": false,
-        "title": "Un sourire parfait, quelles que soient vos dents :",
-        "content": "",
-        "text_alignment": "center",
-        "items_per_row": 3,
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": "",
-        "logo_item_background": "#ffffff",
-        "logo_item_border": ""
-      }
-    },
     "multi_column_9BRDDU": {
       "type": "multi-column",
       "blocks": {
         "item_gCpfE4": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/Avis.png",
+            "video": "shopify://files/videos/Vidéo 1.mp4",
             "column_size": "3",
             "title": "Une transformation immédiate",
             "heading_tag": "h4",
@@ -421,7 +385,7 @@
         "item_HNVMLr": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/Avis_1.png",
+            "video": "shopify://files/videos/Vidéo 3.mp4",
             "column_size": "3",
             "title": "Je les mets en 2 minutes",
             "heading_tag": "h4",
@@ -434,37 +398,11 @@
         "item_teLVmJ": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/Avis_3.png",
+            "video": "shopify://files/videos/Vidéo 2.mp4",
             "column_size": "3",
             "title": "Enfin une solution abordable",
             "heading_tag": "h4",
             "content": "<p>Elles épousent parfaitement la forme et restent en place toute la journée. Une solution idéale pour un plus beau sourire sans se ruiner !</p>",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        },
-        "item_K7NGAa": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/Avis_4.png",
-            "column_size": "3",
-            "title": "J’ai repris goût à sourire en public",
-            "heading_tag": "h4",
-            "content": "<p>J'avais un mariage de prévu et je voulais que mon sourire soit impeccable. Franchement le résultat est bluffant.</p>",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        },
-        "item_xXMzmq": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/Avis_2.png",
-            "column_size": "3",
-            "title": "Des facettes bluffantes",
-            "heading_tag": "h4",
-            "content": "<p>J'avais peur que ça fasse faux, mais en réalité, l'effet est super discret. Mes proches ont juste remarqué que j'avais un sourire plus éclatant, sans deviner pourquoi.</p>",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
@@ -474,9 +412,7 @@
       "block_order": [
         "item_gCpfE4",
         "item_HNVMLr",
-        "item_teLVmJ",
-        "item_K7NGAa",
-        "item_xXMzmq"
+        "item_teLVmJ"
       ],
       "name": "Multi-column",
       "settings": {
@@ -609,9 +545,9 @@
     "image_with_text_overlay_38Tqyy",
     "rich_text_GeM7xL",
     "image_with_text_overlay_c4rrK3",
+    "rich_text_d6hmGb",
     "featured_product_yJHJTN",
     "tabs_tikiTy",
-    "logo_list_Ymb7PX",
     "multi_column_9BRDDU",
     "faq",
     "1744040063e8512595"
