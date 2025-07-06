@@ -166,7 +166,7 @@
         "heading_jhczaH": {
           "type": "heading",
           "settings": {
-            "text": "Résultat",
+            "text": "Avant / Après",
             "heading_tag": "h3",
             "text_color": "",
             "gradient": ""
@@ -184,6 +184,31 @@
         "background": "",
         "background_gradient": "",
         "text_color": ""
+      }
+    },
+    "before_after_image_Rcw6mh": {
+      "type": "before-after-image",
+      "name": "Before/after image",
+      "settings": {
+        "full_width": true,
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "before_image": "shopify://shop_images/Capture_d_ecran_2025-07-06_a_12.06.37.png",
+        "after_image": "shopify://shop_images/Capture_d_ecran_2025-07-06_a_12.06.48.png",
+        "expand_image": false,
+        "text_position": "center",
+        "before_after_text_position": "top",
+        "before_text": "Avant",
+        "after_text": "Après",
+        "drag_initial_position": 50,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "before_text_color": "#ffffff",
+        "after_text_color": "#ffffff",
+        "drag_cursor_background": "#ffffff",
+        "drag_cursor_color": "#000000"
       }
     },
     "image_with_text_overlay_c4rrK3": {
@@ -528,6 +553,7 @@
     "rich_text_jL3cKF",
     "image_with_text_overlay_38Tqyy",
     "rich_text_GeM7xL",
+    "before_after_image_Rcw6mh",
     "image_with_text_overlay_c4rrK3",
     "rich_text_d6hmGb",
     "featured_product_yJHJTN",
