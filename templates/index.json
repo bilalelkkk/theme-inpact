@@ -211,45 +211,6 @@
         "drag_cursor_color": "#000000"
       }
     },
-    "image_with_text_overlay_c4rrK3": {
-      "type": "image-with-text-overlay",
-      "name": "Image with text overlay",
-      "settings": {
-        "full_width": true,
-        "allow_transparent_header": false,
-        "enable_parallax": false,
-        "image_size": "auto",
-        "image": "shopify://shop_images/zerze.gif",
-        "mobile_text_position": "place-self-center text-center",
-        "desktop_text_position": "sm:place-self-center sm:text-center",
-        "text_color": "#ffffff",
-        "overlay_color": "#000000",
-        "overlay_opacity": 0
-      }
-    },
-    "rich_text_d6hmGb": {
-      "type": "rich-text",
-      "blocks": {
-        "subheading_7XxpLz": {
-          "type": "subheading",
-          "settings": {
-            "text": ""
-          }
-        }
-      },
-      "block_order": [
-        "subheading_7XxpLz"
-      ],
-      "name": "Rich text",
-      "settings": {
-        "full_width": true,
-        "content_width": "small",
-        "text_position": "center",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
     "featured_product_yJHJTN": {
       "type": "featured-product",
       "blocks": {
@@ -554,8 +515,6 @@
     "image_with_text_overlay_38Tqyy",
     "rich_text_GeM7xL",
     "before_after_image_Rcw6mh",
-    "image_with_text_overlay_c4rrK3",
-    "rich_text_d6hmGb",
     "featured_product_yJHJTN",
     "tabs_tikiTy",
     "multi_column_9BRDDU",
