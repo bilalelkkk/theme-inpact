@@ -212,6 +212,68 @@
         "drag_cursor_color": "#000000"
       }
     },
+    "multi_column_9BRDDU": {
+      "type": "multi-column",
+      "blocks": {
+        "item_gCpfE4": {
+          "type": "item",
+          "settings": {
+            "video": "shopify://files/videos/Vidéo 1.mp4",
+            "column_size": "3",
+            "title": "Une transformation immédiate",
+            "heading_tag": "h4",
+            "content": "<p>\"J’ai les dents sensibles, et ce stylo est super doux. Aucune douleur, pas de picotements… juste une sensation fraîche et agréable. Dès les premières utilisations, j’ai vu mes dents s’éclaircir légèrement. C’est devenu un vrai petit rituel quotidien.\"</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_HNVMLr": {
+          "type": "item",
+          "settings": {
+            "video": "shopify://files/videos/Vidéo 3.mp4",
+            "column_size": "3",
+            "title": "Un blanchiment naturel",
+            "heading_tag": "h4",
+            "content": "<p>\"Je cherchais un truc discret pour améliorer mon sourire sans aller chez le dentiste. Le stylo est nickel : pas de goût bizarre, pas de sensibilité, et les résultats sont là. Je recommande à 100 %.\"</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_teLVmJ": {
+          "type": "item",
+          "settings": {
+            "video": "shopify://files/videos/Vidéo 2.mp4",
+            "column_size": "3",
+            "title": "Enfin une solution abordable",
+            "heading_tag": "h4",
+            "content": "<p>\"Je ne pensais pas que ce genre de produit pouvait vraiment marcher, mais ce stylo m’a bluffé. Simple, rapide et efficace. Je l’utilise après le café du matin et en quelques jours, mes dents sont visiblement plus claires.\"</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "item_gCpfE4",
+        "item_HNVMLr",
+        "item_teLVmJ"
+      ],
+      "name": "Multi-column",
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "gap": "medium",
+        "text_alignment": "center",
+        "subheading": "",
+        "title": "Nos clients en parlent mieux que nous !",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "featured_product_yJHJTN": {
       "type": "featured-product",
       "blocks": {
@@ -360,68 +422,6 @@
         "heading_gradient": ""
       }
     },
-    "multi_column_9BRDDU": {
-      "type": "multi-column",
-      "blocks": {
-        "item_gCpfE4": {
-          "type": "item",
-          "settings": {
-            "video": "shopify://files/videos/Vidéo 1.mp4",
-            "column_size": "3",
-            "title": "Une transformation immédiate",
-            "heading_tag": "h4",
-            "content": "<p>\"J’ai les dents sensibles, et ce stylo est super doux. Aucune douleur, pas de picotements… juste une sensation fraîche et agréable. Dès les premières utilisations, j’ai vu mes dents s’éclaircir légèrement. C’est devenu un vrai petit rituel quotidien.\"</p>",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        },
-        "item_HNVMLr": {
-          "type": "item",
-          "settings": {
-            "video": "shopify://files/videos/Vidéo 3.mp4",
-            "column_size": "3",
-            "title": "Un blanchiment naturel",
-            "heading_tag": "h4",
-            "content": "<p>\"Je cherchais un truc discret pour améliorer mon sourire sans aller chez le dentiste. Le stylo est nickel : pas de goût bizarre, pas de sensibilité, et les résultats sont là. Je recommande à 100 %.\"</p>",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        },
-        "item_teLVmJ": {
-          "type": "item",
-          "settings": {
-            "video": "shopify://files/videos/Vidéo 2.mp4",
-            "column_size": "3",
-            "title": "Enfin une solution abordable",
-            "heading_tag": "h4",
-            "content": "<p>\"Je ne pensais pas que ce genre de produit pouvait vraiment marcher, mais ce stylo m’a bluffé. Simple, rapide et efficace. Je l’utilise après le café du matin et en quelques jours, mes dents sont visiblement plus claires.\"</p>",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        }
-      },
-      "block_order": [
-        "item_gCpfE4",
-        "item_HNVMLr",
-        "item_teLVmJ"
-      ],
-      "name": "Multi-column",
-      "settings": {
-        "full_width": true,
-        "stack_on_mobile": false,
-        "gap": "medium",
-        "text_alignment": "center",
-        "subheading": "",
-        "title": "Nos clients en parlent mieux que nous !",
-        "content": "",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
     "faq": {
       "type": "faq",
       "blocks": {
@@ -523,9 +523,9 @@
     "image_with_text_overlay_38Tqyy",
     "rich_text_GeM7xL",
     "before_after_image_Rcw6mh",
+    "multi_column_9BRDDU",
     "featured_product_yJHJTN",
     "tabs_tikiTy",
-    "multi_column_9BRDDU",
     "faq",
     "1744040063e8512595"
   ]
