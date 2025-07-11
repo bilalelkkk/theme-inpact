@@ -17,7 +17,7 @@
         "message_Vn6VzX": {
           "type": "message",
           "settings": {
-            "text": "30 Jours - Satisfait ou Remboursé intégralement",
+            "text": "30 Jours - Satisfait ou Remboursé INTEGRALEMENT !",
             "url": ""
           }
         },
@@ -37,7 +37,7 @@
         "enable_sticky": false,
         "text_size": "text-xs",
         "navigation_mode": "scrolling",
-        "scrolling_speed": 10,
+        "scrolling_speed": 18,
         "background": "#eee0cc",
         "background_gradient": "",
         "text_color": "#1a1a1a"
