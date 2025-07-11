@@ -66,7 +66,7 @@
         "logo_eN9AjG": {
           "type": "logo",
           "settings": {
-            "logo": "shopify://shop_images/TF1_Logo.png",
+            "logo": "shopify://shop_images/1_0a74a387-22b0-4f7e-9da6-7ff9f5bfd30d.png",
             "logo_width": 300,
             "link": ""
           }
@@ -74,7 +74,7 @@
         "logo_4MehwJ": {
           "type": "logo",
           "settings": {
-            "logo": "shopify://shop_images/elle-magazine-logo.jpg",
+            "logo": "shopify://shop_images/3.png",
             "logo_width": 300,
             "link": ""
           }
@@ -82,7 +82,7 @@
         "logo_kFKT8X": {
           "type": "logo",
           "settings": {
-            "logo": "shopify://shop_images/Vogue_Logo.jpg",
+            "logo": "shopify://shop_images/4.png",
             "logo_width": 300,
             "link": ""
           }
@@ -90,7 +90,7 @@
         "logo_WNty8y": {
           "type": "logo",
           "settings": {
-            "logo": "shopify://shop_images/Le_monde_logo.svg",
+            "logo": "shopify://shop_images/2.png",
             "logo_width": 300,
             "link": ""
           }
@@ -114,8 +114,8 @@
         "text_color": "#000000",
         "heading_color": "",
         "heading_gradient": "",
-        "logo_item_background": "#ffffff",
-        "logo_item_border": "#ffffff"
+        "logo_item_background": "#f8e7d5",
+        "logo_item_border": "#f8e7d5"
       }
     },
     "rich_text_jL3cKF": {
