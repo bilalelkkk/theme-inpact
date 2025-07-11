@@ -14,24 +14,10 @@
     "announcement-bar": {
       "type": "announcement-bar",
       "blocks": {
-        "message": {
-          "type": "message",
-          "settings": {
-            "text": "LIVRAISON OFFERTE",
-            "url": ""
-          }
-        },
-        "message_f8Ddd7": {
-          "type": "message",
-          "settings": {
-            "text": "OFFRE LIMITÉE",
-            "url": ""
-          }
-        },
         "message_Vn6VzX": {
           "type": "message",
           "settings": {
-            "text": "SATISFAIT OU REMBOURSÉ",
+            "text": "30 Jours - Satisfait ou Remboursé intégralement",
             "url": ""
           }
         },
@@ -44,8 +30,6 @@
         }
       },
       "block_order": [
-        "message",
-        "message_f8Ddd7",
         "message_Vn6VzX",
         "message_iabLgf"
       ],
