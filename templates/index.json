@@ -125,7 +125,7 @@
           "type": "heading",
           "settings": {
             "text": "Pourquoi choisir BilSmile ?",
-            "heading_tag": "h1",
+            "heading_tag": "h2",
             "text_color": "",
             "gradient": ""
           }
