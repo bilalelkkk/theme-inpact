@@ -220,7 +220,7 @@
           "settings": {
             "video": "shopify://files/videos/Vidéo 1.mp4",
             "column_size": "3",
-            "title": "Une transformation immédiate",
+            "title": "Une transformation en une heure seulement",
             "heading_tag": "h4",
             "content": "<p>\"J’ai les dents sensibles, et ce stylo est super doux. Aucune douleur, pas de picotements… juste une sensation fraîche et agréable, Comme le stipule le manuel une heure par mois suffit !\"</p>",
             "link_url": "",
@@ -233,7 +233,7 @@
           "settings": {
             "video": "shopify://files/videos/Vidéo 3.mp4",
             "column_size": "3",
-            "title": "Un blanchiment naturel",
+            "title": "Un blanchiment naturel, sans produit chimique",
             "heading_tag": "h4",
             "content": "<p>\"Je cherchais un truc discret pour améliorer mon sourire sans aller chez le dentiste. Le stylo est nickel : pas de goût bizarre, pas de sensibilité, et les résultats sont là. Je recommande à 100 %.\"</p>",
             "link_url": "",
@@ -246,7 +246,7 @@
           "settings": {
             "video": "shopify://files/videos/Vidéo 2.mp4",
             "column_size": "3",
-            "title": "Enfin une solution abordable",
+            "title": "Enfin une solution abordable, sans les prestataires.",
             "heading_tag": "h4",
             "content": "<p>\"Ce stylo m’a bluffé. Simple, rapide et efficace. En une heure par mois seulement, mes dents sont visiblement plus claires.\"</p>",
             "link_url": "",
