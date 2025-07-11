@@ -153,6 +153,7 @@
         "enable_parallax": false,
         "image_size": "auto",
         "image": "shopify://shop_images/Benefices_Stylo_BilSmile.png",
+        "mobile_image": "shopify://shop_images/DRSLJDS.png",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#ffffff",
